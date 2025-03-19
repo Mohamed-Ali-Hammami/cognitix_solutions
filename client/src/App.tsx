@@ -1,20 +1,17 @@
-import { useTranslation } from 'react-i18next';
-import { BrowserRouter } from 'react-router-dom';
-import Header from './components/Header';
-import Hero from './components/sections/Hero';
-import Services from './components/sections/Services';
-import Technologies from './components/sections/Technologies';
-import Projects from './components/sections/Projects';
-import Process from './components/sections/Process';
-import Testimonials from './components/sections/Testimonials';
-import CTA from './components/sections/CTA';
-import Footer from './components/Footer';
-import { QueryClientProvider } from "@tanstack/react-query";
+import { Switch, Route } from "wouter";
 import { queryClient } from "./lib/queryClient";
+import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
+import NotFound from "@/pages/not-found";
+import Home from "@/pages/Home";
+import Privacy from "@/pages/Privacy";
+import { useTranslation } from "react-i18next";
+import { AnimatePresence, motion } from "framer-motion";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { useEffect } from "react";
 
-export default function App() {
+function Router() {
   const { i18n } = useTranslation();
 
   // Update document direction when language changes
@@ -24,23 +21,35 @@ export default function App() {
   }, [i18n.language]);
 
   return (
+    <AnimatePresence mode="wait">
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/privacy" component={Privacy} />
+        {/* Fallback to 404 */}
+        <Route component={NotFound} />
+      </Switch>
+    </AnimatePresence>
+  );
+}
+
+function App() {
+  return (
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
-        <div dir={i18n.dir()} className="min-h-screen bg-background">
-          <Header />
-          <main>
-            <Hero />
-            <Services />
-            <Technologies />
-            <Projects />
-            <Process />
-            <Testimonials />
-            <CTA />
-          </main>
-          <Footer />
-          <Toaster/>
-        </div>
-      </BrowserRouter>
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <motion.main 
+          className="flex-grow"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+          <Router />
+        </motion.main>
+        <Footer />
+      </div>
+      <Toaster />
     </QueryClientProvider>
   );
 }
+
+export default App;
