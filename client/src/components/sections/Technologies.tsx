@@ -1,10 +1,20 @@
-
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import { FaReact, FaNodeJs, FaPython, FaDocker, FaAws, FaDatabase } from "react-icons/fa"; // Importing some icons
 
 export default function Technologies() {
   const { t } = useTranslation();
-  
+
+  // List of technologies with their respective icons
+  const techList = [
+    { name: "React", icon: <FaReact size={40} /> },
+    { name: "Node.js", icon: <FaNodeJs size={40} /> },
+    { name: "Python", icon: <FaPython size={40} /> },
+    { name: "Docker", icon: <FaDocker size={40} /> },
+    { name: "AWS", icon: <FaAws size={40} /> },
+    { name: "Database", icon: <FaDatabase size={40} /> },
+  ];
+
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
@@ -16,6 +26,15 @@ export default function Technologies() {
         >
           <h2 className="text-4xl font-bold text-center mb-4">{t('technologies.title')}</h2>
           <p className="text-xl text-center text-gray-600 mb-12">{t('technologies.subtitle')}</p>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 justify-center">
+            {techList.map((tech, index) => (
+              <div key={index} className="text-center p-6 bg-gray-100 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                <div className="mb-4">{tech.icon}</div>
+                <p className="text-lg font-medium text-gray-700">{tech.name}</p>
+              </div>
+            ))}
+          </div>
         </motion.div>
       </div>
     </section>

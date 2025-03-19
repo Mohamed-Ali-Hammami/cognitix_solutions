@@ -40,8 +40,9 @@
     "ecommerceSolutions": {
       "title": "Solutions E-commerce",
       "description": "Solutions de boutique en ligne complètes avec traitement sécurisé des paiements et gestion des stocks"
-    }
-  },
+    },
+      "learnMore": "Savoir Plus"
+    },
   "about": {
     "title": "À Propos de Cognitix",
     "subtitle": "Apporter l'innovation à chaque pixel depuis 2015",

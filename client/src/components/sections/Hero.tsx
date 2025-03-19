@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   const { t } = useTranslation();
-  
+
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -95,7 +95,7 @@ export default function Hero() {
           {'( )'}
         </motion.div>
       </motion.div>
-      
+
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <motion.div 
@@ -151,7 +151,7 @@ export default function Hero() {
               <p className="text-sm text-gray-300">Trusted by <span className="font-semibold">100+</span> companies worldwide</p>
             </motion.div>
           </motion.div>
-          
+
           <motion.div 
             className="bg-dark/40 rounded-lg p-6 backdrop-blur-sm border border-white/10 shadow-xl"
             initial="hidden"
@@ -171,14 +171,10 @@ export default function Hero() {
 <span className="text-yellow-400">function</span> <span className="text-blue-400">createAwesomeWebsite</span><span className="text-white">() {'{'}</span>
   <span className="text-yellow-400">return</span> <span className="text-white">{'{'}</span>
     <span className="text-green-400">innovation</span><span className="text-white">:</span> <span className="text-blue-400">true</span><span className="text-white">,</span>
-    <span className="text-green-400">performance</span><span className="text-white">:</span> <span className="text-blue-400">100</span><span className="text-white">,</span>
-    <span className="text-green-400">design</span><span className="text-white">:</span> <span className="text-orange-400">'beautiful'</span>
-  <span className="text-white">{'}'}</span>
-<span className="text-white">{'}'}</span>
-
-<span className="text-yellow-400">const</span> <span className="text-green-400">result</span> <span className="text-white">=</span> <span className="text-blue-400">createAwesomeWebsite</span><span className="text-white">();</span>
-<span className="text-blue-400">launchWebsite</span><span className="text-white">(result);</span>
-              </code></pre>
+    <span className="text-green-400">performance</span><span className="text-white">:</span> <span className="text-blue-400">100</span>
+  <span className="text-white">&rbrace;</span>
+<span className="text-white">&rbrace;</span>
+            </code></pre>
           </motion.div>
         </div>
       </div>
