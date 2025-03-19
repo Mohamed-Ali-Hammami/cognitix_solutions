@@ -98,7 +98,19 @@
   },
   "testimonials": {
     "title": "Ce Que Disent Nos Clients",
-    "subtitle": "Ne vous fiez pas seulement à nos paroles - écoutez ce que nos clients ont à dire"
+    "subtitle": "Ne vous fiez pas seulement à nos paroles - écoutez ce que nos clients ont à dire",
+    "client1": {
+      "role": "PDG, TechStart Inc.",
+      "text": "Cognitix a transformé notre entreprise avec leurs services exceptionnels de développement web. Ils ont livré notre projet dans les délais et ont dépassé nos attentes à tous égards."
+    },
+    "client2": {
+      "role": "Directeur Technique, HealthPlus",
+      "text": "L'équipe de Cognitix est professionnelle, réactive et incroyablement talentueuse. Ils ont rapidement compris nos exigences complexes et ont livré une solution exceptionnelle."
+    },
+    "client3": {
+      "role": "Directrice Marketing, ShopSmart",
+      "text": "Depuis le lancement de notre nouvelle plateforme e-commerce développée par Cognitix, nos ventes ont augmenté de 40%. Leur expertise en design et en fonctionnalité est inégalée."
+    }
   },
   "process": {
     "title": "Notre Processus",

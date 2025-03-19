@@ -1,22 +1,26 @@
+import { useTranslation } from "react-i18next";
+
 export default function Testimonials() {
+  const { t } = useTranslation();
+  
   const testimonials = [
     {
       name: "Sarah Johnson",
-      role: "CEO, TechStart Inc.",
+      role: t('testimonials.client1.role'),
       rating: 5,
-      text: "Cognitix transformed our business with their exceptional web development services. They delivered our project on time and exceeded our expectations in every way."
+      text: t('testimonials.client1.text')
     },
     {
       name: "Michael Rodriguez",
-      role: "CTO, HealthPlus",
+      role: t('testimonials.client2.role'),
       rating: 5,
-      text: "The team at Cognitix is professional, responsive, and incredibly talented. They quickly understood our complex requirements and delivered an exceptional solution."
+      text: t('testimonials.client2.text')
     },
     {
       name: "Emily Chen",
-      role: "Marketing Director, ShopSmart",
+      role: t('testimonials.client3.role'),
       rating: 4.5,
-      text: "Since launching our new e-commerce platform developed by Cognitix, our sales have increased by 40%. Their expertise in both design and functionality is unmatched."
+      text: t('testimonials.client3.text')
     }
   ];
 
