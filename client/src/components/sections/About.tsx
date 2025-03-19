@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
+
 export default function About() {
+  const { t } = useTranslation();
   const values = [
     {
       icon: "medal",
@@ -39,7 +43,7 @@ export default function About() {
               ))}
             </div>
           </div>
-          
+
           <div className="relative">
             <div className="absolute -top-4 -left-4 w-24 h-24 bg-primary/20 rounded-lg"></div>
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/20 rounded-lg"></div>
