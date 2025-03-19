@@ -77,6 +77,23 @@
       "mobileDevelopment": "Développement Mobile",
       "ecommerce": "E-commerce",
       "digitalMarketing": "Marketing Digital"
+    },
+    "items": {
+      "ecommerce": {
+        "title": "Tableau de bord E-commerce",
+        "description": "Un tableau de bord complet pour une grande entreprise de vente au détail avec des fonctionnalités avancées d'analyse et de reporting",
+        "category": "E-commerce"
+      },
+      "healthcare": {
+        "title": "Application Mobile de Santé",
+        "description": "Une application mobile de gestion des patients pour un prestataire de soins de santé avec des fonctionnalités de prise de rendez-vous et de télémédecine",
+        "category": "Santé"
+      },
+      "finance": {
+        "title": "Plateforme d'Analyse Financière",
+        "description": "Une plateforme d'analyse financière de niveau entreprise avec des outils de traitement et de visualisation de données en temps réel",
+        "category": "Finance"
+      }
     }
   },
   "testimonials": {
