@@ -133,18 +133,14 @@
   },
   "contact": {
     "title": "Contactez-Nous",
-    "subtitle": "Vous avez une question ou vous souhaitez discuter d'un projet? Contactez-nous",
-    "name": "Nom",
-    "email": "Email",
-    "phone": "Téléphone",
-    "subject": "Sujet",
-    "message": "Message",
-    "submit": "Envoyer le Message",
-    "success": "Votre message a été envoyé. Nous vous répondrons bientôt!",
-    "error": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer.",
-    "office": "Notre Bureau",
-    "emailUs": "Envoyez-nous un Email",
-    "callUs": "Appelez-Nous"
+    "subtitle": "Vous avez une question ou souhaitez discuter d'un projet? Contactez-nous",
+    "workingHours": "Heures d'Ouverture",
+    "workingHoursText": "Lundi - Vendredi: 9h00 - 18h00\nSamedi: 10h00 - 14h00",
+    "followUs": "Suivez-Nous",
+    "inputPlaceholder": "Entrez votre message ici",
+    "companyName": "Nom de l'entreprise",
+    "serviceInterest": "Service d'intérêt",
+    "privacyAgreement": "J'accepte la politique de confidentialité"
   },
   "newsletter": {
     "title": "Abonnez-vous à Notre Newsletter",

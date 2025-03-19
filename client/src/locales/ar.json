@@ -134,6 +134,13 @@
   "contact": {
     "title": "اتصل بنا",
     "subtitle": "هل لديك سؤال أو ترغب في مناقشة مشروع؟ تواصل معنا",
+    "workingHours": "ساعات العمل",
+    "workingHoursText": "الاثنين - الجمعة: ٩:٠٠ ص - ٦:٠٠ م\nالسبت: ١٠:٠٠ ص - ٢:٠٠ م",
+    "followUs": "تابعنا",
+    "inputPlaceholder": "اكتب رسالتك هنا",
+    "companyName": "اسم الشركة",
+    "serviceInterest": "الخدمة المطلوبة",
+    "privacyAgreement": "أوافق على سياسة الخصوصية",
     "name": "الاسم",
     "email": "البريد الإلكتروني",
     "phone": "الهاتف",
