@@ -1,0 +1,196 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About Us",
+    "contact": "Contact",
+    "blog": "Blog",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Building Digital",
+    "titleHighlight": "Excellence",
+    "titleEnd": "for Your Business",
+    "subtitle": "We craft innovative web solutions that drive growth and deliver results. Let's transform your vision into reality.",
+    "consultation": "Get Free Consultation",
+    "explore": "Explore Services",
+    "trusted": "Trusted by",
+    "companies": "companies worldwide"
+  },
+  "stats": {
+    "yearsExperience": "Years Experience",
+    "projectsCompleted": "Projects Completed",
+    "happyClients": "Happy Clients",
+    "teamMembers": "Team Members"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We offer a comprehensive range of web development and digital solutions tailored to your business needs.",
+    "learnMore": "Learn more",
+    "webDev": {
+      "title": "Web Development",
+      "description": "Custom-built websites and web applications designed to meet your specific business requirements.",
+      "features": ["Responsive Design", "User-Friendly Interface", "SEO Optimization"]
+    },
+    "mobileDev": {
+      "title": "Mobile App Development",
+      "description": "Native and cross-platform mobile applications for iOS and Android devices.",
+      "features": ["Native iOS & Android", "Cross-Platform Solutions", "App Store Optimization"]
+    },
+    "softwareDev": {
+      "title": "Custom Software Development",
+      "description": "Tailor-made software solutions to automate and streamline your business processes.",
+      "features": ["Scalable Architecture", "Cloud Integration", "API Development"]
+    },
+    "database": {
+      "title": "Database Solutions",
+      "description": "Efficient database design, migration, and management services for your applications.",
+      "features": ["SQL & NoSQL Databases", "Data Migration", "Performance Optimization"]
+    },
+    "devops": {
+      "title": "DevOps Services",
+      "description": "Streamline your development and operations with our comprehensive DevOps solutions.",
+      "features": ["CI/CD Pipeline Setup", "Infrastructure as Code", "Monitoring & Logging"]
+    },
+    "marketing": {
+      "title": "Digital Marketing",
+      "description": "Comprehensive digital marketing strategies to boost your online presence and reach.",
+      "features": ["SEO & Content Marketing", "Social Media Management", "Pay-Per-Click Campaigns"]
+    }
+  },
+  "technologies": {
+    "title": "Technologies We Use",
+    "subtitle": "We work with the latest and most powerful technologies to deliver exceptional results."
+  },
+  "projects": {
+    "title": "Our Latest Projects",
+    "subtitle": "Explore our portfolio of successful projects that showcase our expertise and capabilities.",
+    "viewProject": "View Project",
+    "viewAll": "View All Projects"
+  },
+  "process": {
+    "title": "Our Development Process",
+    "subtitle": "We follow a systematic approach to ensure successful project delivery and client satisfaction.",
+    "steps": {
+      "discovery": {
+        "title": "Discovery & Planning",
+        "description": "We start by understanding your business requirements, target audience, and project goals to create a detailed project plan."
+      },
+      "design": {
+        "title": "Design & Prototyping",
+        "description": "Our design team creates wireframes and interactive prototypes that visualize the user interface and experience."
+      },
+      "development": {
+        "title": "Development",
+        "description": "Our skilled developers build your solution using the most appropriate technologies, following best practices and coding standards."
+      },
+      "testing": {
+        "title": "Testing & Quality Assurance",
+        "description": "Rigorous testing ensures your application is bug-free, secure, and performs optimally across all platforms."
+      },
+      "deployment": {
+        "title": "Deployment",
+        "description": "We handle the deployment process to ensure a smooth transition to production, with minimal downtime."
+      },
+      "maintenance": {
+        "title": "Maintenance & Support",
+        "description": "We provide ongoing support and maintenance to ensure your application remains up-to-date and performs optimally."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Don't just take our word for it - hear from some of our satisfied clients."
+  },
+  "about": {
+    "title": "About Cognitix",
+    "paragraph1": "Cognitix is a forward-thinking web development company dedicated to creating innovative digital solutions that drive business growth and user engagement. Founded in 2013, we've successfully delivered over 500 projects for clients across various industries.",
+    "paragraph2": "Our team of 25+ experienced developers, designers, and digital strategists is passionate about leveraging the latest technologies to solve complex business challenges and create exceptional user experiences.",
+    "values": {
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for excellence in everything we do."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We embrace innovation and creative problem-solving."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "We build strong, lasting partnerships with our clients."
+      }
+    },
+    "team": "Our Team"
+  },
+  "cta": {
+    "title": "Ready to Start Your Project?",
+    "subtitle": "Let's transform your ideas into reality. Contact us today for a free consultation.",
+    "getInTouch": "Get in Touch",
+    "exploreServices": "Explore Services"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have a question or ready to start your project? Reach out to us using the form below.",
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "company": "Company Name",
+      "service": "Service Interested In",
+      "message": "Your Message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your.email@example.com",
+      "companyPlaceholder": "Your company",
+      "selectService": "Select a service",
+      "messagePlaceholder": "Tell us about your project",
+      "privacyPolicy": "I agree to the",
+      "privacyLink": "Privacy Policy",
+      "send": "Send Message",
+      "sending": "Sending..."
+    },
+    "info": {
+      "title": "Contact Information",
+      "office": {
+        "title": "Our Office",
+        "address": "123 Tech Street, Suite 400<br />San Francisco, CA 94107"
+      },
+      "email": {
+        "title": "Email Us",
+        "addresses": "info@cognitix.com<br />support@cognitix.com"
+      },
+      "phone": {
+        "title": "Call Us",
+        "numbers": "+1 (555) 123-4567<br />+1 (555) 987-6543"
+      },
+      "hours": {
+        "title": "Working Hours",
+        "times": "Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday: 10:00 AM - 2:00 PM"
+      }
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "map": "Map Loading..."
+  },
+  "footer": {
+    "about": "Innovative web solutions for businesses of all sizes. We transform ideas into exceptional digital experiences.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "newsletter": {
+      "title": "Newsletter",
+      "subtitle": "Subscribe to our newsletter to receive updates and valuable tech insights.",
+      "placeholder": "Your email address",
+      "button": "Subscribe",
+      "subscribing": "Subscribing..."
+    },
+    "copyright": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsService": "Terms of Service",
+    "cookiesPolicy": "Cookies Policy"
+  },
+  "language": {
+    "en": "English",
+    "fr": "French",
+    "ar": "Arabic"
+  }
+}
