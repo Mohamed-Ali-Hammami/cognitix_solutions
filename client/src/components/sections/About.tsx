@@ -59,3 +59,17 @@ export default function About() {
     </section>
   );
 }
+export default function About() {
+  return (
+    <section className="py-16 bg-gray-50">
+      <div className="container">
+        <h2 className="text-3xl font-semibold text-gray-900 mb-8">About Us</h2>
+        <div className="text-gray-700 space-y-4">
+          <p>
+            We are a dedicated team of professionals working to deliver exceptional digital solutions.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}

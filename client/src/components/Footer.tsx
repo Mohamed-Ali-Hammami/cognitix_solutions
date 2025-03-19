@@ -162,3 +162,14 @@ export default function Footer() {
     </motion.footer>
   );
 }
+export default function Footer() {
+  return (
+    <footer className="py-8 bg-gray-100">
+      <div className="container">
+        <div className="text-gray-600 text-center">
+          <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  );
+}
