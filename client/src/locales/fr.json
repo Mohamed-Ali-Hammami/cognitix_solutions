@@ -123,8 +123,12 @@
     "awards": "Prix de l'Industrie"
   },
   "technologies": {
-    "title": "Technologies Que Nous Utilisons",
-    "subtitle": "Nous utilisons les dernières technologies pour construire des solutions modernes et évolutives"
+    "title": "Les Technologies que Nous Utilisons",
+    "subtitle": "Notre pile technologique de pointe pour créer des solutions numériques exceptionnelles",
+    "frontend": "Technologies Frontend",
+    "backend": "Technologies Backend",
+    "database": "Bases de Données",
+    "tools": "Outils & Infrastructure"
   },
   "cta": {
     "title": "Prêt à Démarrer Votre Projet?",
