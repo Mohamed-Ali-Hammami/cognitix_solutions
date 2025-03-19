@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
+
 export default function Projects() {
+  const { t } = useTranslation();
   const projects = [
     {
       title: "E-commerce Dashboard",
@@ -24,53 +28,30 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Latest Projects</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Explore our portfolio of successful projects that showcase our expertise and capabilities.
-          </p>
-        </div>
-        
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="relative overflow-hidden h-60">
-                <div className="w-full h-full bg-gray-200 flex items-center justify-center">
-                  <i className="fas fa-laptop-code text-4xl text-gray-400"></i>
-                </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
-                  <div className="p-6">
-                    <span className={`px-3 py-1 ${project.categoryColor} text-white text-xs rounded-full uppercase font-semibold tracking-wider`}>
-                      {project.category}
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="p-6">
+    <section className="py-20 bg-light">
+      <div className="container mx-auto px-4">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          <h2 className="text-4xl font-bold text-center mb-4">{t('projects.title')}</h2>
+          <p className="text-xl text-center text-gray-600 mb-12">{t('projects.subtitle')}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {projects.map((project) => (
+              <div key={project.title} className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-gray-600 mb-4">
-                  {project.description}
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {project.technologies.map((tech, techIndex) => (
-                    <span key={techIndex} className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs">{tech}</span>
+                <p className="text-gray-600 mb-4">{project.description}</p>
+                <div className="flex flex-wrap gap-2">
+                  {project.technologies.map((tech) => (
+                    <span key={tech} className="bg-gray-200 text-gray-800 px-3 py-1 rounded-md">{tech}</span>
                   ))}
                 </div>
-                <a href="#" className="text-primary font-medium hover:text-primary/80 transition-colors flex items-center gap-1">
-                  View Project <i className="fas fa-arrow-right text-sm"></i>
-                </a>
               </div>
-            </div>
-          ))}
-        </div>
-        
-        <div className="text-center mt-12">
-          <a href="#" className="px-6 py-3 bg-white border border-primary text-primary rounded-md font-medium hover:bg-primary hover:text-white transition-colors inline-flex items-center gap-2">
-            View All Projects <i className="fas fa-arrow-right"></i>
-          </a>
-        </div>
+            ))}
+          </div>
+        </motion.div>
       </div>
     </section>
   );
