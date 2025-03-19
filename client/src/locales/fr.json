@@ -170,5 +170,46 @@
     "privacy": "Politique de Confidentialité",
     "terms": "Conditions d'Utilisation",
     "cookies": "Politique des Cookies"
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour: 15 Mars 2025",
+    "introduction": {
+      "title": "Introduction",
+      "content": "Bienvenue chez Cognitix. Nous respectons votre vie privée et nous nous engageons à protéger vos données personnelles. Cette politique de confidentialité vous informera sur la manière dont nous protégeons vos données personnelles lorsque vous visitez notre site web et vous renseignera sur vos droits à la vie privée et sur la façon dont la loi vous protège."
+    },
+    "dataWeCollect": {
+      "title": "Données que Nous Collectons",
+      "content": "Nous pouvons collecter, utiliser, stocker et transférer différents types de données personnelles vous concernant, que nous avons regroupées comme suit:",
+      "personalData": "Informations d'identification personnelle (nom, adresse e-mail, numéro de téléphone)",
+      "technicalData": "Les données techniques comprennent l'adresse du protocole Internet (IP), le type et la version du navigateur, le fuseau horaire et l'emplacement, le système d'exploitation et la plateforme",
+      "usageData": "Informations sur la façon dont vous utilisez notre site web et nos services"
+    },
+    "howWeUseData": {
+      "title": "Comment Nous Utilisons Vos Données",
+      "content": "Nous n'utiliserons vos données personnelles que lorsque la loi nous le permet. Le plus souvent, nous utiliserons vos données personnelles dans les circonstances suivantes:",
+      "providingServices": "Pour vous fournir nos services que vous nous avez demandés",
+      "improvingWebsite": "Pour améliorer notre site web et nos services",
+      "marketing": "Pour vous envoyer des communications marketing si vous avez choisi de les recevoir"
+    },
+    "dataSecurity": {
+      "title": "Sécurité des Données",
+      "content": "Nous avons mis en place des mesures de sécurité appropriées pour empêcher que vos données personnelles ne soient accidentellement perdues, utilisées ou consultées de manière non autorisée, modifiées ou divulguées."
+    },
+    "yourRights": {
+      "title": "Vos Droits",
+      "content": "Dans certaines circonstances, vous disposez de droits en vertu des lois sur la protection des données concernant vos données personnelles, notamment le droit de:",
+      "access": "Demander l'accès à vos données personnelles",
+      "correction": "Demander la correction de vos données personnelles",
+      "erasure": "Demander l'effacement de vos données personnelles",
+      "restriction": "Demander la limitation du traitement de vos données personnelles",
+      "transfer": "Demander le transfert de vos données personnelles",
+      "objection": "S'opposer au traitement de vos données personnelles"
+    },
+    "contactUs": {
+      "title": "Contactez-Nous",
+      "content": "Si vous avez des questions concernant cette politique de confidentialité ou nos pratiques en matière de confidentialité, veuillez nous contacter à privacy@cognitix.com"
+    },
+    "backToHome": "Retour à l'Accueil"
   }
 }
