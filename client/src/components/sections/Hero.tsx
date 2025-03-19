@@ -181,20 +181,3 @@ export default function Hero() {
     </section>
   );
 }
-export default function Hero() {
-  return (
-    <section className="py-20">
-      <div className="container">
-        <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-          Welcome to Our Platform
-        </h1>
-        <p className="text-xl text-gray-700 max-w-2xl mb-8">
-          We help businesses transform their digital presence with modern solutions.
-        </p>
-        <button className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition">
-          Get Started
-        </button>
-      </div>
-    </section>
-  );
-}

@@ -145,18 +145,3 @@ export default function Services() {
     </section>
   );
 }
-export default function Services() {
-  return (
-    <section className="py-16">
-      <div className="container">
-        <h2 className="text-3xl font-semibold text-gray-900 mb-8">Our Services</h2>
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="p-6 bg-white shadow rounded-lg">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Web Development</h3>
-            <p className="text-gray-700">Modern and responsive web applications built with the latest technologies.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
