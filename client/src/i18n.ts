@@ -1,13 +1,14 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
+// Import locale files
 import enTranslation from './locales/en.json';
 import frTranslation from './locales/fr.json';
 import arTranslation from './locales/ar.json';
 
-// Initialize i18next
+// Set up i18next configurations
 i18n
-  .use(initReactI18next) // passes i18n down to react-i18next
+  .use(initReactI18next)
   .init({
     resources: {
       en: {
@@ -20,11 +21,20 @@ i18n
         translation: arTranslation
       }
     },
-    lng: 'en', // default language
+    lng: 'en', // Default language
     fallbackLng: 'en',
     interpolation: {
-      escapeValue: false // react already safes from xss
-    }
+      escapeValue: false, // React already escapes values
+    },
+    react: {
+      useSuspense: false, // Prevents warning during development
+    },
   });
+
+// Set initial HTML language attribute based on the selected language
+document.documentElement.lang = i18n.language;
+
+// Set initial text direction (LTR for English and French, RTL for Arabic)
+document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
 
 export default i18n;

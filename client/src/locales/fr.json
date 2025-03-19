@@ -9,188 +9,166 @@
     "getStarted": "Commencer"
   },
   "hero": {
-    "title": "Construire l'Excellence",
-    "titleHighlight": "Numérique",
-    "titleEnd": "pour Votre Entreprise",
-    "subtitle": "Nous créons des solutions web innovantes qui stimulent la croissance et produisent des résultats. Transformons votre vision en réalité.",
-    "consultation": "Consultation Gratuite",
-    "explore": "Explorer les Services",
-    "trusted": "Approuvé par",
-    "companies": "entreprises dans le monde"
-  },
-  "stats": {
-    "yearsExperience": "Années d'Expérience",
-    "projectsCompleted": "Projets Complétés",
-    "happyClients": "Clients Satisfaits",
-    "teamMembers": "Membres d'Équipe"
+    "title": "Élevez Votre Présence Numérique",
+    "subtitle": "Transformez vos idées en puissantes solutions numériques avec nos services de développement web experts",
+    "ctaButton": "Commencer",
+    "secondaryButton": "En Savoir Plus"
   },
   "services": {
     "title": "Nos Services",
-    "subtitle": "Nous offrons une gamme complète de solutions web et numériques adaptées aux besoins de votre entreprise.",
-    "learnMore": "En savoir plus",
-    "webDev": {
+    "subtitle": "Des solutions numériques complètes adaptées aux besoins de votre entreprise",
+    "webDevelopment": {
       "title": "Développement Web",
-      "description": "Sites web et applications web sur mesure conçus pour répondre à vos besoins spécifiques.",
-      "features": ["Design Responsive", "Interface Conviviale", "Optimisation SEO"]
+      "description": "Sites web personnalisés construits avec les dernières technologies pour offrir des performances et une expérience utilisateur optimales"
     },
-    "mobileDev": {
-      "title": "Développement d'Applications Mobiles",
-      "description": "Applications mobiles natives et multiplateformes pour iOS et Android.",
-      "features": ["iOS & Android Natif", "Solutions Multiplateformes", "Optimisation App Store"]
+    "mobileDevelopment": {
+      "title": "Développement Mobile",
+      "description": "Applications mobiles natives et multi-plateformes pour iOS et Android"
     },
-    "softwareDev": {
-      "title": "Développement Logiciel sur Mesure",
-      "description": "Solutions logicielles sur mesure pour automatiser et rationaliser vos processus d'entreprise.",
-      "features": ["Architecture Évolutive", "Intégration Cloud", "Développement API"]
+    "uiUxDesign": {
+      "title": "Design UI/UX",
+      "description": "Design centré sur l'utilisateur qui améliore l'utilisabilité et crée des interfaces engageantes"
     },
-    "database": {
-      "title": "Solutions de Base de Données",
-      "description": "Conception, migration et gestion efficace de bases de données pour vos applications.",
-      "features": ["Bases de Données SQL & NoSQL", "Migration de Données", "Optimisation des Performances"]
+    "digitalMarketing": {
+      "title": "Marketing Digital",
+      "description": "Stratégies pour augmenter votre visibilité en ligne et attirer un trafic ciblé vers votre site web"
     },
-    "devops": {
-      "title": "Services DevOps",
-      "description": "Rationalisez votre développement et vos opérations avec nos solutions DevOps complètes.",
-      "features": ["Configuration Pipeline CI/CD", "Infrastructure as Code", "Monitoring & Logging"]
+    "contentStrategy": {
+      "title": "Stratégie de Contenu",
+      "description": "Contenu convaincant qui résonne avec votre audience et soutient vos objectifs commerciaux"
     },
-    "marketing": {
-      "title": "Marketing Numérique",
-      "description": "Stratégies de marketing numérique complètes pour booster votre présence en ligne.",
-      "features": ["SEO & Marketing de Contenu", "Gestion des Réseaux Sociaux", "Campagnes Pay-Per-Click"]
+    "ecommerceSolutions": {
+      "title": "Solutions E-commerce",
+      "description": "Solutions complètes de boutique en ligne avec traitement sécurisé des paiements et gestion des stocks"
     }
-  },
-  "technologies": {
-    "title": "Technologies Utilisées",
-    "subtitle": "Nous travaillons avec les technologies les plus récentes et les plus puissantes pour fournir des résultats exceptionnels."
-  },
-  "projects": {
-    "title": "Nos Derniers Projets",
-    "subtitle": "Explorez notre portfolio de projets réussis qui démontrent notre expertise et nos capacités.",
-    "viewProject": "Voir le Projet",
-    "viewAll": "Voir Tous les Projets"
-  },
-  "process": {
-    "title": "Notre Processus de Développement",
-    "subtitle": "Nous suivons une approche systématique pour garantir une livraison réussie des projets et la satisfaction des clients.",
-    "steps": {
-      "discovery": {
-        "title": "Découverte & Planification",
-        "description": "Nous commençons par comprendre vos besoins professionnels, votre public cible et les objectifs du projet pour créer un plan détaillé."
-      },
-      "design": {
-        "title": "Design & Prototypage",
-        "description": "Notre équipe de conception crée des wireframes et des prototypes interactifs qui visualisent l'interface et l'expérience utilisateur."
-      },
-      "development": {
-        "title": "Développement",
-        "description": "Nos développeurs qualifiés construisent votre solution en utilisant les technologies les plus appropriées, suivant les meilleures pratiques."
-      },
-      "testing": {
-        "title": "Tests & Assurance Qualité",
-        "description": "Des tests rigoureux garantissent que votre application est sans bug, sécurisée et performante sur toutes les plateformes."
-      },
-      "deployment": {
-        "title": "Déploiement",
-        "description": "Nous gérons le processus de déploiement pour assurer une transition en douceur vers la production, avec un minimum d'interruption."
-      },
-      "maintenance": {
-        "title": "Maintenance & Support",
-        "description": "Nous fournissons un support et une maintenance continus pour garantir que votre application reste à jour et performante."
-      }
-    }
-  },
-  "testimonials": {
-    "title": "Ce que Disent Nos Clients",
-    "subtitle": "Ne prenez pas seulement notre parole - écoutez certains de nos clients satisfaits."
   },
   "about": {
     "title": "À Propos de Cognitix",
-    "paragraph1": "Cognitix est une entreprise de développement web tournée vers l'avenir, dédiée à la création de solutions numériques innovantes qui stimulent la croissance des entreprises et l'engagement des utilisateurs. Fondée en 2013, nous avons livré avec succès plus de 500 projets pour des clients de divers secteurs.",
-    "paragraph2": "Notre équipe de plus de 25 développeurs, designers et stratèges numériques expérimentés est passionnée par l'utilisation des dernières technologies pour résoudre des défis commerciaux complexes et créer des expériences utilisateur exceptionnelles.",
+    "subtitle": "Apporter l'innovation à chaque pixel depuis 2015",
+    "story": "Cognitix a été fondée avec une mission simple mais puissante : aider les entreprises à tirer parti de la technologie pour atteindre leurs objectifs. Ce qui a commencé comme une petite équipe de développeurs passionnés s'est transformé en une agence numérique à service complet avec une clientèle mondiale.",
+    "mission": "Notre mission est de fournir des solutions numériques innovantes qui stimulent la croissance et le succès de nos clients. Nous croyons que la technologie devrait travailler pour les personnes, et non l'inverse.",
     "values": {
-      "excellence": {
-        "title": "Excellence",
-        "description": "Nous visons l'excellence dans tout ce que nous faisons."
-      },
+      "title": "Nos Valeurs",
       "innovation": {
         "title": "Innovation",
-        "description": "Nous adoptons l'innovation et la résolution créative de problèmes."
+        "description": "Nous restons à la pointe des tendances technologiques et faisons évoluer continuellement nos approches"
       },
-      "partnership": {
-        "title": "Partenariat",
-        "description": "Nous construisons des partenariats solides et durables avec nos clients."
+      "quality": {
+        "title": "Qualité",
+        "description": "Nous nous engageons à l'excellence dans tous les aspects de notre travail"
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "Nous travaillons en étroite collaboration avec nos clients pour assurer la réalisation de leur vision"
+      },
+      "integrity": {
+        "title": "Intégrité",
+        "description": "Nous opérons avec honnêteté, transparence et pratiques commerciales éthiques"
       }
+    }
+  },
+  "projects": {
+    "title": "Nos Projets",
+    "subtitle": "Explorez nos derniers travaux qui démontrent notre expertise et créativité",
+    "viewAll": "Voir Tous les Projets",
+    "categories": {
+      "all": "Tous",
+      "webDevelopment": "Développement Web",
+      "mobileDevelopment": "Développement Mobile",
+      "ecommerce": "E-commerce",
+      "digitalMarketing": "Marketing Digital"
+    }
+  },
+  "testimonials": {
+    "title": "Ce Que Disent Nos Clients",
+    "subtitle": "Ne vous fiez pas seulement à nos paroles - écoutez ce que nos clients ont à dire"
+  },
+  "process": {
+    "title": "Notre Processus",
+    "subtitle": "Comment nous transformons vos idées en solutions numériques réussies",
+    "discovery": {
+      "title": "Découverte",
+      "description": "Nous commençons par comprendre votre entreprise, vos objectifs et vos exigences à travers des consultations approfondies"
     },
-    "team": "Notre Équipe"
+    "planning": {
+      "title": "Planification",
+      "description": "Nous créons une feuille de route détaillée et une stratégie pour votre projet, définissant les étapes clés et les livrables"
+    },
+    "design": {
+      "title": "Design",
+      "description": "Nos designers créent des interfaces visuellement impressionnantes et conviviales basées sur les meilleures pratiques"
+    },
+    "development": {
+      "title": "Développement",
+      "description": "Notre équipe de développement donne vie aux designs en utilisant des technologies et méthodologies de pointe"
+    },
+    "testing": {
+      "title": "Tests",
+      "description": "Une assurance qualité rigoureuse garantit que votre produit fonctionne parfaitement sur tous les appareils et navigateurs"
+    },
+    "launch": {
+      "title": "Lancement",
+      "description": "Nous déployons votre solution dans le monde, assurant un lancement en douceur et sans problème"
+    },
+    "support": {
+      "title": "Support",
+      "description": "Notre relation ne se termine pas au lancement - nous fournissons un support et une maintenance continus"
+    }
+  },
+  "stats": {
+    "title": "Notre Impact en Chiffres",
+    "projects": "Projets Réalisés",
+    "clients": "Clients Satisfaits",
+    "years": "Années d'Expérience",
+    "awards": "Prix de l'Industrie"
+  },
+  "technologies": {
+    "title": "Technologies Que Nous Utilisons",
+    "subtitle": "Nous utilisons les dernières technologies pour construire des solutions modernes et évolutives"
   },
   "cta": {
     "title": "Prêt à Démarrer Votre Projet?",
-    "subtitle": "Transformons vos idées en réalité. Contactez-nous aujourd'hui pour une consultation gratuite.",
-    "getInTouch": "Nous Contacter",
-    "exploreServices": "Explorer les Services"
+    "subtitle": "Contactez-nous aujourd'hui pour discuter de la façon dont nous pouvons aider à concrétiser votre vision",
+    "button": "Contactez-Nous"
   },
   "contact": {
     "title": "Contactez-Nous",
-    "subtitle": "Vous avez une question ou vous êtes prêt à démarrer votre projet? Contactez-nous en utilisant le formulaire ci-dessous.",
-    "form": {
-      "fullName": "Nom Complet",
-      "email": "Adresse Email",
-      "company": "Nom de l'Entreprise",
-      "service": "Service Intéressé",
-      "message": "Votre Message",
-      "namePlaceholder": "Votre nom",
-      "emailPlaceholder": "votre.email@exemple.com",
-      "companyPlaceholder": "Votre entreprise",
-      "selectService": "Sélectionner un service",
-      "messagePlaceholder": "Parlez-nous de votre projet",
-      "privacyPolicy": "J'accepte la",
-      "privacyLink": "Politique de Confidentialité",
-      "send": "Envoyer le Message",
-      "sending": "Envoi en cours..."
-    },
-    "info": {
-      "title": "Informations de Contact",
-      "office": {
-        "title": "Notre Bureau",
-        "address": "123 Tech Street, Suite 400<br />San Francisco, CA 94107"
-      },
-      "email": {
-        "title": "Email",
-        "addresses": "info@cognitix.com<br />support@cognitix.com"
-      },
-      "phone": {
-        "title": "Téléphone",
-        "numbers": "+1 (555) 123-4567<br />+1 (555) 987-6543"
-      },
-      "hours": {
-        "title": "Heures d'Ouverture",
-        "times": "Lundi - Vendredi: 9:00 - 18:00<br />Samedi: 10:00 - 14:00"
-      }
-    },
-    "social": {
-      "title": "Suivez-Nous"
-    },
-    "map": "Chargement de la carte..."
+    "subtitle": "Vous avez une question ou vous souhaitez discuter d'un projet? Contactez-nous",
+    "name": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "subject": "Sujet",
+    "message": "Message",
+    "submit": "Envoyer le Message",
+    "success": "Votre message a été envoyé. Nous vous répondrons bientôt!",
+    "error": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer.",
+    "office": "Notre Bureau",
+    "emailUs": "Envoyez-nous un Email",
+    "callUs": "Appelez-Nous"
+  },
+  "newsletter": {
+    "title": "Abonnez-vous à Notre Newsletter",
+    "subtitle": "Restez informé de nos dernières nouvelles et insights",
+    "placeholder": "Entrez votre email",
+    "button": "S'abonner",
+    "success": "Merci pour votre abonnement!",
+    "error": "Une erreur s'est produite. Veuillez réessayer."
   },
   "footer": {
-    "about": "Solutions web innovantes pour les entreprises de toutes tailles. Nous transformons les idées en expériences numériques exceptionnelles.",
-    "quickLinks": "Liens Rapides",
+    "company": "Entreprise",
     "services": "Services",
-    "newsletter": {
-      "title": "Newsletter",
-      "subtitle": "Abonnez-vous à notre newsletter pour recevoir des mises à jour et des insights technologiques précieux.",
-      "placeholder": "Votre adresse email",
-      "button": "S'abonner",
-      "subscribing": "Abonnement..."
-    },
-    "copyright": "Tous droits réservés.",
-    "privacyPolicy": "Politique de Confidentialité",
-    "termsService": "Conditions d'Utilisation",
-    "cookiesPolicy": "Politique de Cookies"
-  },
-  "language": {
-    "en": "Anglais",
-    "fr": "Français",
-    "ar": "Arabe"
+    "resources": "Ressources",
+    "legal": "Légal",
+    "copyright": "© 2025 Cognitix. Tous droits réservés.",
+    "about": "À Propos",
+    "careers": "Carrières",
+    "contact": "Contact",
+    "team": "Notre Équipe",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "support": "Support",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "cookies": "Politique des Cookies"
   }
 }
