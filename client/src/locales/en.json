@@ -17,6 +17,7 @@
   "services": {
     "title": "Our Services",
     "subtitle": "Comprehensive digital solutions tailored to your business needs",
+    "learnMore": "Learn more",
     "webDevelopment": {
       "title": "Web Development",
       "description": "Custom websites built with the latest technologies to deliver optimal performance and user experience"
