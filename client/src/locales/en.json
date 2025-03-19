@@ -165,11 +165,51 @@
     "careers": "Careers",
     "contact": "Contact",
     "team": "Our Team",
-    "blog": "Blog",
     "faq": "FAQ",
     "support": "Support",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Policy"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: March 15, 2025",
+    "introduction": {
+      "title": "Introduction",
+      "content": "Welcome to Cognitix. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you."
+    },
+    "dataWeCollect": {
+      "title": "Data We Collect",
+      "content": "We may collect, use, store and transfer different kinds of personal data about you which we have grouped together as follows:",
+      "personalData": "Personal identification information (Name, email address, phone number)",
+      "technicalData": "Technical data includes internet protocol (IP) address, browser type and version, time zone setting and location, operating system and platform",
+      "usageData": "Information about how you use our website and services"
+    },
+    "howWeUseData": {
+      "title": "How We Use Your Data",
+      "content": "We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:",
+      "providingServices": "To provide you with our services that you have requested from us",
+      "improvingWebsite": "To improve our website and services",
+      "marketing": "To send you marketing communications if you have opted in to receive them"
+    },
+    "dataSecurity": {
+      "title": "Data Security",
+      "content": "We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorized way, altered or disclosed."
+    },
+    "yourRights": {
+      "title": "Your Rights",
+      "content": "Under certain circumstances, you have rights under data protection laws in relation to your personal data, including the right to:",
+      "access": "Request access to your personal data",
+      "correction": "Request correction of your personal data",
+      "erasure": "Request erasure of your personal data",
+      "restriction": "Request restriction of processing your personal data",
+      "transfer": "Request transfer of your personal data",
+      "objection": "Object to processing of your personal data"
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "content": "If you have any questions about this privacy policy or our privacy practices, please contact us at privacy@cognitix.com"
+    },
+    "backToHome": "Back to Home"
   }
 }

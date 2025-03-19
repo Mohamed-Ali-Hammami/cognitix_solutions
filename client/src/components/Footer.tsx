@@ -91,11 +91,6 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-6">{t('footer.resources')}</h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/blog" className="hover:text-primary transition-colors">
-                  {t('footer.blog')}
-                </Link>
-              </li>
-              <li>
                 <Link href="/faq" className="hover:text-primary transition-colors">
                   {t('footer.faq')}
                 </Link>

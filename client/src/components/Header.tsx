@@ -66,7 +66,7 @@ export default function Header() {
             <button onClick={() => scrollToSection('projects')} className="font-medium hover:text-primary transition-colors">{t('navigation.projects')}</button>
             <button onClick={() => scrollToSection('about')} className="font-medium hover:text-primary transition-colors">{t('navigation.about')}</button>
             <button onClick={() => scrollToSection('contact')} className="font-medium hover:text-primary transition-colors">{t('navigation.contact')}</button>
-            <button onClick={() => scrollToSection('blog')} className="font-medium hover:text-primary transition-colors">{t('navigation.blog')}</button>
+            <Link href="/privacy" className="font-medium hover:text-primary transition-colors">{t('footer.privacy')}</Link>
             <button onClick={() => scrollToSection('contact')} className="px-4 py-2 bg-primary text-white rounded-md hover:bg-primary/90 transition-colors">{t('navigation.getStarted')}</button>
             <LanguageSwitcher />
           </motion.nav>
@@ -88,7 +88,7 @@ export default function Header() {
             <button onClick={() => scrollToSection('projects')} className="font-medium hover:text-primary transition-colors py-2 border-b border-gray-100">{t('navigation.projects')}</button>
             <button onClick={() => scrollToSection('about')} className="font-medium hover:text-primary transition-colors py-2 border-b border-gray-100">{t('navigation.about')}</button>
             <button onClick={() => scrollToSection('contact')} className="font-medium hover:text-primary transition-colors py-2 border-b border-gray-100">{t('navigation.contact')}</button>
-            <button onClick={() => scrollToSection('blog')} className="font-medium hover:text-primary transition-colors py-2 border-b border-gray-100">{t('navigation.blog')}</button>
+            <Link href="/privacy" className="font-medium hover:text-primary transition-colors py-2 border-b border-gray-100">{t('footer.privacy')}</Link>
             <button onClick={() => scrollToSection('contact')} className="mt-2 px-4 py-2 bg-primary text-white rounded-md hover:bg-primary/90 transition-colors text-center">{t('navigation.getStarted')}</button>
           </nav>
         </motion.div>
