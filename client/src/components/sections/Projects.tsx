@@ -5,24 +5,24 @@ export default function Projects() {
   const { t } = useTranslation();
   const projects = [
     {
-      title: "E-commerce Dashboard",
-      category: "E-commerce",
+      title: t('projects.items.ecommerce.title'),
+      category: t('projects.categories.ecommerce'),
       categoryColor: "bg-primary",
-      description: "A comprehensive dashboard for a major retail company with advanced analytics and reporting features.",
+      description: t('projects.items.ecommerce.description'),
       technologies: ["React", "Node.js", "MongoDB"],
     },
     {
-      title: "Healthcare Mobile App",
-      category: "Healthcare",
+      title: t('projects.items.healthcare.title'),
+      category: t('projects.items.healthcare.category'),
       categoryColor: "bg-secondary",
-      description: "A patient management mobile application for a healthcare provider with appointment scheduling and telemedicine features.",
+      description: t('projects.items.healthcare.description'),
       technologies: ["React Native", "Express", "PostgreSQL"],
     },
     {
-      title: "Financial Analytics Platform",
-      category: "Finance",
+      title: t('projects.items.finance.title'),
+      category: t('projects.items.finance.category'),
       categoryColor: "bg-accent",
-      description: "An enterprise-level financial analytics platform with real-time data processing and visualization tools.",
+      description: t('projects.items.finance.description'),
       technologies: ["Angular", "Python", "AWS"],
     }
   ];

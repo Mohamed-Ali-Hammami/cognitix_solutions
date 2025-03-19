@@ -22,13 +22,9 @@ export default function About() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">About Cognitix</h2>
-            <p className="text-gray-300 mb-6 text-lg">
-              Cognitix is a forward-thinking web development company dedicated to creating innovative digital solutions that drive business growth and user engagement. Founded in 2013, we've successfully delivered over 500 projects for clients across various industries.
-            </p>
-            <p className="text-gray-300 mb-6 text-lg">
-              Our team of 25+ experienced developers, designers, and digital strategists is passionate about leveraging the latest technologies to solve complex business challenges and create exceptional user experiences.
-            </p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('about.title')}</h2>
+            <p className="text-gray-300 mb-6 text-lg">{t('about.story')}</p>
+            <p className="text-gray-300 mb-6 text-lg">{t('about.mission')}</p>
             <div className="space-y-4">
               {values.map((value, index) => (
                 <div key={index} className="flex items-center gap-3">
