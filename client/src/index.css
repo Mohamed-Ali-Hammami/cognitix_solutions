@@ -1,21 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --primary-hover: 222.2 47.4% 15%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary-hover: 210 40% 90%;
+    /* Dark mode variables */
+  }
+
   * {
     @apply border-border;
   }
 
   body {
-    @apply font-sans antialiased bg-white text-gray-900;
+    @apply bg-background text-foreground font-sans antialiased;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply text-gray-900 font-semibold;
-  }
-
-  p {
-    @apply text-gray-700;
+    @apply font-semibold tracking-tight;
   }
 }

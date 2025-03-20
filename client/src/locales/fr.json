@@ -172,14 +172,7 @@
     "serviceInterest": "Service d'intérêt",
     "privacyAgreement": "J'accepte la politique de confidentialité"
   },
-  "newsletter": {
-    "title": "Abonnez-vous à Notre Newsletter",
-    "subtitle": "Restez informé de nos dernières nouvelles et insights",
-    "placeholder": "Entrez votre email",
-    "button": "S'abonner",
-    "success": "Merci pour votre abonnement!",
-    "error": "Une erreur s'est produite. Veuillez réessayer."
-  },
+  
   "footer": {
     "company": "Entreprise",
     "services": "Services",

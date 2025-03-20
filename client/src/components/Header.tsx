@@ -3,6 +3,7 @@ import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { motion } from "framer-motion";
+import logo from '../images/logo.png'
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -37,7 +38,10 @@ export default function Header() {
           >
             <Link href="/" className="flex items-center gap-2">
               <div className="text-3xl font-bold bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">
-                <span className="font-bold">Cognitix</span>
+              <div className="flex items-center gap-2">
+  <img src={logo} alt="Cognitix Logo" className="h-20 w-auto" />
+  <span className="text-3xl font-bold text-black">Cognitix</span>
+</div>
               </div>
             </Link>
           </motion.div>

@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 
 export default function Testimonials() {
   const { t } = useTranslation();
-  
+
   const testimonials = [
     {
       name: "Sarah Johnson",
@@ -48,12 +48,12 @@ export default function Testimonials() {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Clients Say</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('testimonials.title')}</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Don't just take our word for it - hear from some of our satisfied clients.
+            {t('testimonials.subtitle')}
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-8 rounded-lg shadow-lg">

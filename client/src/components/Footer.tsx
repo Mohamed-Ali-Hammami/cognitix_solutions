@@ -126,30 +126,6 @@ export default function Footer() {
           </motion.div>
         </div>
 
-        {/* Newsletter */}
-        <motion.div 
-          className="mt-16 pt-8 border-t border-gray-800"
-          variants={itemAnimation}
-        >
-          <div className="max-w-md mx-auto lg:mx-0">
-            <h3 className="text-xl font-bold mb-4">{t('newsletter.title')}</h3>
-            <p className="mb-6 text-gray-400">{t('newsletter.subtitle')}</p>
-            <form className="flex flex-col sm:flex-row gap-2">
-              <input
-                type="email"
-                placeholder={t('newsletter.placeholder')}
-                className="bg-gray-800 px-4 py-2 rounded-md flex-grow focus:outline-none focus:ring-2 focus:ring-primary"
-                required
-              />
-              <button 
-                type="submit" 
-                className="bg-primary text-white px-6 py-2 rounded-md hover:bg-primary/90 transition-colors"
-              >
-                {t('newsletter.button')}
-              </button>
-            </form>
-          </div>
-        </motion.div>
 
         {/* Copyright */}
         <motion.div 
