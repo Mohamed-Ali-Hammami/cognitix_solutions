@@ -1,14 +1,14 @@
 import { useTranslation } from "react-i18next";
-import person1 from "../../public/images/person1.png";
-import person2 from "../../public/images/person2.png";
-import person3 from "../../public/images/person3.png";
+import person1 from "../../public/images/person1.jpg";
+import person2 from "../../public/images/person2.jpg";
+import person3 from "../../public/images/person3.jpg";
 
 export default function Testimonials() {
   const { t } = useTranslation();
 
   const testimonials = [
     {
-      name: "Elowen Harper",
+      name: "Emanuel L.",
       role: t('testimonials.client1.role'),
       rating: 5,
       text: t('testimonials.client1.text'),
@@ -22,7 +22,7 @@ export default function Testimonials() {
       image: person2, // Associate image with testimonial
     },
     {
-      name: "Seraphina Nguyen",
+      name: "Sabrina Trabelsi",
       role: t('testimonials.client3.role'),
       rating: 4.5,
       text: t('testimonials.client3.text'),

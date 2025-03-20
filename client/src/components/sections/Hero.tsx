@@ -113,18 +113,6 @@ export default function Hero() {
               </button>
             </motion.div>
 
-            <motion.div className="flex items-center gap-6 pt-4" variants={itemVariants}>
-              <div className={styles.avatarGroup}>
-                {[1, 2, 3].map((_, index) => (
-                  <div key={index} className={styles.avatar}>
-                    <i className="fas fa-user text-gray-600"></i>
-                  </div>
-                ))}
-              </div>
-              <p className="text-sm text-gray-700">
-                Trusted by <span className="font-semibold">100+</span> companies worldwide
-              </p>
-            </motion.div>
           </motion.div>
 
           {/* Code Display Section */}

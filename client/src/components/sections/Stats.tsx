@@ -7,7 +7,7 @@ export default function Stats() {
   const stats = [
     { value: "10+", label: t('stats.years') },
     { value: "500+", label: t('stats.projects') },
-    { value: "100+", label: t('stats.clients') },
+    { value: "300+", label: t('stats.clients') },
     { value: "25+", label: t('stats.awards') }
   ];
 
