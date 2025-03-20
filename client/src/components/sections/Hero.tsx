@@ -83,15 +83,16 @@ export default function Hero() {
             variants={containerVariants}
           >
             <motion.h1 className={styles.title} variants={itemVariants}>
-              {t('hero.title')}{' '}
-              <span className="bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">
-                Cognitix
-              </span>
-              <img 
+            <img 
                 src={logo} 
                 alt="Cognitix Logo" 
                 className={styles.logo}
               />
+              {t('hero.title')}{' '}
+              <span className="bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">
+                Cognitix
+              </span>
+
             </motion.h1>
 
             <motion.p className="text-lg md:text-xl text-gray-700" variants={itemVariants}>
