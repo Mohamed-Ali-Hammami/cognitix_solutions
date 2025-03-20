@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import styles from '../../styles/Hero.module.css';
-import logo from '../../images/logo.png'
+import logo from '../../public/images/logo.png';
+
 export default function Hero() {
   const { t } = useTranslation();
 
@@ -16,10 +17,7 @@ export default function Hero() {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.2,
-        delayChildren: 0.3
-      }
+      transition: { staggerChildren: 0.2, delayChildren: 0.3 }
     }
   };
 
@@ -30,13 +28,10 @@ export default function Hero() {
 
   const codeVariants = {
     hidden: { opacity: 0, x: 50 },
-    visible: { 
-      opacity: 1, 
-      x: 0, 
-      transition: { 
-        duration: 0.7,
-        ease: "easeOut" 
-      } 
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 0.7, ease: "easeOut" }
     }
   };
 
@@ -44,22 +39,16 @@ export default function Hero() {
     hidden: { opacity: 0 },
     visible: {
       opacity: 0.1,
-      transition: {
-        staggerChildren: 0.2,
-        delayChildren: 1
-      }
+      transition: { staggerChildren: 0.2, delayChildren: 1 }
     }
   };
 
   const symbolVariants = {
     hidden: { opacity: 0, scale: 0.8 },
-    visible: { 
-      opacity: 1, 
+    visible: {
+      opacity: 1,
       scale: 1,
-      transition: { 
-        duration: 1.5,
-        ease: "easeOut" 
-      } 
+      transition: { duration: 1.5, ease: "easeOut" }
     }
   };
 
@@ -87,7 +76,6 @@ export default function Hero() {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className={styles.contentContainer}>
-          
           <motion.div 
             className={styles.content}
             initial="hidden"
@@ -95,15 +83,15 @@ export default function Hero() {
             variants={containerVariants}
           >
             <motion.h1 className={styles.title} variants={itemVariants}>
-
-              {t('hero.title')} <span className="bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">
+              {t('hero.title')}{' '}
+              <span className="bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">
                 Cognitix
               </span>
               <img 
-              src={logo} 
-              alt="Cognitix Logo" 
-              className={styles.logo}
-            />
+                src={logo} 
+                alt="Cognitix Logo" 
+                className={styles.logo}
+              />
             </motion.h1>
 
             <motion.p className="text-lg md:text-xl text-gray-700" variants={itemVariants}>
@@ -113,13 +101,13 @@ export default function Hero() {
             <motion.div className="flex flex-col sm:flex-row gap-4" variants={itemVariants}>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="px-6 py-3 bg-secondary rounded-md font-medium hover:bg-primary/20 transition duration-300 text-center"
+                className="px-6 py-3 bg-secondary rounded-md font-medium hover:bg-primary/20 transition duration-300"
               >
                 {t('hero.ctaButton')}
               </button>
               <button 
                 onClick={() => scrollToSection('services')}
-                className="px-6 py-3 bg-black/10 rounded-md font-medium hover:bg-white/20 transition duration-300 text-center"
+                className="px-6 py-3 bg-black/10 rounded-md font-medium hover:bg-white/20 transition duration-300"
               >
                 {t('hero.secondaryButton')}
               </button>
@@ -139,6 +127,7 @@ export default function Hero() {
             </motion.div>
           </motion.div>
 
+          {/* Code Display Section */}
           <motion.div 
             className={styles.codeContainer}
             initial="hidden"
@@ -151,29 +140,25 @@ export default function Hero() {
               <div className={`${styles.codeDot} bg-green-500`} />
               <span className="ml-2 text-gray-700 text-sm">index.js</span>
             </div>
-            <pre className="font-mono text-xs sm:text-sm md:text-base text-gray-700 overflow-x-auto">
-            <code className="language-javascript">
-              {`
-                import React from 'react';
-                import { CognitixAI } from 'cognitix';
+            <pre className="bg-gray-100 p-4 rounded-md font-mono text-xs sm:text-sm md:text-base text-gray-700 overflow-x-auto">
+              <code className="language-javascript">
+{`import React from 'react';
+import { CognitixAI } from 'cognitix';
 
-                const App = () => {
-                  return (
-                    <CognitixAI 
-                      config={{
-                        model: 'advanced',
-                        language: 'en'
-                      }}
-                    />
-                  );
-                };
+const App = () => {
+  return (
+    <CognitixAI 
+      config={{
+        model: 'advanced',
+        language: 'en'
+      }}
+    />
+  );
+};
 
-                export default App;
-              `}
-            </code>
-          </pre>
-
-            
+export default App;`}
+              </code>
+            </pre>
           </motion.div>
         </div>
       </div>

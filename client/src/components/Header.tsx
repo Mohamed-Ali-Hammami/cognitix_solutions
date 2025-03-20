@@ -3,7 +3,7 @@ import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { motion } from "framer-motion";
-import logo from '../images/logo.png'
+import logo from '../public/images/logo.png'
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

@@ -1,26 +1,32 @@
 import { useTranslation } from "react-i18next";
+import person1 from "../../public/images/person1.png";
+import person2 from "../../public/images/person2.png";
+import person3 from "../../public/images/person3.png";
 
 export default function Testimonials() {
   const { t } = useTranslation();
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
+      name: "Elowen Harper",
       role: t('testimonials.client1.role'),
       rating: 5,
-      text: t('testimonials.client1.text')
+      text: t('testimonials.client1.text'),
+      image: person3, // Associate image with testimonial
     },
     {
-      name: "Michael Rodriguez",
+      name: "Cormac O'Sullivan",
       role: t('testimonials.client2.role'),
       rating: 5,
-      text: t('testimonials.client2.text')
+      text: t('testimonials.client2.text'),
+      image: person2, // Associate image with testimonial
     },
     {
-      name: "Emily Chen",
+      name: "Seraphina Nguyen",
       role: t('testimonials.client3.role'),
       rating: 4.5,
-      text: t('testimonials.client3.text')
+      text: t('testimonials.client3.text'),
+      image: person1, // Associate image with testimonial
     }
   ];
 
@@ -57,18 +63,23 @@ export default function Testimonials() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-8 rounded-lg shadow-lg">
+              {/* Person Image */}
               <div className="flex items-center gap-4 mb-6">
-                <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center">
-                  <i className="fas fa-user text-gray-400 text-xl"></i>
-                </div>
+                <img
+                  src={testimonial.image} // Use the associated image
+                  alt={testimonial.name}
+                  className="w-16 h-16 rounded-full object-cover"
+                />
                 <div>
                   <h4 className="font-bold">{testimonial.name}</h4>
                   <p className="text-gray-600 text-sm">{testimonial.role}</p>
                 </div>
               </div>
+              {/* Rating Stars */}
               <div className="mb-4">
                 {renderStars(testimonial.rating)}
               </div>
+              {/* Testimonial Text */}
               <p className="text-gray-700 italic">
                 "{testimonial.text}"
               </p>

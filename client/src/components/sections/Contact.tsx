@@ -197,7 +197,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-medium">Our Office</h4>
-                    <p className="text-gray-600">123 Tech Street, Suite 400<br />San Francisco, CA 94107</p>
+                    <p className="text-gray-600">rue 13 Aout chotrana 2 <br />Tunisia</p>
                   </div>
                 </div>
                 
@@ -207,7 +207,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-medium">Email Us</h4>
-                    <p className="text-gray-600">info@cognitix.com<br />support@cognitix.com</p>
+                    <p className="text-gray-600">cognitix_web_dev@proton.me</p>
                   </div>
                 </div>
                 
@@ -217,7 +217,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-medium">Call Us</h4>
-                    <p className="text-gray-600">+1 (555) 123-4567<br />+1 (555) 987-6543</p>
+                    <p className="text-gray-600">+216 22 898 775<br />+216 29 237 096</p>
                   </div>
                 </div>
                 
@@ -251,16 +251,6 @@ export default function Contact() {
                 <a href="#" className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
                   <i className="fab fa-github"></i>
                 </a>
-              </div>
-            </div>
-            
-            <div className="rounded-lg overflow-hidden h-64 shadow">
-              {/* Map Placeholder */}
-              <div className="bg-gray-200 w-full h-full flex items-center justify-center">
-                <div className="text-gray-500">
-                  <i className="fas fa-map-marked-alt text-4xl mb-2"></i>
-                  <p>Map Loading...</p>
-                </div>
               </div>
             </div>
           </div>

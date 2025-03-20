@@ -1,30 +1,35 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-
+import ecommerceImage from "../../public/images/ecommerce.png";
+import healthapp from "../../public/images/healthcare.jpg";
+import finance from "../../public/images/finance.png";
 export default function Projects() {
   const { t } = useTranslation();
   const projects = [
     {
-      title: t('projects.items.ecommerce.title'),
-      category: t('projects.categories.ecommerce'),
+      title: t("projects.items.ecommerce.title"),
+      category: t("projects.categories.ecommerce"),
       categoryColor: "bg-primary",
-      description: t('projects.items.ecommerce.description'),
+      description: t("projects.items.ecommerce.description"),
       technologies: ["React", "Node.js", "MongoDB"],
+      image: ecommerceImage, 
     },
     {
-      title: t('projects.items.healthcare.title'),
-      category: t('projects.items.healthcare.category'),
+      title: t("projects.items.healthcare.title"),
+      category: t("projects.items.healthcare.category"),
       categoryColor: "bg-secondary",
-      description: t('projects.items.healthcare.description'),
+      description: t("projects.items.healthcare.description"),
       technologies: ["React Native", "Express", "PostgreSQL"],
+      image: healthapp,
     },
     {
-      title: t('projects.items.finance.title'),
-      category: t('projects.items.finance.category'),
+      title: t("projects.items.finance.title"),
+      category: t("projects.items.finance.category"),
       categoryColor: "bg-accent",
-      description: t('projects.items.finance.description'),
+      description: t("projects.items.finance.description"),
       technologies: ["Angular", "Python", "AWS"],
-    }
+      image: finance,
+    },
   ];
 
   return (
@@ -36,16 +41,28 @@ export default function Projects() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-4xl font-bold text-center mb-4">{t('projects.title')}</h2>
-          <p className="text-xl text-center text-gray-600 mb-12">{t('projects.subtitle')}</p>
+          <h2 className="text-4xl font-bold text-center mb-4">{t("projects.title")}</h2>
+          <p className="text-xl text-center text-gray-600 mb-12">
+            {t("projects.subtitle")}
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project) => (
               <div key={project.title} className="bg-white rounded-lg shadow-md p-6">
+                {/* Image Section */}
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-40 object-cover rounded-md mb-4"
+                />
+                
+                {/* Project Details */}
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech) => (
-                    <span key={tech} className="bg-gray-200 text-gray-800 px-3 py-1 rounded-md">{tech}</span>
+                    <span key={tech} className="bg-gray-200 text-gray-800 px-3 py-1 rounded-md">
+                      {tech}
+                    </span>
                   ))}
                 </div>
               </div>

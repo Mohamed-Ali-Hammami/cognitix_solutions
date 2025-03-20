@@ -1,5 +1,12 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import Discovery from "../../public/images/Discovery.png";
+import Planing from "../../public/images/planing1.png";
+import Design from "../../public/images/design_ex.avif";
+import Developpement from "../../public/images/developement.png";
+import Testing from "../../public/images/Testing.png";
+import Launch from "../../public/images/Deploy.png";
+import Support from "../../public/images/support.jpg";
 
 export default function Process() {
   const { t } = useTranslation();
@@ -8,30 +15,37 @@ export default function Process() {
     {
       title: t('process.discovery.title'),
       description: t('process.discovery.description'),
+      image: Discovery,
     },
     {
       title: t('process.planning.title'),
       description: t('process.planning.description'),
+      image: Planing,
     },
     {
       title: t('process.design.title'),
       description: t('process.design.description'),
+      image: Design,
     },
     {
       title: t('process.development.title'),
       description: t('process.development.description'),
+      image: Developpement,
     },
     {
       title: t('process.testing.title'),
       description: t('process.testing.description'),
+      image: Testing,
     },
     {
       title: t('process.launch.title'),
       description: t('process.launch.description'),
+      image: Launch,
     },
     {
       title: t('process.support.title'),
       description: t('process.support.description'),
+      image: Support,
     },
   ];
 
@@ -58,6 +72,13 @@ export default function Process() {
               transition={{ duration: 0.5, delay: index * 0.2 }}
               className="bg-gray-100 p-8 rounded-lg shadow-lg"
             >
+              {/* Image */}
+              <img
+                src={step.image}
+                alt={step.title}
+                className="w-full h-48 object-cover rounded-lg mb-4"
+              />
+              {/* Title and Description */}
               <h3 className="text-2xl font-semibold text-gray-800 mb-4">{step.title}</h3>
               <p className="text-gray-600">{step.description}</p>
             </motion.div>
