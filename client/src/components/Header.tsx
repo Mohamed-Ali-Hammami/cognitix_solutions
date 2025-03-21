@@ -16,10 +16,34 @@ export default function Header() {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const headerOffset = 80; // Adjust based on your fixed header height
+      const targetPosition = element.offsetTop - headerOffset;
+      const duration = 500; // Duration of the scroll animation in milliseconds
+      const startTime = performance.now();
+      const startPosition = window.pageYOffset;
+  
+      const scrollStep = (currentTime: number) => {
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1); // Normalize progress to [0, 1]
+        const ease = easeInOutCubic(progress); // Apply easing function
+        window.scrollTo(0, startPosition + (targetPosition - startPosition) * ease);
+  
+        if (progress < 1) {
+          requestAnimationFrame(scrollStep);
+        }
+      };
+  
+      requestAnimationFrame(scrollStep);
       setMobileMenuOpen(false);
+    } else {
+      console.error(`Element with id "${id}" not found.`);
     }
   };
+  
+  // Easing function for smoother animation
+  function easeInOutCubic(t: number): number {
+    return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+  }
 
   return (
     <motion.header 
@@ -39,9 +63,9 @@ export default function Header() {
             <Link href="/" className="flex items-center gap-2">
               <div className="text-3xl font-bold bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">
               <div className="flex items-center gap-2">
-  <img src={logo} alt="Cognitix Logo" className="h-20 w-auto" />
-  <span className="text-3xl font-bold text-black">Cognitix</span>
-</div>
+                <img src={logo} alt="Cognitix Logo" className="h-20 w-auto" />
+                <span className="text-3xl font-bold text-black">Cognitix</span>
+              </div>
               </div>
             </Link>
           </motion.div>
@@ -65,7 +89,7 @@ export default function Header() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4, staggerChildren: 0.1 }}
           >
-            <button onClick={() => scrollToSection('home')} className="font-medium hover:text-primary transition-colors">{t('navigation.home')}</button>
+            <Link href="/" className="font-medium hover:text-primary transition-colors">{t('navigation.home')}</Link>
             <button onClick={() => scrollToSection('services')} className="font-medium hover:text-primary transition-colors">{t('navigation.services')}</button>
             <button onClick={() => scrollToSection('projects')} className="font-medium hover:text-primary transition-colors">{t('navigation.projects')}</button>
             <button onClick={() => scrollToSection('about')} className="font-medium hover:text-primary transition-colors">{t('navigation.about')}</button>

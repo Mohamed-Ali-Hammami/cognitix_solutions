@@ -113,12 +113,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="hover:text-primary transition-colors">
+                <Link href="/Privacy" className="hover:text-primary transition-colors">
                   {t('footer.terms')}
                 </Link>
               </li>
               <li>
-                <Link href="/cookies" className="hover:text-primary transition-colors">
+                <Link href="/Privacy" className="hover:text-primary transition-colors">
                   {t('footer.cookies')}
                 </Link>
               </li>

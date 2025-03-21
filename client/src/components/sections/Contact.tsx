@@ -171,7 +171,7 @@ export default function Contact() {
                   onChange={handleCheckboxChange}
                 />
                 <label htmlFor="privacy" className="ml-2 block text-gray-700">
-                  I agree to the <a href="#" className="text-primary hover:underline">Privacy Policy</a>
+                  I agree to the <a href="/Privacy" className="text-primary hover:underline">Privacy Policy</a>
                 </label>
               </div>
               
@@ -217,7 +217,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-medium">Call Us</h4>
-                    <p className="text-gray-600">+216 22 898 775<br />+216 29 237 096</p>
+                    <p className="text-gray-600">+216 22 898 775<br /> whatsapp <br/>
+                    +216 29 237 096</p>
                   </div>
                 </div>
                 
@@ -236,19 +237,20 @@ export default function Contact() {
             <div className="bg-gray-50 p-8 rounded-lg">
               <h3 className="text-xl font-semibold mb-6">Follow Us</h3>
               <div className="flex gap-4">
-                <a href="#" className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                <a href="https://www.facebook.com/people/Cognitix/61574079523985/" className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                <a href="https://x.com/CognitixS" className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                <a href="https://www.linkedin.com/in/cognitix-solutions-6255a6357/" className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
                   <i className="fab fa-linkedin-in"></i>
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                <a href="https://www.instagram.com/cognitix_web?igsh=MTljdDRsb2VoNW91Zg== " className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                <a href= "https://github.com/Mohamed-Ali-Hammami"
+                 className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
                   <i className="fab fa-github"></i>
                 </a>
               </div>

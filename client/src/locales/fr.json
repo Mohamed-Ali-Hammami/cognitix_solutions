@@ -172,7 +172,6 @@
     "serviceInterest": "Service d'intérêt",
     "privacyAgreement": "J'accepte la politique de confidentialité"
   },
-  
   "footer": {
     "company": "Entreprise",
     "services": "Services",
@@ -227,7 +226,7 @@
     },
     "contactUs": {
       "title": "Contactez-Nous",
-      "content": "Si vous avez des questions concernant cette politique de confidentialité ou nos pratiques en matière de confidentialité, veuillez nous contacter à privacy@cognitix.com"
+      "content": "Si vous avez des questions concernant cette politique de confidentialité ou nos pratiques en matière de confidentialité, veuillez nous contacter à cognitix_web_dev@proton.me"
     },
     "backToHome": "Retour à l'Accueil"
   }

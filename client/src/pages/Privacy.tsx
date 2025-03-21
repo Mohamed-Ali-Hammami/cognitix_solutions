@@ -9,11 +9,8 @@ export default function Privacy() {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: {
-        duration: 0.5,
-        staggerChildren: 0.2
-      }
-    }
+      transition: { duration: 0.5, staggerChildren: 0.2 },
+    },
   };
 
   const childVariants = {
@@ -21,8 +18,8 @@ export default function Privacy() {
     visible: { 
       opacity: 1, 
       y: 0,
-      transition: { duration: 0.5 }
-    }
+      transition: { duration: 0.5 },
+    },
   };
 
   return (
@@ -33,6 +30,7 @@ export default function Privacy() {
       variants={containerVariants}
     >
       <motion.div variants={childVariants} className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+        {/* Page Header */}
         <motion.h1 variants={childVariants} className="text-3xl md:text-4xl font-bold mb-2 text-center">
           {t('privacy.title')}
         </motion.h1>
@@ -106,6 +104,7 @@ export default function Privacy() {
           </p>
         </motion.section>
 
+        {/* Back to Home */}
         <motion.div variants={childVariants} className="text-center">
           <Link href="/" className="inline-flex items-center text-primary font-medium hover:text-primary/80 transition-colors">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">

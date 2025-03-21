@@ -194,33 +194,40 @@
     "lastUpdated": "Last updated: March 15, 2025",
     "introduction": {
       "title": "Introduction",
-      "content": "Welcome to Cognitix. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you how we protect your personal data when you visit our website and will provide information about your privacy rights and how the law protects you."
+      "content": "Welcome to Cognitix. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you how we protect your personal data when you visit our website and will inform you about your privacy rights and how the law protects you."
     },
     "dataWeCollect": {
       "title": "Data We Collect",
-      "content": "We may collect, use, store, and transfer different types of personal data about you, which we have grouped as follows:",
+      "content": "We may collect, use, store, and transfer various types of personal data about you, which we have grouped as follows:",
       "personalData": "Personally identifiable information (name, email address, phone number)",
-      "technicalData": "Technical data including IP address, browser type and version, time zone and location, operating system and platform",
+      "technicalData": "Technical data including IP address, browser type and version, time zone and location, operating system, and platform",
       "usageData": "Information about how you use our website and services"
     },
     "howWeUseData": {
       "title": "How We Use Your Data",
-      "content": "We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:",
-      "toProvideServices": "To provide our services and respond to your requests",
-      "toImproveWebsite": "To improve the performance of our website",
-      "marketingPurposes": "To communicate with you about new services, offers, and other marketing purposes"
+      "content": "We will only use your personal data when the law permits us to. Most often, we will use your personal data in the following circumstances:",
+      "providingServices": "To provide you with the services you have requested from us",
+      "improvingWebsite": "To improve our website and services",
+      "marketing": "To send you marketing communications if you have opted to receive them"
     },
-    "cookies": {
-      "title": "Cookies",
-      "content": "Our website uses cookies to improve user experience. By continuing to browse the site, you agree to our use of cookies."
-    },
-    "thirdPartyLinks": {
-      "title": "Third-Party Links",
-      "content": "Our website may contain links to third-party websites. We are not responsible for their privacy practices or content."
+    "dataSecurity": {
+      "title": "Data Security",
+      "content": "We have implemented appropriate security measures to prevent your personal data from being accidentally lost, used, or accessed in an unauthorized manner, altered, or disclosed."
     },
     "yourRights": {
       "title": "Your Rights",
-      "content": "You have the right to access, update, or delete your personal data at any time. Please contact us if you wish to exercise these rights."
-    }
+      "content": "Under certain circumstances, you have rights under data protection laws regarding your personal data, including the right to:",
+      "access": "Request access to your personal data",
+      "correction": "Request correction of your personal data",
+      "erasure": "Request erasure of your personal data",
+      "restriction": "Request restriction of the processing of your personal data",
+      "transfer": "Request the transfer of your personal data",
+      "objection": "Object to the processing of your personal data"
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "content": "If you have any questions regarding this privacy policy or our privacy practices, please contact us at cognitix_web_dev@proton.me"
+    },
+    "backToHome": "Back to Home"
   }
 }
