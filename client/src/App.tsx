@@ -1,14 +1,14 @@
 import { Switch, Route } from "wouter";
-import { queryClient } from "./lib/queryClient";
+import { queryClient } from "./lib/queryClient.ts";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { Toaster } from "@/components/ui/toaster";
-import NotFound from "@/pages/not-found";
-import Home from "@/pages/Home";
-import Privacy from "@/pages/Privacy";
+import { Toaster } from "./components/ui/toaster.tsx";
+import NotFound from "../src/pages/not-found.tsx";
+import Home from "../src/pages/Home.tsx";
+import Privacy from "../src/pages//Privacy.tsx";
 import { useTranslation } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "./components/Header.tsx";
+import Footer from "./components/Footer.tsx";
 import { useEffect } from "react";
 
 function Router() {

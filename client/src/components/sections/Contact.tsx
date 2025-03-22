@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useToast } from "@/hooks/use-toast";
-import { apiRequest } from "@/lib/queryClient";
+import { useToast } from "../../hooks/use-toast.ts";
+import { apiRequest } from "../../lib/queryClient.ts";
 
 export default function Contact() {
   const { toast } = useToast();

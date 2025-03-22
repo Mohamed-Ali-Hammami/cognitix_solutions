@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "wouter";
 import { useTranslation } from "react-i18next";
-import LanguageSwitcher from "./LanguageSwitcher";
+import LanguageSwitcher from "./LanguageSwitcher.tsx";
 import { motion } from "framer-motion";
 import logo from '../public/images/logo.png'
 

@@ -1,5 +1,5 @@
 // storage.ts
-import { type InsertContact } from "@shared/schema";
+import { type InsertContact } from "./schema.js";
 
 export interface IStorage {
   // Contact methods

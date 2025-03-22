@@ -1,10 +1,10 @@
 // api/contact.ts
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { insertContactSchema } from './schema.ts';
-import { storage } from './storage.ts'; // adjust the path as needed
+import { insertContactSchema } from '../client/src/utils/schema.js';
+import { storage } from '../client/src/utils/storage.js'; // adjust the path as needed
 import { ZodError } from 'zod';
 import { fromZodError } from 'zod-validation-error';
-import { sendContactEmail } from './emailService.ts'; // adjust the path as needed
+import { sendContactEmail } from '../client/src/utils/emailService.js'; // adjust the path as needed
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'POST') {
