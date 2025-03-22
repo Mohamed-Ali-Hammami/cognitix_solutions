@@ -1,31 +1,39 @@
-// api/contact.ts
-import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { ZodError } from 'zod';
-import { fromZodError } from 'zod-validation-error';
+import nodemailer from "nodemailer";
+import type { VercelRequest, VercelResponse } from "@vercel/node";
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  if (req.method !== 'POST') {
-    return res.status(405).json({ success: false, message: 'Method not allowed' });
+  if (req.method !== "POST") {
+    return res.status(405).json({ success: false, message: "Method not allowed" });
+  }
+
+  const { email, subject, message } = req.body;
+  
+  if (!email || !subject || !message) {
+    return res.status(400).json({ success: false, message: "Missing required fields" });
   }
 
   try {
-    const contactData = insertContactSchema.parse(req.body);
-    const submission = await storage.createContactSubmission(contactData);
-
-    // Send email notification after saving the submission
-    await sendContactEmail({
-      ...contactData,
-      company: contactData.company ?? undefined,
-      service: contactData.service ?? undefined,
+    const transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: process.env.EMAIL_USER, // Your Gmail address
+        pass: process.env.EMAIL_PASS, // Your Gmail app password (NOT your actual password)
+      },
     });
 
-    res.status(201).json({ success: true, data: submission });
+    const mailOptions = {
+      from: process.env.GMAIL_USER,
+      to: email,
+      subject: subject,
+      text: message,
+    };
+
+    await transporter.sendMail(mailOptions);
+
+    return res.status(200).json({ success: true, message: "Email sent successfully" });
+
   } catch (error) {
-    if (error instanceof ZodError) {
-      const validationError = fromZodError(error);
-      return res.status(400).json({ success: false, message: validationError.message });
-    }
-    console.error("Server Error:", error);
-    res.status(500).json({ success: false, message: 'Internal server error' });
+    console.error("Email sending error:", error);
+    return res.status(500).json({ success: false, message: "Internal server error" });
   }
 }
