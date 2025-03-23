@@ -1,7 +1,12 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
-
+import Discovery from "../../public/images/Discovery.png";
+import Planing from "../../public/images/planing1.png";
+import Design from "../../public/images/design_ex.avif";
+import Developpement from "../../public/images/developement.png";
+import ecommerce from "../../public/images/ecommerce.png";
+import finance from "../../public/images/finance.png";
 export default function Solutions() {
   const { t } = useTranslation();
 
@@ -12,42 +17,42 @@ export default function Solutions() {
       key: "businessWebsites",
       linkUrl: "/services/web-development",
       color: "bg-blue-500",
-      image: "/src/public/images/developement.png"
+      image: Developpement
     },
     {
       icon: "fas fa-shopping-cart",
       key: "ecommerce",
       linkUrl: "/services/ecommerce-solutions",
       color: "bg-emerald-500",
-      image: "/src/public/images/ecommerce.png"
+      image: ecommerce
     },
     {
       icon: "fas fa-mobile-alt",
       key: "mobileApps",
       linkUrl: "/services/mobile-development",
       color: "bg-purple-500",
-      image: "/src/public/images/Discovery.png"
+      image: Discovery
     },
     {
       icon: "fas fa-tachometer-alt",
       key: "webApps",
       linkUrl: "/services/web-development",
       color: "bg-orange-500",
-      image: "/src/public/images/finance.png"
+      image: finance
     },
     {
       icon: "fas fa-palette",
       key: "uiUxDesign",
       linkUrl: "/services/ui-ux-design",
       color: "bg-pink-500",
-      image: "/src/public/images/design_ex.avif"
+      image: Design
     },
     {
       icon: "fas fa-chart-line",
       key: "digitalMarketing",
       linkUrl: "/services/digital-marketing",
       color: "bg-yellow-500",
-      image: "/src/public/images/ecommerce.png"
+      image: Planing
     }
   ];
 
