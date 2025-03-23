@@ -1,7 +1,12 @@
 import { useTranslation } from "react-i18next";
 import { useRoute } from "wouter";
 import { motion } from "framer-motion";
-
+import Discovery from "../../public/images/Discovery.png";
+import Planing from "../../public/images/planing1.png";
+import Design from "../../public/images/design_ex.avif";
+import Developpement from "../../public/images/developement.png";
+import ecommerce from "../../public/images/ecommerce.png";
+import finance from "../../public/images/finance.png";
 export default function ServiceDetail() {
   const { t } = useTranslation();
   const [, params] = useRoute("/services/:id");
@@ -31,17 +36,17 @@ export default function ServiceDetail() {
   const getServiceImage = (): string => {
     switch (serviceId) {
       case "web-development":
-        return "/src/public/images/developement.png";
+        return Developpement;
       case "mobile-development":
-        return "/src/public/images/Discovery.png";
+        return Discovery;
       case "ui-ux-design":
-        return "/src/public/images/design_ex.avif";
+        return Design;
       case "digital-marketing":
-        return "/src/public/images/ecommerce.png";
+        return ecommerce;
       case "content-strategy":
-        return "/src/public/images/planing1.png";
+        return Planing;
       case "ecommerce-solutions":
-        return "/src/public/images/finance.png";
+        return finance;
       default:
         return "/src/public/images/logo.png";
     }
