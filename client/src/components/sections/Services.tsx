@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import { Link } from "wouter";
 
 export default function Services() {
   const { t } = useTranslation();
@@ -9,37 +10,43 @@ export default function Services() {
       title: t('services.webDevelopment.title'),
       description: t('services.webDevelopment.description'),
       icon: "laptop-code",
-      features: ["Responsive Design", "User-Friendly Interface", "SEO Optimization"]
+      features: ["Responsive Design", "User-Friendly Interface", "SEO Optimization"],
+      slug: "web-development"
     },
     {
       title: t('services.mobileDevelopment.title'),
       description: t('services.mobileDevelopment.description'),
       icon: "mobile-alt",
-      features: ["Native iOS & Android", "Cross-Platform Solutions", "App Store Optimization"]
+      features: ["Native iOS & Android", "Cross-Platform Solutions", "App Store Optimization"],
+      slug: "mobile-development"
     },
     {
       title: t('services.uiUxDesign.title'),
       description: t('services.uiUxDesign.description'),
       icon: "palette",
-      features: ["User Experience Research", "Interface Design", "Prototyping"]
+      features: ["User Experience Research", "Interface Design", "Prototyping"],
+      slug: "ui-ux-design"
     },
     {
       title: t('services.digitalMarketing.title'),
       description: t('services.digitalMarketing.description'),
       icon: "search",
-      features: ["SEO & Content Marketing", "Social Media Management", "Pay-Per-Click Campaigns"]
+      features: ["SEO & Content Marketing", "Social Media Management", "Pay-Per-Click Campaigns"],
+      slug: "digital-marketing"
     },
     {
       title: t('services.contentStrategy.title'),
       description: t('services.contentStrategy.description'),
       icon: "pencil-alt",
-      features: ["Content Planning", "Copywriting", "Content Optimization"]
+      features: ["Content Planning", "Copywriting", "Content Optimization"],
+      slug: "content-strategy"
     },
     {
       title: t('services.ecommerceSolutions.title'),
       description: t('services.ecommerceSolutions.description'),
       icon: "shopping-cart",
-      features: ["Online Store Setup", "Payment Processing", "Inventory Management"]
+      features: ["Online Store Setup", "Payment Processing", "Inventory Management"],
+      slug: "ecommerce-solutions"
     }
   ];
 
@@ -63,32 +70,32 @@ export default function Services() {
 
   const itemVariants = {
     hidden: { opacity: 0, y: 30 },
-    visible: { 
-      opacity: 1, 
+    visible: {
+      opacity: 1,
       y: 0,
-      transition: { 
+      transition: {
         duration: 0.5,
-        ease: "easeOut" 
-      } 
+        ease: "easeOut"
+      }
     }
   };
 
   const headerVariants = {
     hidden: { opacity: 0, y: -20 },
-    visible: { 
-      opacity: 1, 
+    visible: {
+      opacity: 1,
       y: 0,
-      transition: { 
+      transition: {
         duration: 0.6,
-        ease: "easeOut" 
-      } 
+        ease: "easeOut"
+      }
     }
   };
 
   return (
     <section id="services" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div 
+        <motion.div
           className="text-center mb-16"
           initial="hidden"
           whileInView="visible"
@@ -100,8 +107,8 @@ export default function Services() {
             {t('services.subtitle')}
           </p>
         </motion.div>
-        
-        <motion.div 
+
+        <motion.div
           className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
           initial="hidden"
           whileInView="visible"
@@ -109,8 +116,8 @@ export default function Services() {
           variants={containerVariants}
         >
           {services.map((service, index) => (
-            <motion.div 
-              key={index} 
+            <motion.div
+              key={index}
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
               variants={itemVariants}
             >
@@ -131,12 +138,12 @@ export default function Services() {
                     </li>
                   ))}
                 </ul>
-                <button 
-                  onClick={scrollToContact}
+                <Link
+                  to={`/services/${service.slug}`}
                   className="text-primary font-medium hover:text-primary/80 transition-colors flex items-center gap-1"
                 >
                   {t('services.learnMore')} <i className="fas fa-arrow-right text-sm"></i>
-                </button>
+                </Link>
               </div>
             </motion.div>
           ))}

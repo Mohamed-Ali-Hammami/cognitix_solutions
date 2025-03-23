@@ -5,6 +5,7 @@ import { Toaster } from "./components/ui/toaster.tsx";
 import NotFound from "../src/pages/not-found.tsx";
 import Home from "../src/pages/Home.tsx";
 import Privacy from "../src/pages//Privacy.tsx";
+import ServiceDetail from "../src/pages/ServiceDetail.tsx";
 import { useTranslation } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
 import Header from "./components/Header.tsx";
@@ -25,6 +26,7 @@ function Router() {
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/privacy" component={Privacy} />
+        <Route path="/services/:id" component={ServiceDetail} />
         {/* Fallback to 404 */}
         <Route component={NotFound} />
       </Switch>
@@ -37,7 +39,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <div className="flex flex-col min-h-screen">
         <Header />
-        <motion.main 
+        <motion.main
           className="flex-grow"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

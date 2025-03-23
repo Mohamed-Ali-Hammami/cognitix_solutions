@@ -41,8 +41,322 @@
       "title": "Solutions E-commerce",
       "description": "Solutions de boutique en ligne complètes avec traitement sécurisé des paiements et gestion des stocks"
     },
-      "learnMore": "Savoir Plus"
+    "learnMore": "Savoir Plus"
+  },
+  "solutions": {
+    "title": "Des Solutions qui Produisent des Résultats",
+    "subtitle": "Nous ne nous contentons pas de créer des sites web et des applications - nous créons des solutions numériques qui résolvent de véritables problèmes commerciaux et produisent des résultats mesurables.",
+    "keyBenefits": "Avantages Clés",
+    "businessWebsites": {
+      "title": "Établissez Votre Présence en Ligne",
+      "description": "Soyez découvert par de nouveaux clients grâce à un site web professionnel qui renforce votre crédibilité, met en valeur vos services et convertit les visiteurs en prospects 24h/24 et 7j/7.",
+      "features": ["Design Responsive", "Gestion de Contenu", "Optimisation SEO", "Génération de Leads"],
+      "linkText": "En savoir plus sur les sites web professionnels"
     },
+    "ecommerce": {
+      "title": "Vendez vos Produits Mondialement",
+      "description": "Transformez votre entreprise de vente au détail avec une boutique en ligne qui élimine les barrières géographiques, automatise les processus de vente et fidélise les clients.",
+      "features": ["Paiements Sécurisés", "Gestion des Stocks", "Comptes Clients", "Shopping Mobile"],
+      "linkText": "En savoir plus sur les solutions e-commerce"
+    },
+    "mobileApps": {
+      "title": "Engagez les Utilisateurs sur Mobile",
+      "description": "Atteignez vos clients où qu'ils soient grâce à des applications natives qui offrent des expériences fluides, renforcent la fidélité à la marque et permettent des canaux de communication directs.",
+      "features": ["iOS & Android", "Accès Hors Ligne", "Notifications Push", "Performance Rapide"],
+      "linkText": "En savoir plus sur les applications mobiles"
+    },
+    "webApps": {
+      "title": "Rationalisez les Opérations Commerciales",
+      "description": "Automatisez les flux de travail, centralisez les données et obtenez des informations exploitables grâce à des applications web personnalisées qui résolvent vos défis commerciaux spécifiques.",
+      "features": ["Automatisation des Processus", "Analyse de Données", "Authentification Utilisateur", "Intégration API"],
+      "linkText": "En savoir plus sur les applications web"
+    },
+    "uiUxDesign": {
+      "title": "Améliorez l'Expérience Utilisateur",
+      "description": "Réduisez les taux de rebond et augmentez les conversions grâce à des interfaces intuitives qui guident naturellement les utilisateurs, simplifient les processus complexes et enchantent à chaque étape.",
+      "features": ["Navigation Intuitive", "Hiérarchie Visuelle", "Accessibilité", "Optimisation des Conversions"],
+      "linkText": "En savoir plus sur la conception UI/UX"
+    },
+    "digitalMarketing": {
+      "title": "Développez Votre Portée Numérique",
+      "description": "Attirez des prospects qualifiés et augmentez votre part de marché grâce à des outils de marketing digital qui optimisent les campagnes, analysent le comportement des clients et maximisent le ROI.",
+      "features": ["Ciblage d'Audience", "Analyse de Campagnes", "Stratégie de Contenu", "Suivi des Conversions"],
+      "linkText": "En savoir plus sur les plateformes marketing"
+    }
+  },
+  "serviceDetail": {
+    "overview": "Aperçu",
+    "process": "Notre Processus",
+    "processSubtitle": "Nous suivons une approche structurée pour livrer des résultats exceptionnels pour nos projets.",
+    "benefits": "Avantages Clés",
+    "readyToStart": "Prêt à Commencer?",
+    "contactCTA": "Discutons de la façon dont nos services peuvent vous aider à atteindre vos objectifs commerciaux.",
+    "contactButton": "Contactez-Nous Maintenant",
+    "webDevelopment": {
+      "longDescription": "Notre équipe de développement web crée des sites web personnalisés qui non seulement sont attrayants mais fonctionnent également parfaitement. Nous nous concentrons sur la création de sites web réactifs, conviviaux et optimisés pour les moteurs de recherche qui aident les entreprises à atteindre leurs objectifs en ligne.",
+      "features": [
+        "Design Responsive",
+        "Interface Conviviale",
+        "Optimisation SEO",
+        "Temps de Chargement Rapide",
+        "Approche Mobile-First",
+        "Compatibilité Multi-Navigateurs"
+      ],
+      "benefits": [
+        "Visibilité accrue dans les moteurs de recherche",
+        "Engagement utilisateur amélioré et taux de rebond réduits",
+        "Taux de conversion plus élevés avec des parcours utilisateur optimisés",
+        "Image de marque professionnelle grâce à un design soigné",
+        "Avantage concurrentiel avec une technologie de pointe"
+      ],
+      "process": [
+        {
+          "title": "Découverte",
+          "description": "Nous commençons par comprendre vos objectifs commerciaux, votre public cible et vos exigences pour créer une feuille de route du projet."
+        },
+        {
+          "title": "Planification",
+          "description": "Notre équipe crée des wireframes et des prototypes pour visualiser la structure du site web et le flux utilisateur."
+        },
+        {
+          "title": "Design",
+          "description": "Nous concevons des interfaces visuellement attrayantes qui s'alignent avec votre identité de marque et améliorent l'expérience utilisateur."
+        },
+        {
+          "title": "Développement",
+          "description": "Nos développeurs écrivent un code propre et efficace pour donner vie aux designs avec toutes les fonctionnalités requises."
+        },
+        {
+          "title": "Tests",
+          "description": "Des tests rigoureux garantissent que votre site web fonctionne parfaitement sur tous les appareils et navigateurs."
+        },
+        {
+          "title": "Lancement",
+          "description": "Nous déployons votre site web dans un environnement de production, en veillant à ce que tout soit configuré pour le succès."
+        }
+      ]
+    },
+    "mobileDevelopment": {
+      "longDescription": "Nos services de développement mobile fournissent des applications de haute qualité pour les plateformes iOS et Android. Que vous ayez besoin d'une application native ou d'une solution multi-plateforme, notre équipe crée des expériences mobiles qui engagent les utilisateurs et stimulent la croissance commerciale.",
+      "features": [
+        "iOS & Android Natifs",
+        "Solutions Multi-Plateformes",
+        "Optimisation pour l'App Store",
+        "Notifications Push",
+        "Fonctionnalité Hors Ligne",
+        "Authentification Sécurisée"
+      ],
+      "benefits": [
+        "Portée étendue aux utilisateurs mobiles",
+        "Engagement client amélioré grâce à des expériences personnalisées",
+        "Nouveaux flux de revenus via le commerce mobile",
+        "Fidélité à la marque renforcée grâce à des interactions mobiles fluides",
+        "Avantage concurrentiel sur le marché mobile-first"
+      ],
+      "process": [
+        {
+          "title": "Analyse des Besoins",
+          "description": "Nous recueillons des exigences détaillées pour comprendre l'objectif de l'application, le public cible et les fonctionnalités principales."
+        },
+        {
+          "title": "Design UI/UX",
+          "description": "Nos designers créent des interfaces intuitives et spécifiques à chaque plateforme qui suivent les meilleures pratiques de design mobile."
+        },
+        {
+          "title": "Développement",
+          "description": "Notre équipe de développement construit l'application en utilisant des technologies natives ou des frameworks multi-plateformes selon vos besoins."
+        },
+        {
+          "title": "Tests",
+          "description": "Nous effectuons des tests approfondis sur des appareils réels pour garantir les performances, l'utilisabilité et la compatibilité."
+        },
+        {
+          "title": "Déploiement",
+          "description": "Nous gérons le processus de soumission de l'application pour la publier sur l'App Store et Google Play."
+        },
+        {
+          "title": "Maintenance",
+          "description": "Un support continu et des mises à jour maintiennent votre application en bon état de fonctionnement et à jour avec les changements de plateforme."
+        }
+      ]
+    },
+    "uiUxDesign": {
+      "longDescription": "Nos services de design UI/UX se concentrent sur la création d'expériences utilisateur intuitives et engageantes. Nous combinons attrait esthétique et design fonctionnel pour créer des interfaces que les utilisateurs aiment, améliorant la satisfaction et la conversion.",
+      "features": [
+        "Recherche d'Expérience Utilisateur",
+        "Design d'Interface",
+        "Prototypage",
+        "Tests d'Utilisabilité",
+        "Architecture de l'Information",
+        "Maquettes Interactives"
+      ],
+      "benefits": [
+        "Satisfaction et engagement utilisateur améliorés",
+        "Réduction de la frustration des utilisateurs et des coûts de support",
+        "Taux de conversion plus élevés grâce à des parcours utilisateur optimisés",
+        "Expérience de marque cohérente sur tous les points de contact",
+        "Décisions de design basées sur des données issues de la recherche utilisateur"
+      ],
+      "process": [
+        {
+          "title": "Recherche",
+          "description": "Nous menons des recherches utilisateur pour comprendre les modèles de comportement, les besoins et les points de douleur."
+        },
+        {
+          "title": "Personas Utilisateur",
+          "description": "Nous créons des personas utilisateur détaillés pour guider le processus de design et assurer la centralité de l'utilisateur."
+        },
+        {
+          "title": "Architecture de l'Information",
+          "description": "Nous organisons le contenu et les fonctionnalités de manière intuitive et facile à naviguer."
+        },
+        {
+          "title": "Wireframing",
+          "description": "Des wireframes basse fidélité définissent la structure de base et la disposition de l'interface."
+        },
+        {
+          "title": "Design Visuel",
+          "description": "Nous créons des maquettes haute fidélité qui présentent l'aspect final de l'interface."
+        },
+        {
+          "title": "Prototypage",
+          "description": "Des prototypes interactifs simulent l'expérience utilisateur pour les tests avant le développement."
+        }
+      ]
+    },
+    "digitalMarketing": {
+      "longDescription": "Nos services de marketing digital aident les entreprises à augmenter leur visibilité en ligne et à attirer des leads qualifiés. Nous développons des stratégies complètes qui exploitent divers canaux digitaux pour atteindre votre public cible et générer des résultats mesurables.",
+      "features": [
+        "SEO & Marketing de Contenu",
+        "Gestion des Réseaux Sociaux",
+        "Campagnes Pay-Per-Click",
+        "Email Marketing",
+        "Analytique & Rapports",
+        "Optimisation du Taux de Conversion"
+      ],
+      "benefits": [
+        "Sensibilisation accrue à la marque et visibilité en ligne",
+        "Leads de meilleure qualité grâce à des campagnes ciblées",
+        "ROI amélioré par rapport au marketing traditionnel",
+        "Insights basés sur les données pour une optimisation continue",
+        "Solutions marketing évolutives qui se développent avec votre entreprise"
+      ],
+      "process": [
+        {
+          "title": "Audit & Analyse",
+          "description": "Nous analysons votre présence digitale actuelle et identifions les opportunités d'amélioration."
+        },
+        {
+          "title": "Développement de Stratégie",
+          "description": "Nous créons une stratégie de marketing digital sur mesure alignée avec vos objectifs commerciaux."
+        },
+        {
+          "title": "Sélection des Canaux",
+          "description": "Nous identifions les canaux les plus efficaces pour atteindre votre public cible."
+        },
+        {
+          "title": "Création de Contenu",
+          "description": "Notre équipe développe du contenu engageant qui résonne avec votre audience."
+        },
+        {
+          "title": "Exécution de Campagne",
+          "description": "Nous lançons et gérons des campagnes sur les canaux digitaux sélectionnés."
+        },
+        {
+          "title": "Suivi & Optimisation",
+          "description": "Un suivi et une optimisation continus assurent une performance maximale de la campagne."
+        }
+      ]
+    },
+    "contentStrategy": {
+      "longDescription": "Nos services de stratégie de contenu vous aident à créer et distribuer du contenu précieux qui attire, engage et fidélise votre public cible. Nous développons des plans de contenu complets qui soutiennent vos objectifs commerciaux et établissent votre marque comme une autorité dans votre secteur.",
+      "features": [
+        "Planification de Contenu",
+        "Rédaction",
+        "Optimisation de Contenu",
+        "Calendriers Éditoriaux",
+        "Distribution de Contenu",
+        "Analyse de Performance"
+      ],
+      "benefits": [
+        "Trafic organique accru grâce à un contenu de valeur",
+        "Autorité de marque et leadership de pensée renforcés",
+        "Engagement amélioré sur tous les points de contact digitaux",
+        "Taux de conversion plus élevés avec du contenu stratégique",
+        "Messagerie de marque cohérente sur tous les canaux"
+      ],
+      "process": [
+        {
+          "title": "Audit de Contenu",
+          "description": "Nous évaluons votre contenu existant pour identifier les lacunes et les opportunités."
+        },
+        {
+          "title": "Recherche d'Audience",
+          "description": "Nous développons des personas d'audience détaillés pour comprendre les préférences et les besoins en contenu."
+        },
+        {
+          "title": "Développement de Stratégie",
+          "description": "Nous créons une stratégie de contenu complète alignée avec vos objectifs commerciaux."
+        },
+        {
+          "title": "Calendrier de Contenu",
+          "description": "Nous développons un calendrier éditorial pour organiser et planifier la création de contenu."
+        },
+        {
+          "title": "Création de Contenu",
+          "description": "Notre équipe crée du contenu de haute qualité qui engage votre public cible."
+        },
+        {
+          "title": "Distribution & Promotion",
+          "description": "Nous mettons en œuvre des stratégies pour distribuer votre contenu sur les canaux pertinents."
+        }
+      ]
+    },
+    "ecommerceSolutions": {
+      "longDescription": "Nos solutions e-commerce fournissent aux entreprises tout ce dont elles ont besoin pour vendre des produits en ligne avec succès. De la conception de la vitrine au traitement des paiements et à la gestion des stocks, nous construisons des plateformes e-commerce évolutives qui stimulent les ventes et la croissance.",
+      "features": [
+        "Configuration de Boutique en Ligne",
+        "Traitement des Paiements",
+        "Gestion des Stocks",
+        "Commerce Mobile",
+        "Exécution des Commandes",
+        "Gestion des Clients"
+      ],
+      "benefits": [
+        "Portée de marché étendue au-delà des limitations physiques",
+        "Capacité de vente 24/7 avec des processus automatisés",
+        "Expérience client améliorée avec des achats personnalisés",
+        "Insights basés sur les données sur le comportement des clients",
+        "Solution évolutive qui se développe avec votre entreprise"
+      ],
+      "process": [
+        {
+          "title": "Analyse des Besoins",
+          "description": "Nous recueillons des exigences détaillées pour votre plateforme e-commerce."
+        },
+        {
+          "title": "Sélection de Plateforme",
+          "description": "Nous vous aidons à choisir la bonne plateforme e-commerce en fonction de vos besoins."
+        },
+        {
+          "title": "Design de Boutique",
+          "description": "Nos designers créent une vitrine attrayante et optimisée pour la conversion."
+        },
+        {
+          "title": "Développement",
+          "description": "Nous implémentons toutes les fonctionnalités requises pour une solution e-commerce complète."
+        },
+        {
+          "title": "Intégration",
+          "description": "Nous intégrons des passerelles de paiement, des solutions d'expédition et d'autres services nécessaires."
+        },
+        {
+          "title": "Tests & Lancement",
+          "description": "Des tests approfondis garantissent que tout fonctionne parfaitement avant la mise en ligne."
+        }
+      ]
+    }
+  },
   "about": {
     "title": "À Propos de Cognitix",
     "subtitle": "Apporter l'innovation à chaque pixel depuis 2015",

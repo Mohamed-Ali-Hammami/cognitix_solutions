@@ -43,6 +43,320 @@
     },
     "learnMore": "Learn More"
   },
+  "solutions": {
+    "title": "Solutions That Drive Results",
+    "subtitle": "We don't just build websites and apps — we create digital solutions that solve real business problems and deliver measurable outcomes.",
+    "keyBenefits": "Key Benefits",
+    "businessWebsites": {
+      "title": "Establish Your Online Presence",
+      "description": "Get discovered by new customers with a professional website that builds credibility, showcases your services, and converts visitors into leads 24/7.",
+      "features": ["Responsive Design", "Content Management", "SEO Optimization", "Lead Generation"],
+      "linkText": "Learn more about business websites"
+    },
+    "ecommerce": {
+      "title": "Sell Products Globally",
+      "description": "Transform your retail business with an online store that eliminates geographical barriers, automates sales processes, and builds customer loyalty.",
+      "features": ["Secure Payments", "Inventory Management", "Customer Accounts", "Mobile Shopping"],
+      "linkText": "Learn more about e-commerce solutions"
+    },
+    "mobileApps": {
+      "title": "Engage Users on Mobile",
+      "description": "Reach customers wherever they are with native apps that provide seamless experiences, build brand loyalty, and enable direct communication channels.",
+      "features": ["iOS & Android", "Offline Access", "Push Notifications", "Fast Performance"],
+      "linkText": "Learn more about mobile applications"
+    },
+    "webApps": {
+      "title": "Streamline Business Operations",
+      "description": "Automate workflows, centralize data, and gain actionable insights with custom web applications that solve your specific business challenges.",
+      "features": ["Process Automation", "Data Analytics", "User Authentication", "API Integration"],
+      "linkText": "Learn more about web applications"
+    },
+    "uiUxDesign": {
+      "title": "Enhance User Experience",
+      "description": "Reduce bounce rates and increase conversions with intuitive interfaces that guide users naturally, simplify complex processes, and delight at every step.",
+      "features": ["Intuitive Navigation", "Visual Hierarchy", "Accessibility", "Conversion-Focused"],
+      "linkText": "Learn more about UI/UX design"
+    },
+    "digitalMarketing": {
+      "title": "Grow Your Digital Reach",
+      "description": "Attract qualified leads and expand market share with digital marketing tools that optimize campaigns, analyze customer behavior, and maximize ROI.",
+      "features": ["Audience Targeting", "Campaign Analytics", "Content Strategy", "Conversion Tracking"],
+      "linkText": "Learn more about marketing platforms"
+    }
+  },
+  "serviceDetail": {
+    "overview": "Overview",
+    "process": "Our Process",
+    "processSubtitle": "We follow a structured approach to deliver exceptional results for our projects.",
+    "benefits": "Key Benefits",
+    "readyToStart": "Ready to Get Started?",
+    "contactCTA": "Let's discuss how our services can help you achieve your business goals.",
+    "contactButton": "Contact Us Now",
+    "webDevelopment": {
+      "longDescription": "Our web development team creates custom websites that not only look great but also function flawlessly. We focus on creating responsive, user-friendly, and SEO-optimized websites that help businesses achieve their goals online.",
+      "features": [
+        "Responsive Design",
+        "User-Friendly Interface",
+        "SEO Optimization",
+        "Fast Loading Time",
+        "Mobile-First Approach",
+        "Cross-Browser Compatibility"
+      ],
+      "benefits": [
+        "Increased visibility in search engines",
+        "Improved user engagement and lower bounce rates",
+        "Higher conversion rates with optimized user journeys",
+        "Professional brand image through polished design",
+        "Competitive advantage with cutting-edge technology"
+      ],
+      "process": [
+        {
+          "title": "Discovery",
+          "description": "We begin by understanding your business goals, target audience, and requirements to create a project roadmap."
+        },
+        {
+          "title": "Planning",
+          "description": "Our team creates wireframes and prototypes to visualize the website structure and user flow."
+        },
+        {
+          "title": "Design",
+          "description": "We design visually appealing interfaces that align with your brand identity and enhance user experience."
+        },
+        {
+          "title": "Development",
+          "description": "Our developers write clean, efficient code to bring the designs to life with all the required functionality."
+        },
+        {
+          "title": "Testing",
+          "description": "Rigorous testing ensures your website works perfectly across devices and browsers."
+        },
+        {
+          "title": "Launch",
+          "description": "We deploy your website to a production environment, ensuring everything is set up for success."
+        }
+      ]
+    },
+    "mobileDevelopment": {
+      "longDescription": "Our mobile development services deliver high-quality apps for iOS and Android platforms. Whether you need a native app or a cross-platform solution, our team creates mobile experiences that engage users and drive business growth.",
+      "features": [
+        "Native iOS & Android",
+        "Cross-Platform Solutions",
+        "App Store Optimization",
+        "Push Notifications",
+        "Offline Functionality",
+        "Secure User Authentication"
+      ],
+      "benefits": [
+        "Expanded reach to mobile users",
+        "Improved customer engagement through personalized experiences",
+        "New revenue streams through mobile commerce",
+        "Enhanced brand loyalty with seamless mobile interactions",
+        "Competitive advantage in the mobile-first market"
+      ],
+      "process": [
+        {
+          "title": "Requirements Analysis",
+          "description": "We gather detailed requirements to understand the app's purpose, target audience, and core functionality."
+        },
+        {
+          "title": "UI/UX Design",
+          "description": "Our designers create intuitive, platform-specific interfaces that follow mobile design best practices."
+        },
+        {
+          "title": "Development",
+          "description": "Our development team builds the app using either native technologies or cross-platform frameworks based on your needs."
+        },
+        {
+          "title": "Testing",
+          "description": "We conduct thorough testing on real devices to ensure performance, usability, and compatibility."
+        },
+        {
+          "title": "Deployment",
+          "description": "We handle the app submission process to get your app published on the App Store and Google Play."
+        },
+        {
+          "title": "Maintenance",
+          "description": "Ongoing support and updates keep your app running smoothly and up-to-date with platform changes."
+        }
+      ]
+    },
+    "uiUxDesign": {
+      "longDescription": "Our UI/UX design services focus on creating intuitive and engaging user experiences. We combine aesthetic appeal with functional design to create interfaces that users love to interact with, enhancing satisfaction and driving conversion.",
+      "features": [
+        "User Experience Research",
+        "Interface Design",
+        "Prototyping",
+        "Usability Testing",
+        "Information Architecture",
+        "Interactive Mockups"
+      ],
+      "benefits": [
+        "Improved user satisfaction and engagement",
+        "Reduced user frustration and support costs",
+        "Higher conversion rates through optimized user journeys",
+        "Consistent brand experience across all touchpoints",
+        "Data-driven design decisions based on user research"
+      ],
+      "process": [
+        {
+          "title": "Research",
+          "description": "We conduct user research to understand behavior patterns, needs, and pain points."
+        },
+        {
+          "title": "User Personas",
+          "description": "We create detailed user personas to guide the design process and ensure user-centricity."
+        },
+        {
+          "title": "Information Architecture",
+          "description": "We organize content and functionality in a way that's intuitive and easy to navigate."
+        },
+        {
+          "title": "Wireframing",
+          "description": "Low-fidelity wireframes outline the basic structure and layout of the interface."
+        },
+        {
+          "title": "Visual Design",
+          "description": "We create high-fidelity mockups that showcase the final look and feel of the interface."
+        },
+        {
+          "title": "Prototyping",
+          "description": "Interactive prototypes simulate the user experience for testing before development."
+        }
+      ]
+    },
+    "digitalMarketing": {
+      "longDescription": "Our digital marketing services help businesses increase their online visibility and attract qualified leads. We develop comprehensive strategies that leverage various digital channels to reach your target audience and drive measurable results.",
+      "features": [
+        "SEO & Content Marketing",
+        "Social Media Management",
+        "Pay-Per-Click Campaigns",
+        "Email Marketing",
+        "Analytics & Reporting",
+        "Conversion Rate Optimization"
+      ],
+      "benefits": [
+        "Increased brand awareness and online visibility",
+        "Higher quality leads through targeted campaigns",
+        "Improved ROI compared to traditional marketing",
+        "Data-driven insights for continuous optimization",
+        "Scalable marketing solutions that grow with your business"
+      ],
+      "process": [
+        {
+          "title": "Audit & Analysis",
+          "description": "We analyze your current digital presence and identify opportunities for improvement."
+        },
+        {
+          "title": "Strategy Development",
+          "description": "We create a tailored digital marketing strategy aligned with your business goals."
+        },
+        {
+          "title": "Channel Selection",
+          "description": "We identify the most effective channels to reach your target audience."
+        },
+        {
+          "title": "Content Creation",
+          "description": "Our team develops engaging content that resonates with your audience."
+        },
+        {
+          "title": "Campaign Execution",
+          "description": "We launch and manage campaigns across selected digital channels."
+        },
+        {
+          "title": "Monitoring & Optimization",
+          "description": "Continuous monitoring and optimization ensure maximum campaign performance."
+        }
+      ]
+    },
+    "contentStrategy": {
+      "longDescription": "Our content strategy services help you create and distribute valuable content that attracts, engages, and retains your target audience. We develop comprehensive content plans that support your business objectives and establish your brand as an authority in your industry.",
+      "features": [
+        "Content Planning",
+        "Copywriting",
+        "Content Optimization",
+        "Editorial Calendars",
+        "Content Distribution",
+        "Performance Analysis"
+      ],
+      "benefits": [
+        "Increased organic traffic through valuable content",
+        "Enhanced brand authority and thought leadership",
+        "Improved engagement across digital touchpoints",
+        "Higher conversion rates with strategic content",
+        "Consistent brand messaging across all channels"
+      ],
+      "process": [
+        {
+          "title": "Content Audit",
+          "description": "We assess your existing content to identify gaps and opportunities."
+        },
+        {
+          "title": "Audience Research",
+          "description": "We develop detailed audience personas to understand content preferences and needs."
+        },
+        {
+          "title": "Strategy Development",
+          "description": "We create a comprehensive content strategy aligned with your business goals."
+        },
+        {
+          "title": "Content Calendar",
+          "description": "We develop an editorial calendar to organize and schedule content creation."
+        },
+        {
+          "title": "Content Creation",
+          "description": "Our team creates high-quality content that engages your target audience."
+        },
+        {
+          "title": "Distribution & Promotion",
+          "description": "We implement strategies to distribute your content across relevant channels."
+        }
+      ]
+    },
+    "ecommerceSolutions": {
+      "longDescription": "Our e-commerce solutions provide businesses with everything they need to sell products online successfully. From storefront design to payment processing and inventory management, we build scalable e-commerce platforms that drive sales and growth.",
+      "features": [
+        "Online Store Setup",
+        "Payment Processing",
+        "Inventory Management",
+        "Mobile Commerce",
+        "Order Fulfillment",
+        "Customer Management"
+      ],
+      "benefits": [
+        "Expanded market reach beyond physical limitations",
+        "24/7 sales capability with automated processes",
+        "Improved customer experience with personalized shopping",
+        "Data-driven insights into customer behavior",
+        "Scalable solution that grows with your business"
+      ],
+      "process": [
+        {
+          "title": "Requirements Analysis",
+          "description": "We gather detailed requirements for your e-commerce platform."
+        },
+        {
+          "title": "Platform Selection",
+          "description": "We help you choose the right e-commerce platform based on your needs."
+        },
+        {
+          "title": "Store Design",
+          "description": "Our designers create an attractive, conversion-optimized storefront."
+        },
+        {
+          "title": "Development",
+          "description": "We implement all required functionality for a complete e-commerce solution."
+        },
+        {
+          "title": "Integration",
+          "description": "We integrate payment gateways, shipping solutions, and other necessary services."
+        },
+        {
+          "title": "Testing & Launch",
+          "description": "Thorough testing ensures everything works perfectly before going live."
+        }
+      ]
+    }
+  },
   "about": {
     "title": "About Cognitix",
     "subtitle": "Bringing innovation to every pixel since 2015",
