@@ -1,12 +1,12 @@
 import { useTranslation } from "react-i18next";
 import { useRoute } from "wouter";
 import { motion } from "framer-motion";
-import Discovery from "../../public/images/Discovery.png";
-import Planing from "../../public/images/planing1.png";
-import Design from "../../public/images/design_ex.avif";
-import Developpement from "../../public/images/developement.png";
-import ecommerce from "../../public/images/ecommerce.png";
-import finance from "../../public/images/finance.png";
+import Discovery from "../../src/public/images/Discovery.png";
+import Planing from "../../src/public/images/planing1.png";
+import Design from "../../src/public/images/design_ex.avif";
+import Developpement from "../../src/public/images/developement.png";
+import ecommerce from "../../src/public/images/ecommerce.png";
+import finance from "../../src/public/images/finance.png";
 export default function ServiceDetail() {
   const { t } = useTranslation();
   const [, params] = useRoute("/services/:id");
