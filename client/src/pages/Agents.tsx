@@ -51,8 +51,8 @@ export default function Agents() {
     },
     {
       id: 3,
-      name: "Marietta Armandine M.",
-      lastName: "HOUNSOU",
+      name: "Marietta Armandine",
+      lastName: "hounsou",
       position: t("agents.positions.salesManager"),
       country: t("agents.countries.Benin"),
       phoneNumber: "+971 50 123 4567",
@@ -61,8 +61,8 @@ export default function Agents() {
     },
     {
         id: 1,
-        name: "Bourfaa",
-        lastName: "Zinedine",
+        name: "Zinedine",
+        lastName: "Bourfaa",
         position: t("agents.positions.salesManager"),
         country: t("agents.countries.france"),
         phoneNumber: "+33 6 27 20 47 47",
@@ -71,8 +71,8 @@ export default function Agents() {
       },
     {
       id: 4,
-      name: "Mlayah",
-      lastName: "Achref",
+      name: "Achref",
+      lastName: "Mlayah",
       position: t("agents.positions.salesManager"),
       country: t("agents.countries.Germany"),
       phoneNumber: "+49 17 66 33 04 10",
@@ -81,8 +81,8 @@ export default function Agents() {
     },
     {
       id: 5,
-      name: "Bouhjar",
-      lastName: "Hamza",
+      name: "Hamza",
+      lastName: "Bouhjar",
       position: t("agents.positions.salesManager"),
       country: t("agents.countries.Sweden"),
       phoneNumber: "+46 70 43 96 817",
@@ -153,7 +153,7 @@ export default function Agents() {
 
                 <div className="p-6">
                   <h3 className="text-2xl font-semibold mb-2">
-                    {agent.name} {agent.lastName}
+                    {agent.name} 
                   </h3>
                   <p className="text-primary font-medium mb-4">{agent.position}</p>
                   <div className="space-y-3 text-gray-700">
