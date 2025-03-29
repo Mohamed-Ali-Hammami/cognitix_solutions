@@ -38,16 +38,7 @@ export default function Agents() {
 
   // Agent data
   const agents: Agent[] = [
-    {
-      id: 1,
-      name: "Zinedine",
-      lastName: "Bourfaa",
-      position: t("agents.positions.salesAgent"),
-      country: t("agents.countries.france"),
-      phoneNumber: "+33 6 27 20 47 47",
-      email: "Zinedine.bourfaa@outlook.fr",
-      image: Agent1
-    },
+
     {
       id: 2,
       name: "Haddaoui",
@@ -62,17 +53,27 @@ export default function Agents() {
       id: 3,
       name: "Marietta Armandine M.",
       lastName: "HOUNSOU",
-      position: t("agents.positions.salesAgent"),
+      position: t("agents.positions.salesManager"),
       country: t("agents.countries.Benin"),
       phoneNumber: "+971 50 123 4567",
       email: "marietta.a.m.hounsou@gmail.com",
       image: Agent3
     },
     {
+        id: 1,
+        name: "Zinedine",
+        lastName: "Bourfaa",
+        position: t("agents.positions.salesManager"),
+        country: t("agents.countries.france"),
+        phoneNumber: "+33 6 27 20 47 47",
+        email: "Zinedine.bourfaa@outlook.fr",
+        image: Agent1
+      },
+    {
       id: 4,
       name: "Akiko",
       lastName: "Tanaka",
-      position: t("agents.positions.salesAgent"),
+      position: t("agents.positions.salesManager"),
       country: t("agents.countries.uae"),
       phoneNumber: "+81 90 1234 5678",
       email: "akiko.tanaka@cognitix.com",
@@ -82,8 +83,8 @@ export default function Agents() {
       id: 5,
       name: "Carlos",
       lastName: "Mendoza",
-      position: t("agents.positions.salesAgent"),
-      country: t("agents.countries.mexico"),
+      position: t("agents.positions.salesManager"),
+      country: t("agents.countries.usa"),
       phoneNumber: "+52 55 1234 5678",
       email: "carlos.mendoza@cognitix.com",
       image: Agent5
