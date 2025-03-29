@@ -46,7 +46,7 @@ export default function Agents() {
       position: t("agents.positions.regionalManager"),
       country: t("agents.countries.Canada"),
       phoneNumber: "email only",
-      email: "Yousr@hotmail.ca",
+      email: "yousr@hotmail.ca",
       image: Agent2
     },
     {
@@ -66,7 +66,7 @@ export default function Agents() {
         position: t("agents.positions.salesManager"),
         country: t("agents.countries.france"),
         phoneNumber: "+33 6 27 20 47 47",
-        email: "Zinedine.bourfaa@outlook.fr",
+        email: "zinedine.bourfaa@outlook.fr",
         image: Agent1
       },
     {
