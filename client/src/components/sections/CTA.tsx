@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-
+import { Link } from "wouter";
 export default function CTA() {
   const { t } = useTranslation();
   
@@ -23,12 +23,12 @@ export default function CTA() {
           <h2 className="text-4xl font-bold text-center mb-4">{t('cta.title')}</h2>
           <p className="text-xl text-center mb-8">{t('cta.subtitle')}</p>
           <div className="text-center">
-            <a 
+            <Link 
               href="/agents"
               className="bg-white text-primary px-8 py-3 rounded-lg font-bold hover:bg-opacity-90 transition-all"
             >
               {t('cta.button')}
-            </a>
+            </Link>
           </div>
         </motion.div>
       </div>
