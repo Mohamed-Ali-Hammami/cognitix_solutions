@@ -6,7 +6,7 @@ import AgentContactForm from "../components/AgentContactForm.tsx";
 import Agent1 from "../../src/public/images/agents/zinedine.jpg";
 import Agent2 from "../../src/public/images/agents/yosser.jpg";
 import Agent3 from "../../src/public/images/agents/housnou.jpg";
-import Agent4 from "../../src/public/images/agents/agent4.png";
+import Agent4 from "../../src/public/images/agents/Achref.jpg";
 import Agent5 from "../../src/public/images/agents/agent5.png";
 
 interface Agent {
