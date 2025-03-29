@@ -139,17 +139,18 @@ export default function Agents() {
                 variants={cardVariants}
                 className="bg-white rounded-lg shadow-lg overflow-hidden"
               >
-                <div className="relative h-80 bg-gray-200">
-                  <img
+                <div className="flex justify-center items-center bg-gray-200 p-4">
+                <img
                     src={agent.image}
                     alt={`${agent.name} ${agent.lastName}`}
-                    className="w-full h-full object-cover"
+                    className="w-24 h-24 object-cover rounded-full"
                     onError={(e) => {
-                      // Fallback for missing images
-                      (e.target as HTMLImageElement).src = "/images/avatar-placeholder.jpg";
+                    (e.target as HTMLImageElement).src = "/images/avatar-placeholder.jpg";
                     }}
-                  />
+                />
                 </div>
+
+
                 <div className="p-6">
                   <h3 className="text-2xl font-semibold mb-2">
                     {agent.name} {agent.lastName}
