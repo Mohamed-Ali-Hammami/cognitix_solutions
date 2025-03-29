@@ -6,7 +6,8 @@
     "about": "About Us",
     "contact": "Contact",
     "blog": "Blog",
-    "getStarted": "Get Started"
+    "getStarted": "Get Started",
+    "agents": "Our Agents"
   },
   "hero": {
     "title": "Elevate Your Digital Presence",
@@ -543,5 +544,30 @@
       "content": "If you have any questions regarding this privacy policy or our privacy practices, please contact us at cognitix_web_dev@proton.me"
     },
     "backToHome": "Back to Home"
+  },
+  "agents": {
+    "pageTitle": "Our Global Agents",
+    "metaDescription": "Connect with Cognitix Solutions' global agents for personalized assistance and expert consultation in your region.",
+    "title": "Our Global Agents",
+    "subtitle": "Connect with our regional agents for personalized service and expert consultation tailored to your needs.",
+    "country": "Country",
+    "phone": "Phone",
+    "email": "Email",
+    "contactButton": "Contact Agent",
+    "positions": {
+      "salesAgent": "Commercial agent",
+      "marketingDirector": "Marketing Director",
+      "regionalManager": "Regional Manager",
+      "businessDevelopment": "Business Development Manager",
+      "clientRelations": "Client Relations Specialist"
+    },
+    "countries": {
+      "usa": "United States",
+      "Benin": "Benin",
+      "france": "France",
+      "uae": "United Arab Emirates",
+      "Canada": "Canada",
+      "mexico": "Mexico"
+    }
   }
 }

@@ -1,11 +1,11 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
-import Discovery from "../../public/images/Discovery.png";
-import Planing from "../../public/images/planing1.png";
-import Design from "../../public/images/design_ex.avif";
-import Developpement from "../../public/images/developement.png";
-import ecommerce from "../../public/images/ecommerce.png";
+import engage_mobile from "../../public/images/engage_mobile.jpeg";
+import Planing from "../../public/images/grow_chart.jpg";
+import Design from "../../public/images/user_experience.jpeg";
+import Developpement from "../../public/images/online_presence.jpg";
+import ecommerce from "../../public/images/ecommerce_web.jpg";
 import finance from "../../public/images/finance.png";
 export default function Solutions() {
   const { t } = useTranslation();
@@ -31,7 +31,7 @@ export default function Solutions() {
       key: "mobileApps",
       linkUrl: "/services/mobile-development",
       color: "bg-purple-500",
-      image: Discovery
+      image: engage_mobile
     },
     {
       icon: "fas fa-tachometer-alt",

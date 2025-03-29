@@ -6,7 +6,8 @@
     "about": "À Propos",
     "contact": "Contact",
     "blog": "Blog",
-    "getStarted": "Commencer"
+    "getStarted": "Commencer",
+    "agents": "Nos Agents"
   },
   "hero": {
     "title": "Élevez Votre Présence Numérique",
@@ -543,5 +544,30 @@
       "content": "Si vous avez des questions concernant cette politique de confidentialité ou nos pratiques en matière de confidentialité, veuillez nous contacter à cognitix_web_dev@proton.me"
     },
     "backToHome": "Retour à l'Accueil"
+  },
+  "agents": {
+    "pageTitle": "Nos Agents Mondiaux",
+    "metaDescription": "Connectez-vous avec les agents mondiaux de Cognitix Solutions pour une assistance personnalisée et une consultation d'expert dans votre région.",
+    "title": "Nos Agents Mondiaux",
+    "subtitle": "Contactez nos agents régionaux pour un service personnalisé et une consultation d'expert adaptée à vos besoins.",
+    "country": "Pays",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "contactButton": "Contacter l'Agent",
+    "positions": {
+      "salesAgent": "Agent commercial",
+      "marketingDirector": "Directeur Marketing",
+      "regionalManager": "Responsable Régional",
+      "businessDevelopment": "Responsable du Développement Commercial",
+      "clientRelations": "Spécialiste Relations Clients"
+    },
+    "countries": {
+      "usa": "États-Unis",
+      "france": "France",
+      "Benin": "Bénin",
+      "uae": "Émirats Arabes Unis",
+      "Canada": "Canada",
+      "mexico": "Mexique"
+    }
   }
 }

@@ -6,6 +6,7 @@ import NotFound from "../src/pages/not-found.tsx";
 import Home from "../src/pages/Home.tsx";
 import Privacy from "../src/pages//Privacy.tsx";
 import ServiceDetail from "../src/pages/ServiceDetail.tsx";
+import Agents from "../src/pages/Agents.tsx";
 import { useTranslation } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
 import Header from "./components/Header.tsx";
@@ -27,6 +28,7 @@ function Router() {
         <Route path="/" component={Home} />
         <Route path="/privacy" component={Privacy} />
         <Route path="/services/:id" component={ServiceDetail} />
+        <Route path="/agents" component={Agents} />
         {/* Fallback to 404 */}
         <Route component={NotFound} />
       </Switch>
