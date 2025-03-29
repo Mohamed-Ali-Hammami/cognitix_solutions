@@ -1,4 +1,4 @@
-import { Switch, Route } from "wouter";
+import { Switch, Route, useLocation } from "wouter";
 import { queryClient } from "./lib/queryClient.ts";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "./components/ui/toaster.tsx";
@@ -15,12 +15,18 @@ import { useEffect } from "react";
 
 function Router() {
   const { i18n } = useTranslation();
+  const [location] = useLocation();
 
   // Update document direction when language changes
   useEffect(() => {
     document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
     document.documentElement.lang = i18n.language;
   }, [i18n.language]);
+
+  // Scroll to top when location changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
   return (
     <AnimatePresence mode="wait">
