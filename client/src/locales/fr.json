@@ -554,8 +554,12 @@
     "phone": "Téléphone",
     "email": "E-mail",
     "contactButton": "Contacter l'Agent",
+    "contactForm": {
+      "title": "Contacter {{name}}",
+      "description": "Remplissez le formulaire ci-dessous pour envoyer un message directement à cet agent. Il vous répondra dans les plus brefs délais."
+    },
     "positions": {
-      "salesAgent": "Agent commercial",
+      "salesManager": "Responsable Commercial",
       "marketingDirector": "Directeur Marketing",
       "regionalManager": "Responsable Régional",
       "businessDevelopment": "Responsable du Développement Commercial",
@@ -564,10 +568,39 @@
     "countries": {
       "usa": "États-Unis",
       "france": "France",
-      "Benin": "Bénin",
       "uae": "Émirats Arabes Unis",
-      "Canada": "Canada",
+      "japan": "Japon",
       "mexico": "Mexique"
     }
+  },
+  "forms": {
+    "labels": {
+      "name": "Nom",
+      "email": "E-mail",
+      "company": "Entreprise (Optionnel)",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Votre nom",
+      "email": "votre.email@exemple.com",
+      "company": "Nom de votre entreprise",
+      "message": "Écrivez votre message ici..."
+    },
+    "errors": {
+      "title": "Erreur",
+      "nameRequired": "Le nom doit comporter au moins 2 caractères",
+      "emailInvalid": "Veuillez saisir une adresse e-mail valide",
+      "messageRequired": "Le message doit comporter au moins 10 caractères",
+      "submitFailed": "Échec de l'envoi du message. Veuillez réessayer."
+    },
+    "success": {
+      "title": "Succès",
+      "messageSent": "Votre message a été envoyé avec succès !"
+    }
+  },
+  "buttons": {
+    "send": "Envoyer le Message",
+    "sending": "Envoi en cours...",
+    "cancel": "Annuler"
   }
 }

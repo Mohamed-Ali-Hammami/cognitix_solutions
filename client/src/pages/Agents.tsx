@@ -1,11 +1,14 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
+import AgentContactForm from "../components/AgentContactForm.tsx";
 import Agent1 from "../../src/public/images/agents/zinedine.jpg";
 import Agent2 from "../../src/public/images/agents/yosser.jpg";
 import Agent3 from "../../src/public/images/agents/housnou.jpg";
 import Agent4 from "../../src/public/images/agents/agent4.png";
 import Agent5 from "../../src/public/images/agents/agent5.png";
+
 interface Agent {
   id: number;
   name: string;
@@ -19,10 +22,32 @@ interface Agent {
 
 export default function Agents() {
   const { t } = useTranslation();
+  const [selectedAgent, setSelectedAgent] = useState<Agent | null>(null);
+  const [isContactFormOpen, setIsContactFormOpen] = useState(false);
+
+  // Open contact form
+  const handleContactClick = (agent: Agent) => {
+    setSelectedAgent(agent);
+    setIsContactFormOpen(true);
+  };
+
+  // Close contact form
+  const handleCloseContactForm = () => {
+    setIsContactFormOpen(false);
+  };
 
   // Agent data
   const agents: Agent[] = [
-
+    {
+      id: 1,
+      name: "Zinedine",
+      lastName: "Bourfaa",
+      position: t("agents.positions.salesAgent"),
+      country: t("agents.countries.france"),
+      phoneNumber: "+33 6 27 20 47 47",
+      email: "Zinedine.bourfaa@outlook.fr",
+      image: Agent1
+    },
     {
       id: 2,
       name: "Haddaoui",
@@ -44,21 +69,11 @@ export default function Agents() {
       image: Agent3
     },
     {
-        id: 1,
-        name: "Zinedine",
-        lastName: "Bourfaa",
-        position: t("agents.positions.salesAgent"),
-        country: t("agents.countries.france"),
-        phoneNumber: "+33 6 27 20 47 47",
-        email: "Zinedine.bourfaa@outlook.fr",
-        image: Agent1
-      },
-    {
       id: 4,
       name: "Akiko",
       lastName: "Tanaka",
       position: t("agents.positions.salesAgent"),
-      country: t("agents.countries.japan"),
+      country: t("agents.countries.uae"),
       phoneNumber: "+81 90 1234 5678",
       email: "akiko.tanaka@cognitix.com",
       image: Agent4
@@ -149,7 +164,10 @@ export default function Agents() {
                       </a>
                     </p>
                   </div>
-                  <button className="mt-6 w-full py-2 bg-primary text-white rounded-md hover:bg-primary/90 transition-colors">
+                  <button 
+                    className="mt-6 w-full py-2 bg-primary text-white rounded-md hover:bg-primary/90 transition-colors"
+                    onClick={() => handleContactClick(agent)}
+                  >
                     {t("agents.contactButton")}
                   </button>
                 </div>
@@ -158,6 +176,16 @@ export default function Agents() {
           </div>
         </motion.div>
       </div>
+
+      {/* Contact Form Modal */}
+      {selectedAgent && (
+        <AgentContactForm
+          isOpen={isContactFormOpen}
+          onClose={handleCloseContactForm}
+          agentName={`${selectedAgent.name} ${selectedAgent.lastName}`}
+          agentEmail={selectedAgent.email}
+        />
+      )}
     </>
   );
 } 

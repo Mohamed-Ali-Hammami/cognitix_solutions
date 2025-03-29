@@ -554,8 +554,12 @@
     "phone": "Phone",
     "email": "Email",
     "contactButton": "Contact Agent",
+    "contactForm": {
+      "title": "Contact {{name}}",
+      "description": "Fill out the form below to send a message directly to this agent. They will get back to you as soon as possible."
+    },
     "positions": {
-      "salesAgent": "Commercial agent",
+      "salesManager": "Sales Manager",
       "marketingDirector": "Marketing Director",
       "regionalManager": "Regional Manager",
       "businessDevelopment": "Business Development Manager",
@@ -563,11 +567,40 @@
     },
     "countries": {
       "usa": "United States",
-      "Benin": "Benin",
       "france": "France",
       "uae": "United Arab Emirates",
-      "Canada": "Canada",
+      "japan": "Japan",
       "mexico": "Mexico"
     }
+  },
+  "forms": {
+    "labels": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company (Optional)",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Your name",
+      "email": "your.email@example.com",
+      "company": "Your company name",
+      "message": "Write your message here..."
+    },
+    "errors": {
+      "title": "Error",
+      "nameRequired": "Name must be at least 2 characters",
+      "emailInvalid": "Please enter a valid email address",
+      "messageRequired": "Message must be at least 10 characters",
+      "submitFailed": "Failed to send message. Please try again."
+    },
+    "success": {
+      "title": "Success",
+      "messageSent": "Your message has been sent successfully!"
+    }
+  },
+  "buttons": {
+    "send": "Send Message",
+    "sending": "Sending...",
+    "cancel": "Cancel"
   }
 }
