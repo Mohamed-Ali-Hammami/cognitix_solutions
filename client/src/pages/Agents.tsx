@@ -7,7 +7,7 @@ import Agent1 from "../../src/public/images/agents/zinedine.jpg";
 import Agent2 from "../../src/public/images/agents/yosser.jpg";
 import Agent3 from "../../src/public/images/agents/housnou.jpg";
 import Agent4 from "../../src/public/images/agents/Achref.jpg";
-import Agent5 from "../../src/public/images/agents/agent5.png";
+import Agent5 from "../../src/public/images/agents/hamza.jpg";
 
 interface Agent {
   id: number;
@@ -81,12 +81,12 @@ export default function Agents() {
     },
     {
       id: 5,
-      name: "Carlos",
-      lastName: "Mendoza",
+      name: "Bouhjar",
+      lastName: "Hamza",
       position: t("agents.positions.salesManager"),
-      country: t("agents.countries.usa"),
-      phoneNumber: "+52 55 1234 5678",
-      email: "carlos.mendoza@cognitix.com",
+      country: t("agents.countries.Sweden"),
+      phoneNumber: "+46 70 43 96 817",
+      email: "Bouhjar3328@gmail.com",
       image: Agent5
     }
   ];

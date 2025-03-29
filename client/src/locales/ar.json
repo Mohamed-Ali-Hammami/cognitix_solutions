@@ -572,12 +572,12 @@
     "positions": {
       "salesManager": "مدير المبيعات",
       "marketingDirector": "مدير التسويق",
-      "regionalManager": "مسئول الاتصال والعلاقات العامة",
+      "regionalManager": "مسؤول الاتصال والعلاقات العامة",
       "businessDevelopment": "مدير تطوير الأعمال",
       "clientRelations": "مختص علاقات العملاء"
     },
     "countries": {
-      "usa": "الولايات المتحدة الأمريكية",
+      "Sweden":"السويد",
       "france": "فرنسا",
       "uae": "الإمارات العربية المتحدة",
       "Canada": "كندا",
