@@ -43,10 +43,10 @@ export default function Agents() {
       id: 2,
       name: "Haddaoui",
       lastName: "Yosser",
-      position: t("agents.positions.clientRelations"),
+      position: t("agents.positions.regionalManager"),
       country: t("agents.countries.Canada"),
       phoneNumber: "email only",
-      email: "jean.dupont@cognitix.com",
+      email: "Yousr@hotmail.ca",
       image: Agent2
     },
     {
@@ -71,12 +71,12 @@ export default function Agents() {
       },
     {
       id: 4,
-      name: "Akiko",
-      lastName: "Tanaka",
+      name: "Achref",
+      lastName: "Mlayah",
       position: t("agents.positions.salesManager"),
-      country: t("agents.countries.uae"),
-      phoneNumber: "+81 90 1234 5678",
-      email: "akiko.tanaka@cognitix.com",
+      country: t("agents.countries.Germany"),
+      phoneNumber: "+49 17 66 33 04 10",
+      email: "achref.mlayah1@gmail.com",
       image: Agent4
     },
     {

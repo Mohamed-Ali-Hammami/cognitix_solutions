@@ -572,7 +572,7 @@
     "positions": {
       "salesManager": "مدير المبيعات",
       "marketingDirector": "مدير التسويق",
-      "regionalManager": "المدير الإقليمي",
+      "regionalManager": "مسئول الاتصال والعلاقات العامة",
       "businessDevelopment": "مدير تطوير الأعمال",
       "clientRelations": "مختص علاقات العملاء"
     },
@@ -581,7 +581,8 @@
       "france": "فرنسا",
       "uae": "الإمارات العربية المتحدة",
       "Canada": "كندا",
-      "Benin": "دولة بنين"
+      "Benin": "دولة بنين",
+      "Germany":"ألمانيا"
     }
   },
   "forms": {

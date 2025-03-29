@@ -561,7 +561,7 @@
     "positions": {
       "salesManager": "Sales Manager",
       "marketingDirector": "Marketing Director",
-      "regionalManager": "Regional Manager",
+      "regionalManager": "Communications and Public Relations Officer",
       "businessDevelopment": "Business Development Manager",
       "clientRelations": "Client Relations Specialist"
     },
@@ -570,7 +570,8 @@
       "france": "France",
       "uae": "United Arab Emirates",
       "Canada": "Canada",
-      "Benin": "Benin"
+      "Benin": "Benin",
+      "Germany":"Germany"
     }
   },
   "forms": {

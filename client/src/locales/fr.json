@@ -561,7 +561,7 @@
     "positions": {
       "salesManager": "Responsable Commercial",
       "marketingDirector": "Directeur Marketing",
-      "regionalManager": "Responsable Régional",
+      "regionalManager": "Agente de communication et relations publiques",
       "businessDevelopment": "Responsable du Développement Commercial",
       "clientRelations": "Spécialiste Relations Clients"
     },
@@ -570,7 +570,8 @@
       "france": "France",
       "uae": "Émirats Arabes Unis",
       "Canada": "Canada",
-      "Benin": "Bénin"
+      "Benin": "Bénin",
+      "Germany":"Allemagne"
     }
   },
   "forms": {
