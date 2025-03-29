@@ -41,8 +41,8 @@ export default function Agents() {
 
     {
       id: 2,
-      name: "Haddaoui",
-      lastName: "Yosser",
+      name: "Yosser",
+      lastName: "Haddaoui",
       position: t("agents.positions.regionalManager"),
       country: t("agents.countries.Canada"),
       phoneNumber: "email only",
@@ -61,8 +61,8 @@ export default function Agents() {
     },
     {
         id: 1,
-        name: "Zinedine",
-        lastName: "Bourfaa",
+        name: "Bourfaa",
+        lastName: "Zinedine",
         position: t("agents.positions.salesManager"),
         country: t("agents.countries.france"),
         phoneNumber: "+33 6 27 20 47 47",
@@ -71,8 +71,8 @@ export default function Agents() {
       },
     {
       id: 4,
-      name: "Achref",
-      lastName: "Mlayah",
+      name: "Mlayah",
+      lastName: "Achref",
       position: t("agents.positions.salesManager"),
       country: t("agents.countries.Germany"),
       phoneNumber: "+49 17 66 33 04 10",
