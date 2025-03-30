@@ -158,7 +158,6 @@ export default function Agents() {
                   <p className="text-primary font-medium mb-4">{agent.position}</p>
                   <div className="space-y-3 text-gray-700">
                     <p><span className="font-medium">{t("agents.country")}: </span>{agent.country}</p>
-                    <p><span className="font-medium">{t("agents.phone")}: </span>{agent.phoneNumber}</p>
                     <p>
                       <span className="font-medium">{t("agents.email")}: </span>
                       <a href={`mailto:${agent.email}`} className="text-primary hover:underline">
