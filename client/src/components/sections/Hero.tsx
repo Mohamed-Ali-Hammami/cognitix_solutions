@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import styles from '../../styles/Hero.module.css';
 import logo from '../../public/images/logo.png';
+import backgroundVideo from '../../public/images/cognitix_home.mp4';
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -54,6 +55,20 @@ export default function Hero() {
 
   return (
     <section id="home" className={styles.hero}>
+      {/* Video Background */}
+      <div className={styles.videoContainer}>
+      <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline 
+            className={styles.backgroundVideo}
+            
+          >
+            <source src={backgroundVideo} type="video/mp4" />
+          </video>
+      </div>
+
       <motion.div 
         className={styles.backgroundSymbols}
         initial="hidden"
