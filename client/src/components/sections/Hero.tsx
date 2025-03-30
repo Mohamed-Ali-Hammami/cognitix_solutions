@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import styles from '../../styles/Hero.module.css';
 import logo from '../../public/images/logo.png';
-import backgroundVideo from '../../public/images/cognitix_home.mp4';
+import backgroundVideo from '../../public/images/cognitix2.mp4';
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -89,7 +89,7 @@ export default function Hero() {
         </motion.div>
       </motion.div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-7 relative z-10">
         <div className={styles.contentContainer}>
           <motion.div 
             className={styles.content}
