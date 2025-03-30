@@ -24,7 +24,7 @@ export default function Footer() {
 
   return (
     <motion.footer 
-      className="bg-blue-100 text-white pb-2"
+      className="bg-gray-900 text-white pb-2"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
