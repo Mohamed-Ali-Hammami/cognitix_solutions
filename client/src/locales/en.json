@@ -42,6 +42,26 @@
       "title": "E-commerce Solutions",
       "description": "Complete online store solutions with secure payment processing and inventory management"
     },
+    "contentWriting": {
+      "title": "Content Writing",
+      "description": "Professional writing services including press releases, newsletters, and more"
+    },
+    "posterProduction": {
+      "title": "Poster Production",
+      "description": "Creative and impactful poster designs for various promotional needs"
+    },
+    "logoDesign": {
+      "title": "Logo Design",
+      "description": "Unique and memorable logo creation to represent your brand identity"
+    },
+    "socialMediaManagement": {
+      "title": "Social Media Management",
+      "description": "Strategic planning and execution of social media campaigns to engage your audience"
+    },
+    "imageEditing": {
+      "title": "Image Editing",
+      "description": "Expert image editing using Photoshop/Illustrator for high-quality visual content"
+    },
     "learnMore": "Learn More"
   },
   "solutions": {

@@ -17,18 +17,18 @@
   },
   "services": {
     "title": "Nos Services",
-    "subtitle": "Des solutions numériques complètes adaptées aux besoins de votre entreprise",
+    "subtitle": "Solutions numériques complètes adaptées à vos besoins commerciaux",
     "webDevelopment": {
       "title": "Développement Web",
-      "description": "Sites web personnalisés construits avec les dernières technologies pour offrir des performances et une expérience utilisateur optimales"
+      "description": "Sites web sur mesure développés avec les technologies les plus récentes pour offrir des performances optimales et une expérience utilisateur exceptionnelle"
     },
     "mobileDevelopment": {
       "title": "Développement Mobile",
-      "description": "Applications mobiles natives et multi-plateformes pour iOS et Android"
+      "description": "Applications mobiles natives et multiplateformes pour iOS et Android"
     },
     "uiUxDesign": {
-      "title": "Design UI/UX",
-      "description": "Design centré sur l'utilisateur qui améliore l'utilisabilité et crée des interfaces engageantes"
+      "title": "Conception UI/UX",
+      "description": "Design centré sur l'utilisateur qui améliore l'ergonomie et crée des interfaces engageantes"
     },
     "digitalMarketing": {
       "title": "Marketing Digital",
@@ -40,9 +40,29 @@
     },
     "ecommerceSolutions": {
       "title": "Solutions E-commerce",
-      "description": "Solutions de boutique en ligne complètes avec traitement sécurisé des paiements et gestion des stocks"
+      "description": "Solutions complètes de boutiques en ligne avec paiements sécurisés et gestion des stocks"
     },
-    "learnMore": "Savoir Plus"
+    "contentWriting": {
+      "title": "Rédaction de Contenu",
+      "description": "Services professionnels de rédaction incluant des communiqués de presse, newsletters, et plus encore"
+    },
+    "posterProduction": {
+      "title": "Production d’Affiches",
+      "description": "Création d'affiches créatives et percutantes pour divers besoins promotionnels"
+    },
+    "logoDesign": {
+      "title": "Conception de Logo",
+      "description": "Création de logos uniques et mémorables pour représenter l'identité de votre marque"
+    },
+    "socialMediaManagement": {
+      "title": "Gestion des Réseaux Sociaux",
+      "description": "Planification et exécution stratégique de campagnes sur les réseaux sociaux pour engager votre audience"
+    },
+    "imageEditing": {
+      "title": "Édition d’Images",
+      "description": "Édition experte d'images utilisant Photoshop/Illustrator pour un contenu visuel de haute qualité"
+    },
+    "learnMore": "En savoir plus"
   },
   "solutions": {
     "title": "Des Solutions qui Produisent des Résultats",

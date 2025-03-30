@@ -24,7 +24,7 @@ export default function Footer() {
 
   return (
     <motion.footer 
-      className="bg-gray-900 text-white pt-16 pb-8"
+      className="bg-blue-100 text-white pb-2"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
@@ -34,7 +34,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <motion.div 
-          className="mt-16 pt-8 border-t border-gray-800 text-center text-gray-500"
+          className="mt-8 pt-4 border-t border-gray-800 text-center text-gray-500"
           variants={itemAnimation}
         >
           <p>{t('footer.copyright')}</p>

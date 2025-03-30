@@ -47,6 +47,42 @@ export default function Services() {
       icon: "shopping-cart",
       features: ["Online Store Setup", "Payment Processing", "Inventory Management"],
       slug: "ecommerce-solutions"
+    },
+    // New Services Added Below
+    {
+      title: t('services.contentWriting.title'),
+      description: t('services.contentWriting.description'),
+      icon: "pen-fancy",
+      features: ["Press Releases", "Newsletters", "Blog Articles"],
+      slug: "content-writing"
+    },
+    {
+      title: t('services.posterProduction.title'),
+      description: t('services.posterProduction.description'),
+      icon: "photo-video",
+      features: ["Creative Designs", "Promotional Posters", "Event Flyers"],
+      slug: "poster-production"
+    },
+    {
+      title: t('services.logoDesign.title'),
+      description: t('services.logoDesign.description'),
+      icon: "signature",
+      features: ["Brand Identity", "Unique Logos", "Memorable Designs"],
+      slug: "logo-design"
+    },
+    {
+      title: t('services.socialMediaManagement.title'),
+      description: t('services.socialMediaManagement.description'),
+      icon: "share-alt",
+      features: ["Campaign Planning", "Audience Engagement", "Content Scheduling"],
+      slug: "social-media-management"
+    },
+    {
+      title: t('services.imageEditing.title'),
+      description: t('services.imageEditing.description'),
+      icon: "brush",
+      features: ["Photoshop Editing", "Illustrator Designs", "High-Quality Visuals"],
+      slug: "image-editing"
     }
   ];
 
@@ -93,7 +129,7 @@ export default function Services() {
   };
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-blue-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           className="text-center mb-16"
@@ -142,7 +178,6 @@ export default function Services() {
                   to={`/services/${service.slug}`}
                   className="text-primary font-medium hover:text-primary/80 transition-colors flex items-center gap-1"
                 >
-                  {t('services.learnMore')} <i className="fas fa-arrow-right text-sm"></i>
                 </Link>
               </div>
             </motion.div>
