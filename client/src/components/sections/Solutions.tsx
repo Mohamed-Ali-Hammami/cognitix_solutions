@@ -15,7 +15,7 @@ export default function Solutions() {
     {
       icon: "fas fa-globe",
       key: "businessWebsites",
-      linkUrl: "/services/web-development",
+      linkUrl: "/services/content-strategy",
       color: "bg-blue-500",
       image: Developpement
     },

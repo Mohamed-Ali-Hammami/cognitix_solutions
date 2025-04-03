@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
-import backgroundVideo from '../../public/images/cognitix2.mp4';
+import backgroundVideo from '../../public/images/cognitix_film1.mp4';
 
 export default function CTA() {
   const { t } = useTranslation();

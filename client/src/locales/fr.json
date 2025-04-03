@@ -2,7 +2,7 @@
   "navigation": {
     "home": "Accueil",
     "services": "Services",
-    "projects": "Projets",
+    "projects": "Solutions",
     "about": "À Propos",
     "contact": "Contact",
     "blog": "Blog",
@@ -403,51 +403,63 @@
       }
     }
   },
-  "projects": {
-    "title": "Nos Projets",
-    "subtitle": "Explorez nos derniers travaux qui démontrent notre expertise et créativité",
-    "viewAll": "Voir Tous les Projets",
-    "categories": {
-      "all": "Tous",
-      "webDevelopment": "Développement Web",
-      "mobileDevelopment": "Développement Mobile",
-      "ecommerce": "E-commerce",
-      "digitalMarketing": "Marketing Digital"
-    },
-    "items": {
-      "ecommerce": {
-        "title": "Tableau de bord E-commerce",
-        "description": "Un tableau de bord complet pour une grande entreprise de vente au détail avec des fonctionnalités avancées d'analyse et de reporting",
-        "category": "E-commerce"
+
+    "projects": {
+      "title": "Solutions Digitales Intégrées pour la Croissance des Entreprises",
+      "subtitle": "Libérez le potentiel de votre marque avec des stratégies digitales sur mesure qui génèrent des résultats et améliorent la présence en ligne.",
+      "websiteCreation": {
+        "title": "Conception et Développement de Sites Web",
+        "description": "Votre site web est la base de votre présence digitale. Nous créons des expériences fluides et centrées sur l'utilisateur qui engagent les visiteurs et les convertissent en clients fidèles.",
+        "items": [
+          "Conception de Sites Web Personnalisée",
+          "Sites Web Basés sur des Modèles",
+          "Développement E-commerce",
+          "Maintenance Continue et Mises à Jour du Site Web",
+          "Optimisation Mobile-First"
+        ]
       },
-      "healthcare": {
-        "title": "Application Mobile de Santé",
-        "description": "Une application mobile de gestion des patients pour un prestataire de soins de santé avec des fonctionnalités de prise de rendez-vous et de télémédecine",
-        "category": "Santé"
+      "digitalMarketing": {
+        "title": "Marketing Digital Complet",
+        "description": "Nos stratégies basées sur les données vous aident à atteindre, engager et convertir votre audience, tout en augmentant la visibilité et l'impact de votre marque dans l'espace numérique.",
+        "items": [
+          "Optimisation pour les Moteurs de Recherche (SEO)",
+          "Stratégie de Marketing de Contenu",
+          "Marketing & Gestion des Réseaux Sociaux",
+          "Campagnes de Marketing par Email Ciblées",
+          "Partenariats avec des Influenceurs & Affiliés"
+        ]
       },
-      "finance": {
-        "title": "Plateforme d'Analyse Financière",
-        "description": "Une plateforme d'analyse financière de niveau entreprise avec des outils de traitement et de visualisation de données en temps réel",
-        "category": "Finance"
+      "advertising": {
+        "title": "Solutions Publicitaires Ciblées",
+        "description": "Exploitez des stratégies publicitaires avancées pour développer votre entreprise, capturer des prospects de qualité et générer des conversions avec des résultats mesurables.",
+        "items": [
+          "Campagnes de Publicité sur les Moteurs de Recherche (PPC)",
+          "Publicité sur les Réseaux Sociaux",
+          "Publicités de Remarketing & Retargeting",
+          "Analyse et Rapports Détaillés sur les Publicités"
+        ]
+      },
+      "trafficManagement": {
+        "title": "Génération de Trafic et Optimisation des Conversions",
+        "description": "Nous nous concentrons sur la génération de trafic de haute qualité vers votre site et sur l'optimisation de vos pages web pour convertir les visiteurs en clients et augmenter le ROI.",
+        "items": [
+          "Analyse Avancée du Trafic Web",
+          "Optimisation du Taux de Conversion (CRO)",
+          "Création et Optimisation des Pages de Destination"
+        ]
+      },
+      "whyChooseUs": {
+        "title": "Pourquoi Choisir Cognitix Solutions ?",
+        "items": [
+          "Équipe Expérimentée et Compétente",
+          "Solutions Personnalisées et Scalables",
+          "Stratégies Axées sur les Résultats et Fondées sur les Données",
+          "Transparence Totale avec des Rapports",
+          "Approche Centrée sur le Client",
+          "Services Flexibles et Scalables pour la Croissance"
+        ]
       }
-    }
-  },
-  "testimonials": {
-    "title": "Ce Que Disent Nos Clients",
-    "subtitle": "Ne vous fiez pas seulement à nos paroles - écoutez ce que nos clients ont à dire",
-    "client1": {
-      "role": "PDG, TechStart Inc.",
-      "text": "Cognitix a transformé notre entreprise avec leurs services exceptionnels de développement web. Ils ont livré notre projet dans les délais et ont dépassé nos attentes à tous égards."
     },
-    "client2": {
-      "role": "Directeur Technique, HealthPlus",
-      "text": "L'équipe de Cognitix est professionnelle, réactive et incroyablement talentueuse. Ils ont rapidement compris nos exigences complexes et ont livré une solution exceptionnelle."
-    },
-    "client3": {
-      "role": "Directrice Marketing, ShopSmart",
-      "text": "Depuis le lancement de notre nouvelle plateforme e-commerce développée par Cognitix, nos ventes ont augmenté de 40%. Leur expertise en design et en fonctionnalité est inégalée."
-    }
-  },
   "process": {
     "title": "Notre Processus",
     "subtitle": "Comment nous transformons vos idées en solutions numériques réussies",

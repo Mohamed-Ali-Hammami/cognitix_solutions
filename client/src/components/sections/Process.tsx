@@ -1,12 +1,12 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import Discovery from "../../public/images/Discovery.png";
-import Planing from "../../public/images/planing1.png";
-import Design from "../../public/images/design_ex.avif";
-import Developpement from "../../public/images/developement.png";
-import Testing from "../../public/images/Testing.png";
-import Launch from "../../public/images/Deploy.png";
-import Support from "../../public/images/support.jpg";
+import Discovery from "../../public/images/Gifbusi.gif";
+import Planing from "../../public/images/planing.gif";
+import Design from "../../public/images/design1.gif";
+import Developpement from "../../public/images/Business_Development.gif";
+import Testing from "../../public/images/tseting.gif";
+import Launch from "../../public/images/deploy.gif";
+import Support from "../../public/images/support.gif";
 
 export default function Process() {
   const { t } = useTranslation();

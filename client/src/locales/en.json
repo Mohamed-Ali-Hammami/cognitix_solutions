@@ -2,7 +2,7 @@
   "navigation": {
     "home": "Home",
     "services": "Services",
-    "projects": "Projects",
+    "projects": "Solutions",
     "about": "About Us",
     "contact": "Contact",
     "blog": "Blog",
@@ -105,6 +105,63 @@
       "linkText": "Learn more about marketing platforms"
     }
   },
+    "projects": {
+      "title": "Integrated Digital Solutions for Business Growth",
+      "subtitle": "Unlock your brand's potential with tailored digital strategies that drive results and enhance online presence.",
+      "websiteCreation": {
+        "title": "Website Design & Development",
+        "description": "Your website is the foundation of your digital presence. We craft seamless, user-focused experiences that engage visitors and convert them into loyal customers.",
+        "items": [
+          "Custom Website Design",
+          "Template-Based Websites",
+          "E-commerce Development",
+          "Ongoing Website Maintenance & Updates",
+          "Mobile-First Optimization"
+        ]
+      },
+      "digitalMarketing": {
+        "title": "Complete Digital Marketing",
+        "description": "Our data-driven strategies help you reach, engage, and convert your audience, elevating your brand's visibility and impact in the digital space.",
+        "items": [
+          "Search Engine Optimization (SEO)",
+          "Content Marketing Strategy",
+          "Social Media Marketing & Management",
+          "Targeted Email Marketing Campaigns",
+          "Influencer & Affiliate Partnerships"
+        ]
+      },
+      "advertising": {
+        "title": "Targeted Advertising Solutions",
+        "description": "Leverage advanced advertising strategies to grow your business, capture high-quality leads, and drive conversions with measurable results.",
+        "items": [
+          "Paid Search (PPC) Campaigns",
+          "Social Media Advertising",
+          "Remarketing & Retargeting Ads",
+          "Detailed Ad Analytics & Reporting"
+        ]
+      },
+      "trafficManagement": {
+        "title": "Traffic Generation & Conversion Optimization",
+        "description": "We focus on driving high-quality traffic to your site and optimizing your web pages to convert visitors into customers and increase ROI.",
+        "items": [
+          "Advanced Web Traffic Analysis",
+          "Conversion Rate Optimization (CRO)",
+          "Landing Page Creation & Optimization"
+        ]
+      },
+      "whyChooseUs": {
+        "title": "Why Choose Cognitix Solutions?",
+        "items": [
+          "Experienced & Skilled Team",
+          "Customized & Scalable Solutions",
+          "Results-Driven & Data-Backed Strategies",
+          "Full Transparency with Reporting",
+          "Customer-Centric Approach",
+          "Flexible, Scalable Services for Growth"
+        ]
+      }
+    }, 
+  
   "serviceDetail": {
     "overview": "Overview",
     "process": "Our Process",
@@ -214,7 +271,7 @@
       "benefits": [
         "Improved user satisfaction and engagement",
         "Reduced user frustration and support costs",
-        "Higher conversion rates through optimized user journeys",
+        "Higher conversion rates with optimized user journeys",
         "Consistent brand experience across all touchpoints",
         "Data-driven design decisions based on user research"
       ],
@@ -401,51 +458,6 @@
         "title": "Integrity",
         "description": "We operate with honesty, transparency, and ethical business practices"
       }
-    }
-  },
-  "projects": {
-    "title": "Our Projects",
-    "subtitle": "Explore our latest work that showcases our expertise and creativity",
-    "viewAll": "View All Projects",
-    "categories": {
-      "all": "All",
-      "webDevelopment": "Web Development",
-      "mobileDevelopment": "Mobile Development",
-      "ecommerce": "E-commerce",
-      "digitalMarketing": "Digital Marketing"
-    },
-    "items": {
-      "ecommerce": {
-        "title": "E-commerce Dashboard",
-        "description": "A comprehensive dashboard for a large retail company with advanced analytics and reporting features",
-        "category": "E-commerce"
-      },
-      "healthcare": {
-        "title": "Healthcare Mobile App",
-        "description": "A patient management mobile app for a healthcare provider with appointment scheduling and telemedicine features",
-        "category": "Healthcare"
-      },
-      "finance": {
-        "title": "Financial Analysis Platform",
-        "description": "An enterprise-level financial analysis platform with real-time data processing and visualization tools",
-        "category": "Finance"
-      }
-    }
-  },
-  "testimonials": {
-    "title": "What Our Clients Say",
-    "subtitle": "Don't just take our word for it - hear what our clients have to say",
-    "client1": {
-      "role": "CEO, TechStart Inc.",
-      "text": "Cognitix transformed our business with their outstanding web development services. They delivered our project on time and exceeded our expectations in every way."
-    },
-    "client2": {
-      "role": "CTO, HealthPlus",
-      "text": "The Cognitix team is professional, responsive, and incredibly talented. They quickly understood our complex requirements and delivered an exceptional solution."
-    },
-    "client3": {
-      "role": "Marketing Director, ShopSmart",
-      "text": "Since the launch of our new e-commerce platform developed by Cognitix, our sales have increased by 40%. Their expertise in design and functionality is unparalleled."
     }
   },
   "process": {
