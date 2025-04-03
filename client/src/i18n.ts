@@ -3,6 +3,7 @@ import { initReactI18next } from 'react-i18next';
 
 // Import locale files
 import enTranslation from './locales/en.json';
+import deTranslation from './locales/de.json';
 import frTranslation from './locales/fr.json';
 import arTranslation from './locales/ar.json';
 
@@ -13,6 +14,9 @@ i18n
     resources: {
       en: {
         translation: enTranslation
+      },
+      de: {
+        translation: deTranslation
       },
       fr: {
         translation: frTranslation
@@ -34,7 +38,7 @@ i18n
 // Set initial HTML language attribute based on the selected language
 document.documentElement.lang = i18n.language;
 
-// Set initial text direction (LTR for English and French, RTL for Arabic)
+// Set initial text direction (LTR for English, French, German, RTL for Arabic)
 document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
 
 export default i18n;

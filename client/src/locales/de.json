@@ -1,0 +1,680 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "projects": "Lösungen",
+    "about": "Über Uns",
+    "contact": "Kontakt",
+    "blog": "Blog",
+    "getStarted": "Loslegen",
+    "agents": "Unsere Agenten"
+  },
+  "hero": {
+    "title": "Verbessern Sie Ihre Digitale Präsenz",
+    "subtitle": "Verwandeln Sie Ihre Ideen in leistungsstarke digitale Lösungen mit unseren professionellen Webentwicklungsdiensten",
+    "ctaButton": "Loslegen",
+    "secondaryButton": "Mehr Erfahren"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Umfassende digitale Lösungen, maßgeschneidert für Ihre Geschäftsanforderungen",
+    "webDevelopment": {
+      "title": "Webentwicklung",
+      "description": "Maßgeschneiderte Websites, entwickelt mit den neuesten Technologien für optimale Leistung und Benutzererfahrung"
+    },
+    "mobileDevelopment": {
+      "title": "Mobile Entwicklung",
+      "description": "Native und plattformübergreifende mobile Anwendungen für iOS und Android"
+    },
+    "uiUxDesign": {
+      "title": "UI/UX Design",
+      "description": "Nutzerzentriertes Design, das die Benutzerfreundlichkeit verbessert und ansprechende Schnittstellen schafft"
+    },
+    "digitalMarketing": {
+      "title": "Digitales Marketing",
+      "description": "Strategien zur Steigerung Ihrer Online-Sichtbarkeit und zur Gewinnung gezielten Traffics für Ihre Website"
+    },
+    "contentStrategy": {
+      "title": "Content-Strategie",
+      "description": "Ansprechende Inhalte, die bei Ihrer Zielgruppe Anklang finden und Ihre Geschäftsziele unterstützen"
+    },
+    "ecommerceSolutions": {
+      "title": "E-Commerce-Lösungen",
+      "description": "Komplette Online-Shop-Lösungen mit sicherer Zahlungsabwicklung und Bestandsverwaltung"
+    },
+    "contentWriting": {
+      "title": "Content-Erstellung",
+      "description": "Professionelle Schreibdienste einschließlich Pressemitteilungen, Newsletter und mehr"
+    },
+    "posterProduction": {
+      "title": "Posterproduktion",
+      "description": "Kreative und wirkungsvolle Posterdesigns für verschiedene Werbezwecke"
+    },
+    "logoDesign": {
+      "title": "Logo-Design",
+      "description": "Einzigartige und einprägsame Logo-Kreation zur Darstellung Ihrer Markenidentität"
+    },
+    "socialMediaManagement": {
+      "title": "Social Media Management",
+      "description": "Strategische Planung und Durchführung von Social-Media-Kampagnen zur Einbindung Ihrer Zielgruppe"
+    },
+    "imageEditing": {
+      "title": "Bildbearbeitung",
+      "description": "Professionelle Bildbearbeitung mit Photoshop/Illustrator für hochwertige visuelle Inhalte"
+    },
+    "learnMore": "Mehr Erfahren"
+  },
+  "solutions": {
+    "title": "Lösungen, Die Ergebnisse Liefern",
+    "subtitle": "Wir entwickeln nicht nur Websites und Apps — wir schaffen digitale Lösungen, die echte Geschäftsprobleme lösen und messbare Ergebnisse liefern.",
+    "keyBenefits": "Hauptvorteile",
+    "businessWebsites": {
+      "title": "Etablieren Sie Ihre Online-Präsenz",
+      "description": "Werden Sie von neuen Kunden entdeckt mit einer professionellen Website, die Glaubwürdigkeit schafft, Ihre Dienstleistungen präsentiert und Besucher rund um die Uhr in Leads verwandelt.",
+      "features": ["Responsives Design", "Content-Management", "SEO-Optimierung", "Lead-Generierung"],
+      "linkText": "Mehr über Unternehmenswebsites erfahren"
+    },
+    "ecommerce": {
+      "title": "Produkte Weltweit Verkaufen",
+      "description": "Transformieren Sie Ihr Einzelhandelsgeschäft mit einem Online-Shop, der geografische Barrieren beseitigt, Verkaufsprozesse automatisiert und Kundenbindung aufbaut.",
+      "features": ["Sichere Zahlungen", "Bestandsverwaltung", "Kundenkonten", "Mobiles Einkaufen"],
+      "linkText": "Mehr über E-Commerce-Lösungen erfahren"
+    },
+    "mobileApps": {
+      "title": "Nutzer Mobil Einbinden",
+      "description": "Erreichen Sie Kunden überall mit nativen Apps, die nahtlose Erfahrungen bieten, Markenloyalität aufbauen und direkte Kommunikationskanäle ermöglichen.",
+      "features": ["iOS & Android", "Offline-Zugriff", "Push-Benachrichtigungen", "Schnelle Leistung"],
+      "linkText": "Mehr über mobile Anwendungen erfahren"
+    },
+    "webApps": {
+      "title": "Geschäftsprozesse Optimieren",
+      "description": "Automatisieren Sie Arbeitsabläufe, zentralisieren Sie Daten und gewinnen Sie umsetzbare Erkenntnisse mit maßgeschneiderten Webanwendungen, die Ihre spezifischen Geschäftsherausforderungen lösen.",
+      "features": ["Prozessautomatisierung", "Datenanalyse", "Benutzerauthentifizierung", "API-Integration"],
+      "linkText": "Mehr über Webanwendungen erfahren"
+    },
+    "uiUxDesign": {
+      "title": "Benutzererfahrung Verbessern",
+      "description": "Reduzieren Sie Absprungraten und erhöhen Sie Konversionen mit intuitiven Schnittstellen, die Benutzer natürlich führen, komplexe Prozesse vereinfachen und bei jedem Schritt begeistern.",
+      "features": ["Intuitive Navigation", "Visuelle Hierarchie", "Barrierefreiheit", "Konversionsorientiert"],
+      "linkText": "Mehr über UI/UX-Design erfahren"
+    },
+    "digitalMarketing": {
+      "title": "Erweitern Sie Ihre Digitale Reichweite",
+      "description": "Gewinnen Sie qualifizierte Leads und erweitern Sie Ihren Marktanteil mit digitalen Marketing-Tools, die Kampagnen optimieren, Kundenverhalten analysieren und den ROI maximieren.",
+      "features": ["Zielgruppenansprache", "Kampagnenanalyse", "Content-Strategie", "Conversion-Tracking"],
+      "linkText": "Mehr über Marketing-Plattformen erfahren"
+    }
+  },
+  "projects": {
+    "title": "Integrierte Digitale Lösungen für Unternehmenswachstum",
+    "subtitle": "Entfesseln Sie das Potenzial Ihrer Marke mit maßgeschneiderten digitalen Strategien, die Ergebnisse liefern und Ihre Online-Präsenz verbessern.",
+    "websiteCreation": {
+      "title": "Website-Design & Entwicklung",
+      "description": "Ihre Website ist das Fundament Ihrer digitalen Präsenz. Wir gestalten nahtlose, nutzerzentrierte Erlebnisse, die Besucher ansprechen und sie in treue Kunden verwandeln.",
+      "items": [
+        "Individuelles Website-Design",
+        "Vorlagenbasierte Websites",
+        "E-Commerce-Entwicklung",
+        "Fortlaufende Website-Wartung & Updates",
+        "Mobile-First-Optimierung"
+      ]
+    },
+    "digitalMarketing": {
+      "title": "Umfassendes Digitales Marketing",
+      "description": "Unsere datengesteuerten Strategien helfen Ihnen, Ihre Zielgruppe zu erreichen, zu engagieren und zu konvertieren, wodurch die Sichtbarkeit und Wirkung Ihrer Marke im digitalen Raum erhöht wird.",
+      "items": [
+        "Suchmaschinenoptimierung (SEO)",
+        "Content-Marketing-Strategie",
+        "Social Media Marketing & Management",
+        "Gezielte E-Mail-Marketing-Kampagnen",
+        "Influencer- & Affiliate-Partnerschaften"
+      ]
+    },
+    "advertising": {
+      "title": "Gezielte Werbemaßnahmen",
+      "description": "Nutzen Sie fortschrittliche Werbestrategien, um Ihr Unternehmen zu vergrößern, hochwertige Leads zu gewinnen und Konversionen mit messbaren Ergebnissen zu erzielen.",
+      "items": [
+        "Bezahlte Suche (PPC) Kampagnen",
+        "Social Media Werbung",
+        "Remarketing & Retargeting Anzeigen",
+        "Detaillierte Anzeigenanalyse & Berichterstattung"
+      ]
+    },
+    "trafficManagement": {
+      "title": "Traffic-Generierung & Konversionsoptimierung",
+      "description": "Wir konzentrieren uns darauf, hochwertigen Traffic auf Ihre Website zu leiten und Ihre Webseiten zu optimieren, um Besucher in Kunden zu verwandeln und den ROI zu steigern.",
+      "items": [
+        "Erweiterte Web-Traffic-Analyse",
+        "Konversionsratenoptimierung (CRO)",
+        "Erstellung & Optimierung von Landingpages"
+      ]
+    },
+    "whyChooseUs": {
+      "title": "Warum Cognitix Solutions Wählen?",
+      "items": [
+        "Erfahrenes & Qualifiziertes Team",
+        "Maßgeschneiderte & Skalierbare Lösungen",
+        "Ergebnisorientierte & Datengestützte Strategien",
+        "Volle Transparenz mit Berichterstattung",
+        "Kundenorientierter Ansatz",
+        "Flexible, Skalierbare Dienstleistungen für Wachstum"
+      ]
+    }
+  },
+  "serviceDetail": {
+    "overview": "Übersicht",
+    "process": "Unser Prozess",
+    "processSubtitle": "Wir folgen einem strukturierten Ansatz, um außergewöhnliche Ergebnisse für unsere Projekte zu erzielen.",
+    "benefits": "Hauptvorteile",
+    "readyToStart": "Bereit Loszulegen?",
+    "contactCTA": "Lassen Sie uns besprechen, wie unsere Dienstleistungen Ihnen helfen können, Ihre Geschäftsziele zu erreichen.",
+    "contactButton": "Kontaktieren Sie Uns Jetzt",
+    "webDevelopment": {
+      "longDescription": "Unser Webentwicklungsteam erstellt maßgeschneiderte Websites, die nicht nur großartig aussehen, sondern auch einwandfrei funktionieren. Wir konzentrieren uns auf die Erstellung responsiver, benutzerfreundlicher und SEO-optimierter Websites, die Unternehmen dabei helfen, ihre Ziele online zu erreichen.",
+      "features": [
+        "Responsives Design",
+        "Benutzerfreundliche Oberfläche",
+        "SEO-Optimierung",
+        "Schnelle Ladezeit",
+        "Mobile-First-Ansatz",
+        "Browserübergreifende Kompatibilität"
+      ],
+      "benefits": [
+        "Erhöhte Sichtbarkeit in Suchmaschinen",
+        "Verbesserte Benutzerinteraktion und niedrigere Absprungraten",
+        "Höhere Konversionsraten durch optimierte Benutzerreisen",
+        "Professionelles Markenimage durch poliertes Design",
+        "Wettbewerbsvorteil durch modernste Technologie"
+      ],
+      "process": [
+        {
+          "title": "Entdeckung",
+          "description": "Wir beginnen damit, Ihre Geschäftsziele, Zielgruppe und Anforderungen zu verstehen, um einen Projektfahrplan zu erstellen."
+        },
+        {
+          "title": "Planung",
+          "description": "Unser Team erstellt Wireframes und Prototypen, um die Website-Struktur und den Benutzerfluss zu visualisieren."
+        },
+        {
+          "title": "Design",
+          "description": "Wir gestalten visuell ansprechende Schnittstellen, die mit Ihrer Markenidentität übereinstimmen und die Benutzererfahrung verbessern."
+        },
+        {
+          "title": "Entwicklung",
+          "description": "Unsere Entwickler schreiben sauberen, effizienten Code, um die Designs mit allen erforderlichen Funktionen zum Leben zu erwecken."
+        },
+        {
+          "title": "Testen",
+          "description": "Gründliche Tests stellen sicher, dass Ihre Website auf allen Geräten und Browsern perfekt funktioniert."
+        },
+        {
+          "title": "Launch",
+          "description": "Wir stellen Ihre Website in einer Produktionsumgebung bereit und stellen sicher, dass alles für den Erfolg eingerichtet ist."
+        }
+      ]
+    },
+    "mobileDevelopment": {
+      "longDescription": "Unsere Mobilentwicklungsdienste liefern hochwertige Apps für iOS- und Android-Plattformen. Ob Sie eine native App oder eine plattformübergreifende Lösung benötigen, unser Team erstellt mobile Erlebnisse, die Benutzer ansprechen und das Geschäftswachstum fördern.",
+      "features": [
+        "Native iOS & Android",
+        "Plattformübergreifende Lösungen",
+        "App Store Optimierung",
+        "Push-Benachrichtigungen",
+        "Offline-Funktionalität",
+        "Sichere Benutzerauthentifizierung"
+      ],
+      "benefits": [
+        "Erweiterte Reichweite zu mobilen Nutzern",
+        "Verbesserte Kundenbindung durch personalisierte Erlebnisse",
+        "Neue Einnahmequellen durch mobilen Handel",
+        "Verbesserte Markenloyalität durch nahtlose mobile Interaktionen",
+        "Wettbewerbsvorteil im Mobile-First-Markt"
+      ],
+      "process": [
+        {
+          "title": "Anforderungsanalyse",
+          "description": "Wir sammeln detaillierte Anforderungen, um den Zweck der App, die Zielgruppe und die Kernfunktionalität zu verstehen."
+        },
+        {
+          "title": "UI/UX-Design",
+          "description": "Unsere Designer erstellen intuitive, plattformspezifische Schnittstellen, die den besten Praktiken für mobiles Design folgen."
+        },
+        {
+          "title": "Entwicklung",
+          "description": "Unser Entwicklungsteam baut die App entweder mit nativen Technologien oder plattformübergreifenden Frameworks, je nach Ihren Bedürfnissen."
+        },
+        {
+          "title": "Testen",
+          "description": "Wir führen gründliche Tests auf echten Geräten durch, um Leistung, Benutzerfreundlichkeit und Kompatibilität zu gewährleisten."
+        },
+        {
+          "title": "Bereitstellung",
+          "description": "Wir kümmern uns um den App-Einreichungsprozess, um Ihre App im App Store und bei Google Play zu veröffentlichen."
+        },
+        {
+          "title": "Wartung",
+          "description": "Kontinuierliche Unterstützung und Updates halten Ihre App reibungslos und aktuell mit Plattformänderungen."
+        }
+      ]
+    },
+    "uiUxDesign": {
+      "longDescription": "Unsere UI/UX-Design-Dienste konzentrieren sich auf die Schaffung intuitiver und ansprechender Benutzererfahrungen. Wir kombinieren ästhetische Anziehungskraft mit funktionalem Design, um Schnittstellen zu schaffen, mit denen Benutzer gerne interagieren, was die Zufriedenheit erhöht und Konversionen fördert.",
+      "features": [
+        "Benutzererfahrungsforschung",
+        "Schnittstellendesign",
+        "Prototyping",
+        "Usability-Tests",
+        "Informationsarchitektur",
+        "Interaktive Mockups"
+      ],
+      "benefits": [
+        "Verbesserte Benutzerzufriedenheit und Engagement",
+        "Reduzierte Benutzerfrustration und Supportkosten",
+        "Höhere Konversionsraten durch optimierte Benutzerreisen",
+        "Konsistente Markenerfahrung über alle Berührungspunkte hinweg",
+        "Datengesteuerte Designentscheidungen basierend auf Benutzerforschung"
+      ],
+      "process": [
+        {
+          "title": "Forschung",
+          "description": "Wir führen Benutzerforschung durch, um Verhaltensmuster, Bedürfnisse und Schmerzpunkte zu verstehen."
+        },
+        {
+          "title": "Benutzer-Personas",
+          "description": "Wir erstellen detaillierte Benutzer-Personas, um den Designprozess zu leiten und Benutzerzentrierung zu gewährleisten."
+        },
+        {
+          "title": "Informationsarchitektur",
+          "description": "Wir organisieren Inhalte und Funktionalität auf eine Weise, die intuitiv und leicht zu navigieren ist."
+        },
+        {
+          "title": "Wireframing",
+          "description": "Low-Fidelity-Wireframes skizzieren die grundlegende Struktur und das Layout der Schnittstelle."
+        },
+        {
+          "title": "Visuelles Design",
+          "description": "Wir erstellen High-Fidelity-Mockups, die das endgültige Aussehen und Gefühl der Schnittstelle zeigen."
+        },
+        {
+          "title": "Prototyping",
+          "description": "Interaktive Prototypen simulieren die Benutzererfahrung für Tests vor der Entwicklung."
+        }
+      ]
+    },
+    "digitalMarketing": {
+      "longDescription": "Unsere Digital-Marketing-Dienste helfen Unternehmen, ihre Online-Sichtbarkeit zu erhöhen und qualifizierte Leads zu gewinnen. Wir entwickeln umfassende Strategien, die verschiedene digitale Kanäle nutzen, um Ihre Zielgruppe zu erreichen und messbare Ergebnisse zu erzielen.",
+      "features": [
+        "SEO & Content-Marketing",
+        "Social Media Management",
+        "Pay-Per-Click-Kampagnen",
+        "E-Mail-Marketing",
+        "Analyse & Berichterstattung",
+        "Konversionsratenoptimierung"
+      ],
+      "benefits": [
+        "Erhöhtes Markenbewusstsein und Online-Sichtbarkeit",
+        "Hochwertigere Leads durch gezielte Kampagnen",
+        "Verbesserter ROI im Vergleich zu traditionellem Marketing",
+        "Datengesteuerte Erkenntnisse für kontinuierliche Optimierung",
+        "Skalierbare Marketinglösungen, die mit Ihrem Unternehmen wachsen"
+      ],
+      "process": [
+        {
+          "title": "Audit & Analyse",
+          "description": "Wir analysieren Ihre aktuelle digitale Präsenz und identifizieren Verbesserungsmöglichkeiten."
+        },
+        {
+          "title": "Strategieentwicklung",
+          "description": "Wir erstellen eine maßgeschneiderte Digital-Marketing-Strategie, die auf Ihre Geschäftsziele abgestimmt ist."
+        },
+        {
+          "title": "Kanalauswahl",
+          "description": "Wir identifizieren die effektivsten Kanäle, um Ihre Zielgruppe zu erreichen."
+        },
+        {
+          "title": "Content-Erstellung",
+          "description": "Unser Team entwickelt ansprechende Inhalte, die bei Ihrer Zielgruppe Anklang finden."
+        },
+        {
+          "title": "Kampagnenausführung",
+          "description": "Wir starten und verwalten Kampagnen über ausgewählte digitale Kanäle."
+        },
+        {
+          "title": "Überwachung & Optimierung",
+          "description": "Kontinuierliche Überwachung und Optimierung gewährleisten maximale Kampagnenleistung."
+        }
+      ]
+    },
+    "contentStrategy": {
+      "longDescription": "Unsere Content-Strategie-Dienste helfen Ihnen, wertvolle Inhalte zu erstellen und zu verbreiten, die Ihre Zielgruppe anziehen, engagieren und binden. Wir entwickeln umfassende Content-Pläne, die Ihre Geschäftsziele unterstützen und Ihre Marke als Autorität in Ihrer Branche etablieren.",
+      "features": [
+        "Content-Planung",
+        "Copywriting",
+        "Content-Optimierung",
+        "Redaktionskalender",
+        "Content-Distribution",
+        "Leistungsanalyse"
+      ],
+      "benefits": [
+        "Erhöhter organischer Traffic durch wertvolle Inhalte",
+        "Verbesserte Markenautorität und Thought Leadership",
+        "Verbessertes Engagement über digitale Berührungspunkte",
+        "Höhere Konversionsraten mit strategischen Inhalten",
+        "Konsistente Markenbotschaften über alle Kanäle"
+      ],
+      "process": [
+        {
+          "title": "Content-Audit",
+          "description": "Wir bewerten Ihre bestehenden Inhalte, um Lücken und Möglichkeiten zu identifizieren."
+        },
+        {
+          "title": "Zielgruppenforschung",
+          "description": "Wir entwickeln detaillierte Zielgruppen-Personas, um Content-Präferenzen und -Bedürfnisse zu verstehen."
+        },
+        {
+          "title": "Strategieentwicklung",
+          "description": "Wir erstellen eine umfassende Content-Strategie, die auf Ihre Geschäftsziele abgestimmt ist."
+        },
+        {
+          "title": "Content-Kalender",
+          "description": "Wir entwickeln einen Redaktionskalender, um die Content-Erstellung zu organisieren und zu planen."
+        },
+        {
+          "title": "Content-Erstellung",
+          "description": "Unser Team erstellt hochwertige Inhalte, die Ihre Zielgruppe ansprechen."
+        },
+        {
+          "title": "Distribution & Promotion",
+          "description": "Wir implementieren Strategien, um Ihre Inhalte über relevante Kanäle zu verbreiten."
+        }
+      ]
+    },
+    "ecommerceSolutions": {
+      "longDescription": "Unsere E-Commerce-Lösungen bieten Unternehmen alles, was sie benötigen, um erfolgreich Produkte online zu verkaufen. Von der Gestaltung des Schaufensters bis zur Zahlungsabwicklung und Bestandsverwaltung bauen wir skalierbare E-Commerce-Plattformen, die Verkäufe und Wachstum fördern.",
+      "features": [
+        "Online-Shop-Einrichtung",
+        "Zahlungsabwicklung",
+        "Bestandsverwaltung",
+        "Mobile Commerce",
+        "Auftragsabwicklung",
+        "Kundenverwaltung"
+      ],
+      "benefits": [
+        "Erweiterte Marktreichweite über physische Einschränkungen hinaus",
+        "24/7-Verkaufsfähigkeit mit automatisierten Prozessen",
+        "Verbesserte Kundenerfahrung mit personalisiertem Einkauf",
+        "Datengesteuerte Einblicke in das Kundenverhalten",
+        "Skalierbare Lösung, die mit Ihrem Unternehmen wächst"
+      ],
+      "process": [
+        {
+          "title": "Anforderungsanalyse",
+          "description": "Wir sammeln detaillierte Anforderungen für Ihre E-Commerce-Plattform."
+        },
+        {
+          "title": "Plattformauswahl",
+          "description": "Wir helfen Ihnen, die richtige E-Commerce-Plattform basierend auf Ihren Bedürfnissen auszuwählen."
+        },
+        {
+          "title": "Shop-Design",
+          "description": "Unsere Designer erstellen eine attraktive, konversionsoptimierte Schaufensterfront."
+        },
+        {
+          "title": "Entwicklung",
+          "description": "Wir implementieren alle erforderlichen Funktionalitäten für eine komplette E-Commerce-Lösung."
+        },
+        {
+          "title": "Integration",
+          "description": "Wir integrieren Zahlungsgateways, Versandlösungen und andere notwendige Dienste."
+        },
+        {
+          "title": "Testen & Launch",
+          "description": "Gründliche Tests stellen sicher, dass alles perfekt funktioniert, bevor es live geht."
+        }
+      ]
+    }
+  },
+  "about": {
+    "title": "Über Cognitix",
+    "subtitle": "Wir bringen Innovation in jeden Pixel seit 2015",
+    "story": "Cognitix wurde mit einer einfachen, aber kraftvollen Mission gegründet: Unternehmen dabei zu helfen, Technologie zu nutzen, um ihre Ziele zu erreichen. Was als kleines Team leidenschaftlicher Entwickler begann, ist zu einer Full-Service-Digitalagentur mit einer globalen Kundenbasis herangewachsen.",
+    "mission": "Unsere Mission ist es, innovative digitale Lösungen zu liefern, die Wachstum und Erfolg für unsere Kunden fördern. Wir glauben, dass Technologie für Menschen arbeiten sollte, nicht umgekehrt.",
+    "values": {
+      "title": "Unsere Werte",
+      "innovation": {
+        "title": "Innovation",
+        "description": "Wir bleiben Technologietrends voraus und entwickeln unsere Ansätze kontinuierlich weiter"
+      },
+      "quality": {
+        "title": "Qualität",
+        "description": "Wir sind der Exzellenz in jedem Aspekt unserer Arbeit verpflichtet"
+      },
+      "collaboration": {
+        "title": "Zusammenarbeit",
+        "description": "Wir arbeiten eng mit unseren Kunden zusammen, um die Verwirklichung ihrer Vision zu gewährleisten"
+      },
+      "integrity": {
+        "title": "Integrität",
+        "description": "Wir handeln mit Ehrlichkeit, Transparenz und ethischen Geschäftspraktiken"
+      }
+    }
+  },
+  "process": {
+    "title": "Unser Prozess",
+    "subtitle": "Wie wir Ihre Ideen in erfolgreiche digitale Lösungen umwandeln",
+    "discovery": {
+      "title": "Entdeckung",
+      "description": "Wir beginnen damit, Ihr Unternehmen, Ihre Ziele und Anforderungen durch eingehende Beratungen zu verstehen"
+    },
+    "planning": {
+      "title": "Planung",
+      "description": "Wir erstellen einen detaillierten Fahrplan und eine Strategie für Ihr Projekt, definieren wichtige Meilensteine und Lieferungen"
+    },
+    "design": {
+      "title": "Design",
+      "description": "Unsere Designer erstellen visuell beeindruckende, benutzerfreundliche Schnittstellen basierend auf bewährten Praktiken"
+    },
+    "development": {
+      "title": "Entwicklung",
+      "description": "Unser Entwicklungsteam bringt Designs mit modernsten Technologien und Methoden zum Leben"
+    },
+    "testing": {
+      "title": "Testen",
+      "description": "Ein rigoroser Qualitätssicherungsprozess stellt sicher, dass Ihr Produkt auf allen Geräten und Browsern nahtlos funktioniert"
+    },
+    "launch": {
+      "title": "Start",
+      "description": "Wir stellen Ihre Lösung der Welt vor und sorgen für einen reibungslosen und nahtlosen Start"
+    },
+    "support": {
+      "title": "Support",
+      "description": "Unsere Beziehung endet nicht beim Start - wir bieten laufenden Support und Wartung"
+    }
+  },
+  "stats": {
+    "title": "Unsere Wirkung in Zahlen",
+    "projects": "Abgeschlossene Projekte",
+    "clients": "Zufriedene Kunden",
+    "years": "Jahre Erfahrung",
+    "awards": "Branchenauszeichnungen"
+  },
+  "technologies": {
+    "title": "Technologien, Die Wir Verwenden",
+    "subtitle": "Wir verwenden die neuesten Technologien, um moderne, skalierbare Lösungen zu entwickeln"
+  },
+  "cta": {
+    "title": "Bereit, Ihr Projekt zu Starten?",
+    "subtitle": "Kontaktieren Sie uns noch heute, um zu besprechen, wie wir Ihnen helfen können, Ihre Vision zum Leben zu erwecken",
+    "button": "Kontaktieren Sie Uns"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Uns",
+    "subtitle": "Haben Sie eine Frage oder sind Sie bereit, Ihr Projekt zu starten? Kontaktieren Sie uns über das untenstehende Formular.",
+    "form": {
+      "fullName": "Vollständiger Name",
+      "namePlaceholder": "Ihr Name",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "ihre.email@beispiel.com",
+      "company": "Firmenname",
+      "companyPlaceholder": "Ihr Unternehmen",
+      "service": "Interessierter Service",
+      "serviceSelect": "Wählen Sie einen Service",
+      "services": {
+        "webDevelopment": "Webentwicklung",
+        "mobileApp": "Mobile App-Entwicklung",
+        "customSoftware": "Individuelle Softwareentwicklung",
+        "database": "Datenbanklösungen",
+        "devops": "DevOps-Dienste",
+        "digitalMarketing": "Digitales Marketing",
+        "other": "Andere"
+      },
+      "message": "Ihre Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt",
+      "privacy": "Ich stimme der",
+      "privacyLink": "Datenschutzrichtlinie",
+      "submit": "Nachricht Senden",
+      "sending": "Wird gesendet..."
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "location": {
+        "title": "Wir Arbeiten International",
+        "address": "Cognitix Solutions"
+      },
+      "email": {
+        "title": "E-Mail",
+        "address": "cognitix_web_dev@proton.me"
+      },
+      "hours": {
+        "title": "Arbeitszeiten",
+        "weekdays": "Montag - Freitag: 9:00 - 18:00 Uhr",
+        "saturday": "Samstag: 10:00 - 14:00 Uhr"
+      }
+    },
+    "social": {
+      "title": "Folgen Sie Uns"
+    },
+    "messages": {
+      "success": "Vielen Dank für Ihre Kontaktaufnahme. Wir werden uns in Kürze bei Ihnen melden.",
+      "error": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+      "privacyError": "Bitte stimmen Sie der Datenschutzrichtlinie zu"
+    }
+  },
+  "footer": {
+    "company": "Unternehmen",
+    "services": "Dienstleistungen",
+    "resources": "Ressourcen",
+    "legal": "Rechtliches",
+    "copyright": " 2025 Cognitix. Alle Rechte vorbehalten.",
+    "about": "Über Uns",
+    "careers": "Karriere",
+    "contact": "Kontakt",
+    "team": "Unser Team",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "support": "Support",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Richtlinie"
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "lastUpdated": "Zuletzt aktualisiert: 15. März 2025",
+    "introduction": {
+      "title": "Einführung",
+      "content": "Willkommen bei Cognitix. Wir respektieren Ihre Privatsphäre und sind bestrebt, Ihre persönlichen Daten zu schützen. Diese Datenschutzrichtlinie informiert Sie darüber, wie wir Ihre persönlichen Daten schützen, wenn Sie unsere Website besuchen, und informiert Sie über Ihre Datenschutzrechte und wie das Gesetz Sie schützt."
+    },
+    "dataWeCollect": {
+      "title": "Daten, Die Wir Sammeln",
+      "content": "Wir können verschiedene Arten von personenbezogenen Daten über Sie sammeln, verwenden, speichern und übertragen, die wir wie folgt gruppiert haben:",
+      "personalData": "Personenidentifizierbare Informationen (Name, E-Mail-Adresse, Telefonnummer)",
+      "technicalData": "Technische Daten einschließlich IP-Adresse, Browsertyp und -version, Zeitzone und Standort, Betriebssystem und Plattform",
+      "usageData": "Informationen darüber, wie Sie unsere Website und Dienste nutzen"
+    },
+    "howWeUseData": {
+      "title": "Wie Wir Ihre Daten Verwenden",
+      "content": "Wir werden Ihre personenbezogenen Daten nur verwenden, wenn das Gesetz es uns erlaubt. Am häufigsten werden wir Ihre personenbezogenen Daten unter folgenden Umständen verwenden:",
+      "providingServices": "Um Ihnen die von Ihnen angeforderten Dienste bereitzustellen",
+      "improvingWebsite": "Um unsere Website und Dienste zu verbessern",
+      "marketing": "Um Ihnen Marketingmitteilungen zu senden, wenn Sie sich dafür entschieden haben"
+    },
+    "dataSecurity": {
+      "title": "Datensicherheit",
+      "content": "Wir haben angemessene Sicherheitsmaßnahmen implementiert, um zu verhindern, dass Ihre personenbezogenen Daten versehentlich verloren gehen, verwendet oder auf unbefugte Weise zugegriffen, verändert oder offengelegt werden."
+    },
+    "yourRights": {
+      "title": "Ihre Rechte",
+      "content": "Unter bestimmten Umständen haben Sie gemäß den Datenschutzgesetzen Rechte in Bezug auf Ihre personenbezogenen Daten, einschließlich des Rechts auf:",
+      "access": "Zugriff auf Ihre personenbezogenen Daten anfordern",
+      "correction": "Berichtigung Ihrer personenbezogenen Daten anfordern",
+      "erasure": "Löschung Ihrer personenbezogenen Daten anfordern",
+      "restriction": "Einschränkung der Verarbeitung Ihrer personenbezogenen Daten anfordern",
+      "transfer": "Übertragung Ihrer personenbezogenen Daten anfordern",
+      "objection": "Widerspruch gegen die Verarbeitung Ihrer personenbezogenen Daten einlegen"
+    },
+    "contactUs": {
+      "title": "Kontaktieren Sie Uns",
+      "content": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie oder unseren Datenschutzpraktiken haben, kontaktieren Sie uns bitte unter cognitix_web_dev@proton.me"
+    },
+    "backToHome": "Zurück zur Startseite"
+  },
+  "agents": {
+    "pageTitle": "Unsere Globalen Agenten",
+    "metaDescription": "Verbinden Sie sich mit den globalen Agenten von Cognitix Solutions für persönliche Unterstützung und Expertenberatung in Ihrer Region.",
+    "title": "Unsere Globalen Agenten",
+    "subtitle": "Verbinden Sie sich mit unseren regionalen Agenten für persönlichen Service und Expertenberatung, die auf Ihre Bedürfnisse zugeschnitten ist.",
+    "country": "Land",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "contactButton": "Agent Kontaktieren",
+    "contactForm": {
+      "title": "Kontaktieren Sie {{name}}",
+      "description": "Füllen Sie das Formular unten aus, um eine Nachricht direkt an diesen Agenten zu senden. Sie werden sich so schnell wie möglich bei Ihnen melden."
+    },
+    "positions": {
+      "salesManager": "Vertriebsleiter",
+      "marketingDirector": "Marketingdirektor",
+      "regionalManager": "Kommunikations- und PR-Beauftragter",
+      "businessDevelopment": "Business Development Manager",
+      "clientRelations": "Kundenbeziehungsspezialist"
+    },
+    "countries": {
+      "Sweden": "Schweden",
+      "france": "Frankreich",
+      "uae": "Vereinigte Arabische Emirate",
+      "Canada": "Kanada",
+      "Benin": "Benin",
+      "Germany": "Deutschland"
+    }
+  },
+  "forms": {
+    "labels": {
+      "name": "Name",
+      "email": "E-Mail",
+      "company": "Unternehmen (Optional)",
+      "message": "Nachricht"
+    },
+    "placeholders": {
+      "name": "Ihr Name",
+      "email": "ihre.email@beispiel.com",
+      "company": "Ihr Firmenname",
+      "message": "Schreiben Sie Ihre Nachricht hier..."
+    },
+    "errors": {
+      "title": "Fehler",
+      "nameRequired": "Name muss mindestens 2 Zeichen lang sein",
+      "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "messageRequired": "Nachricht muss mindestens 10 Zeichen lang sein",
+      "submitFailed": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+    },
+    "success": {
+      "title": "Erfolg",
+      "messageSent": "Ihre Nachricht wurde erfolgreich gesendet!"
+    }
+  },
+  "buttons": {
+    "send": "Nachricht Senden",
+    "sending": "Wird gesendet...",
+    "cancel": "Abbrechen"
+  }
+}
