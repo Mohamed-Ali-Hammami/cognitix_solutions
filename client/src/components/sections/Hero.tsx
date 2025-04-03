@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import styles from '../../styles/Hero.module.css';
 import logo from '../../public/images/logo.png';
-import backgroundVideo from '../../public/images/cognitix2.mp4';
+import backgroundVideo from '../../public/images/cogni.mp4';
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -57,16 +57,18 @@ export default function Hero() {
     <section id="home" className={styles.hero}>
       {/* Video Background */}
       <div className={styles.videoContainer}>
-      <video 
-            autoPlay 
-            loop 
-            muted 
-            playsInline 
-            className={styles.backgroundVideo}
-            
-          >
-            <source src={backgroundVideo} type="video/mp4" />
-          </video>
+        <motion.video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline 
+          className={styles.backgroundVideo}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.5 }}
+        >
+          <source src={backgroundVideo} type="video/mp4" />
+        </motion.video>
       </div>
 
       <motion.div 
@@ -90,62 +92,62 @@ export default function Hero() {
       </motion.div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-7 relative z-10">
-        <div className={styles.contentContainer}>
-          <motion.div 
-            className={styles.content}
-            initial="hidden"
-            animate="visible"
-            variants={containerVariants}
-          >
-            <motion.h1 className={styles.title} variants={itemVariants}>
-            <img 
-                src={logo} 
-                alt="Cognitix Logo" 
-                className={styles.logo}
-              />
-              {t('hero.title')}{' '}
-              <span className="bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">
-                Cognitix
-              </span>
+        <div className={styles.mainContent}>
+          <div className={styles.contentContainer}>
+            <motion.div 
+              className={styles.content}
+              initial="hidden"
+              animate="visible"
+              variants={containerVariants}
+            >
+              <motion.h1 className={styles.title} variants={itemVariants}>
+                <img 
+                  src={logo} 
+                  alt="Cognitix Logo" 
+                  className={styles.logo}
+                />
+                {t('hero.title')}{' '}
+                <span className="bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">
+                  Cognitix
+                </span>
+              </motion.h1>
 
-            </motion.h1>
+              <motion.p className="text-lg md:text-xl text-gray-300" variants={itemVariants}>
+                {t('hero.subtitle')}
+              </motion.p>
 
-            <motion.p className="text-lg md:text-xl text-gray-700" variants={itemVariants}>
-              {t('hero.subtitle')}
-            </motion.p>
+              <motion.div className="flex flex-col sm:flex-row gap-4" variants={itemVariants}>
+                <button 
+                  onClick={() => scrollToSection('contact')}
+                  className="px-6 py-3 bg-secondary rounded-md font-medium hover:bg-white/20 transition duration-300"
+                >
+                  {t('hero.ctaButton')}
+                </button>
+                <button 
+                  onClick={() => scrollToSection('services')}
+                  className="px-6 py-3 bg-secondary rounded-md font-medium hover:bg-white/20 transition duration-300"
+                >
+                  {t('hero.secondaryButton')}
+                </button>
+              </motion.div>
 
-            <motion.div className="flex flex-col sm:flex-row gap-4" variants={itemVariants}>
-              <button 
-                onClick={() => scrollToSection('contact')}
-                className="px-6 py-3 bg-secondary rounded-md font-medium hover:bg-primary/20 transition duration-300"
-              >
-                {t('hero.ctaButton')}
-              </button>
-              <button 
-                onClick={() => scrollToSection('services')}
-                className="px-6 py-3 bg-black/10 rounded-md font-medium hover:bg-white/20 transition duration-300"
-              >
-                {t('hero.secondaryButton')}
-              </button>
             </motion.div>
 
-          </motion.div>
-
-          {/* Code Display Section */}
-          <motion.div 
-            className={styles.codeContainer}
-            initial="hidden"
-            animate="visible"
-            variants={codeVariants}
-          >
-            <div className={styles.codeHeader}>
-              <div className={`${styles.codeDot} bg-red-500`} />
-              <div className={`${styles.codeDot} bg-yellow-500`} />
-              <div className={`${styles.codeDot} bg-green-500`} />
-              <span className="ml-2 text-gray-700 text-sm">index.js</span>
-            </div>
-            <pre className="bg-gray-100 p-4 rounded-md font-mono text-xs sm:text-sm md:text-base text-gray-700 overflow-x-auto">
-              <code className="language-javascript">
+            {/* Code Display Section */}
+            <motion.div 
+              className={styles.codeContainer}
+              initial="hidden"
+              animate="visible"
+              variants={codeVariants}
+            >
+              <div className={styles.codeHeader}>
+                <div className={`${styles.codeDot} bg-red-500`} />
+                <div className={`${styles.codeDot} bg-yellow-500`} />
+                <div className={`${styles.codeDot} bg-green-500`} />
+                <span className="ml-2 text-gray-700 text-sm">index.js</span>
+              </div>
+              <pre className="bg-gray-100 p-4 rounded-md font-mono text-xs sm:text-sm md:text-base text-gray-700 overflow-x-auto">
+                <code className="language-javascript">
 {`import React from 'react';
 import { CognitixAI } from 'cognitix';
 
@@ -161,9 +163,10 @@ const App = () => {
 };
 
 export default App;`}
-              </code>
-            </pre>
-          </motion.div>
+                </code>
+              </pre>
+            </motion.div>
+          </div>
         </div>
       </div>
     </section>

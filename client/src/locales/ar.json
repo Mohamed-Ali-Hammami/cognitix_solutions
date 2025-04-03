@@ -498,25 +498,56 @@
   },
   "contact": {
     "title": "اتصل بنا",
-    "subtitle": "هل لديك سؤال أو ترغب في مناقشة مشروع؟ تواصل معنا",
-    "workingHours": "ساعات العمل",
-    "workingHoursText": "الاثنين - الجمعة: ٩:٠٠ ص - ٦:٠٠ م\nالسبت: ١٠:٠٠ ص - ٢:٠٠ م",
-    "followUs": "تابعنا",
-    "inputPlaceholder": "اكتب رسالتك هنا",
-    "companyName": "اسم الشركة",
-    "serviceInterest": "الخدمة المطلوبة",
-    "privacyAgreement": "أوافق على سياسة الخصوصية",
-    "name": "الاسم",
-    "email": "البريد الإلكتروني",
-    "phone": "الهاتف",
-    "subject": "الموضوع",
-    "message": "الرسالة",
-    "submit": "إرسال الرسالة",
-    "success": "تم إرسال رسالتك. سنرد عليك قريبًا!",
-    "error": "حدث خطأ أثناء إرسال رسالتك. يرجى المحاولة مرة أخرى.",
-    "office": "مكتبنا",
-    "emailUs": "راسلنا عبر البريد الإلكتروني",
-    "callUs": "اتصل بنا"
+    "subtitle": "هل لديك سؤال أو مستعد لبدء مشروعك؟ تواصل معنا باستخدام النموذج أدناه.",
+    "form": {
+      "fullName": "الاسم الكامل",
+      "namePlaceholder": "اسمك",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "بريدك@مثال.com",
+      "company": "اسم الشركة",
+      "companyPlaceholder": "شركتك",
+      "service": "الخدمة المطلوبة",
+      "serviceSelect": "اختر خدمة",
+      "services": {
+        "webDevelopment": "تطوير المواقع",
+        "mobileApp": "تطوير تطبيقات الجوال",
+        "customSoftware": "تطوير البرمجيات المخصصة",
+        "database": "حلول قواعد البيانات",
+        "devops": "خدمات DevOps",
+        "digitalMarketing": "التسويق الرقمي",
+        "other": "أخرى"
+      },
+      "message": "رسالتك",
+      "messagePlaceholder": "أخبرنا عن مشروعك",
+      "privacy": "أوافق على",
+      "privacyLink": "سياسة الخصوصية",
+      "submit": "إرسال الرسالة",
+      "sending": "جاري الإرسال..."
+    },
+    "info": {
+      "title": "معلومات الاتصال",
+      "location": {
+        "title": "نعمل دولياً",
+        "address": "Cognitix Solutions"
+      },
+      "email": {
+        "title": "راسلنا عبر البريد الإلكتروني",
+        "address": "cognitix_web_dev@proton.me"
+      },
+      "hours": {
+        "title": "ساعات العمل",
+        "weekdays": "الإثنين - الجمعة: 9:00 صباحاً - 6:00 مساءً",
+        "saturday": "السبت: 10:00 صباحاً - 2:00 مساءً"
+      }
+    },
+    "social": {
+      "title": "تابعنا"
+    },
+    "messages": {
+      "success": "شكراً لتواصلك معنا. سنرد عليك قريباً.",
+      "error": "حدث خطأ في إرسال رسالتك. يرجى المحاولة مرة أخرى.",
+      "privacyError": "يرجى الموافقة على سياسة الخصوصية"
+    }
   },
   "footer": {
     "company": "الشركة",

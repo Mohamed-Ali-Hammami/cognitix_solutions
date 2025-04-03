@@ -1,42 +1,48 @@
-
 .hero {
   position: relative;
   overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
   padding: 4rem 0;
-
+  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for better text visibility */
 }
-.logo {
-    height: 150px;
 
-  }
+.logo {
+  height: 150px;
+  filter: drop-shadow(0 5px 10px rgb(255, 255, 255));
+}
+
 .backgroundVideo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.6;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    object-fit: cover; /* Add this */
-    z-index: -2; /* Lower than other elements */
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.7) contrast(1.1);
+}
 
 .videoContainer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -3; /* Lower than video */
-  }
-  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .backgroundSymbols {
   position: absolute;
   inset: 0;
   pointer-events: none;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -50,6 +56,7 @@
   );
   z-index: 0;
 }
+
 .symbol {
   position: absolute;
   color: rgba(255, 255, 255, 0.11);
@@ -108,6 +115,7 @@
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
+  color: aliceblue;
 }
 
 .codeContainer {
@@ -143,6 +151,25 @@
   height: 2.5rem;
   border-radius: 9999px;
   border: 2px solid white;
+}
+
+.mainContent {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .mainContent {
+    padding: 0 4rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .mainContent {
+    padding: 0 6rem;
+  }
 }
 
 /* Add these responsive styles to Hero.module.css */

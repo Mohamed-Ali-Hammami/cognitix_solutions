@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import { useToast } from "../../hooks/use-toast.ts";
 import { apiRequest } from "../../lib/queryClient.ts";
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
+  const { t } = useTranslation();
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
@@ -29,8 +31,8 @@ export default function Contact() {
     
     if (!formData.privacy) {
       toast({
-        title: "Error",
-        description: "Please agree to the Privacy Policy",
+        title: t('contact.messages.privacyError'),
+        description: t('contact.messages.privacyError'),
         variant: "destructive",
       });
       return;
@@ -48,8 +50,8 @@ export default function Contact() {
       });
       
       toast({
-        title: "Message Sent!",
-        description: "Thank you for contacting us. We'll get back to you soon.",
+        title: t('contact.messages.success'),
+        description: t('contact.messages.success'),
       });
       
       setFormData({
@@ -62,8 +64,8 @@ export default function Contact() {
       });
     } catch (error) {
       toast({
-        title: "Error",
-        description: "There was an error sending your message. Please try again.",
+        title: t('contact.messages.error'),
+        description: t('contact.messages.error'),
         variant: "destructive",
       });
     } finally {
@@ -75,9 +77,9 @@ export default function Contact() {
     <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('contact.title')}</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Have a question or ready to start your project? Reach out to us using the form below.
+            {t('contact.subtitle')}
           </p>
         </div>
         
@@ -86,26 +88,26 @@ export default function Contact() {
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="name" className="block text-gray-700 font-medium mb-2">Full Name</label>
+                  <label htmlFor="name" className="block text-gray-700 font-medium mb-2">{t('contact.form.fullName')}</label>
                   <input 
                     type="text" 
                     id="name" 
                     name="name" 
                     className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" 
-                    placeholder="Your name" 
+                    placeholder={t('contact.form.namePlaceholder')}
                     required 
                     value={formData.name}
                     onChange={handleChange}
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Email Address</label>
+                  <label htmlFor="email" className="block text-gray-700 font-medium mb-2">{t('contact.form.email')}</label>
                   <input 
                     type="email" 
                     id="email" 
                     name="email" 
                     className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" 
-                    placeholder="your.email@example.com" 
+                    placeholder={t('contact.form.emailPlaceholder')}
                     required 
                     value={formData.email}
                     onChange={handleChange}
@@ -114,20 +116,20 @@ export default function Contact() {
               </div>
               
               <div>
-                <label htmlFor="company" className="block text-gray-700 font-medium mb-2">Company Name</label>
+                <label htmlFor="company" className="block text-gray-700 font-medium mb-2">{t('contact.form.company')}</label>
                 <input 
                   type="text" 
                   id="company" 
                   name="company" 
                   className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" 
-                  placeholder="Your company" 
+                  placeholder={t('contact.form.companyPlaceholder')}
                   value={formData.company}
                   onChange={handleChange}
                 />
               </div>
               
               <div>
-                <label htmlFor="service" className="block text-gray-700 font-medium mb-2">Service Interested In</label>
+                <label htmlFor="service" className="block text-gray-700 font-medium mb-2">{t('contact.form.service')}</label>
                 <select 
                   id="service" 
                   name="service" 
@@ -135,25 +137,25 @@ export default function Contact() {
                   value={formData.service}
                   onChange={handleChange}
                 >
-                  <option value="" disabled>Select a service</option>
-                  <option value="web-development">Web Development</option>
-                  <option value="mobile-app">Mobile App Development</option>
-                  <option value="custom-software">Custom Software Development</option>
-                  <option value="database">Database Solutions</option>
-                  <option value="devops">DevOps Services</option>
-                  <option value="digital-marketing">Digital Marketing</option>
-                  <option value="other">Other</option>
+                  <option value="" disabled>{t('contact.form.serviceSelect')}</option>
+                  <option value="web-development">{t('contact.form.services.webDevelopment')}</option>
+                  <option value="mobile-app">{t('contact.form.services.mobileApp')}</option>
+                  <option value="custom-software">{t('contact.form.services.customSoftware')}</option>
+                  <option value="database">{t('contact.form.services.database')}</option>
+                  <option value="devops">{t('contact.form.services.devops')}</option>
+                  <option value="digital-marketing">{t('contact.form.services.digitalMarketing')}</option>
+                  <option value="other">{t('contact.form.services.other')}</option>
                 </select>
               </div>
               
               <div>
-                <label htmlFor="message" className="block text-gray-700 font-medium mb-2">Your Message</label>
+                <label htmlFor="message" className="block text-gray-700 font-medium mb-2">{t('contact.form.message')}</label>
                 <textarea 
                   id="message" 
                   name="message" 
                   rows={5} 
                   className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" 
-                  placeholder="Tell us about your project" 
+                  placeholder={t('contact.form.messagePlaceholder')}
                   required 
                   value={formData.message}
                   onChange={handleChange}
@@ -171,7 +173,7 @@ export default function Contact() {
                   onChange={handleCheckboxChange}
                 />
                 <label htmlFor="privacy" className="ml-2 block text-gray-700">
-                  I agree to the <a href="/Privacy" className="text-primary hover:underline">Privacy Policy</a>
+                  {t('contact.form.privacy')} <a href="/Privacy" className="text-primary hover:underline">{t('contact.form.privacyLink')}</a>
                 </label>
               </div>
               
@@ -181,7 +183,7 @@ export default function Contact() {
                   className="w-full px-6 py-3 bg-primary text-white rounded-md font-medium hover:bg-primary/90 transition-colors flex items-center justify-center gap-2"
                   disabled={isSubmitting}
                 >
-                  {isSubmitting ? 'Sending...' : 'Send Message'} <i className="fas fa-paper-plane"></i>
+                  {isSubmitting ? t('contact.form.sending') : t('contact.form.submit')} <i className="fas fa-paper-plane"></i>
                 </button>
               </div>
             </form>
@@ -189,15 +191,15 @@ export default function Contact() {
           
           <div className="space-y-8">
             <div className="bg-gray-50 p-8 rounded-lg">
-              <h3 className="text-xl font-semibold mb-6">Contact Information</h3>
+              <h3 className="text-xl font-semibold mb-6">{t('contact.info.title')}</h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary flex-shrink-0">
                     <i className="fas fa-map-marker-alt"></i>
                   </div>
                   <div>
-                    <h4 className="font-medium">Our Office</h4>
-                    <p className="text-gray-600">rue 13 Aout chotrana 2 <br />Tunisia</p>
+                    <h4 className="font-medium">{t('contact.info.location.title')}</h4>
+                    <p className="text-gray-600">{t('contact.info.location.address')}</p>
                   </div>
                 </div>
                 
@@ -206,19 +208,8 @@ export default function Contact() {
                     <i className="fas fa-envelope"></i>
                   </div>
                   <div>
-                    <h4 className="font-medium">Email Us</h4>
-                    <p className="text-gray-600">cognitix_web_dev@proton.me</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary flex-shrink-0">
-                    <i className="fas fa-phone-alt"></i>
-                  </div>
-                  <div>
-                    <h4 className="font-medium">Call Us</h4>
-                    <p className="text-gray-600">+216 22 898 775<br /> whatsapp <br/>
-                    +216 29 237 096</p>
+                    <h4 className="font-medium">{t('contact.info.email.title')}</h4>
+                    <p className="text-gray-600">{t('contact.info.email.address')}</p>
                   </div>
                 </div>
                 
@@ -227,15 +218,18 @@ export default function Contact() {
                     <i className="fas fa-clock"></i>
                   </div>
                   <div>
-                    <h4 className="font-medium">Working Hours</h4>
-                    <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday: 10:00 AM - 2:00 PM</p>
+                    <h4 className="font-medium">{t('contact.info.hours.title')}</h4>
+                    <p className="text-gray-600">
+                      {t('contact.info.hours.weekdays')}<br />
+                      {t('contact.info.hours.saturday')}
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
             
             <div className="bg-gray-50 p-8 rounded-lg">
-              <h3 className="text-xl font-semibold mb-6">Follow Us</h3>
+              <h3 className="text-xl font-semibold mb-6">{t('contact.social.title')}</h3>
               <div className="flex gap-4">
                 <a href="https://www.facebook.com/people/Cognitix/61574079523985/" className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
                   <i className="fab fa-facebook-f"></i>
@@ -246,11 +240,10 @@ export default function Contact() {
                 <a href="https://www.linkedin.com/in/cognitix-solutions-6255a6357/" className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
                   <i className="fab fa-linkedin-in"></i>
                 </a>
-                <a href="https://www.instagram.com/cognitix_web?igsh=MTljdDRsb2VoNW91Zg== " className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                <a href="https://www.instagram.com/cognitix_web?igsh=MTljdDRsb2VoNW91Zg==" className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href= "https://github.com/Mohamed-Ali-Hammami"
-                 className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
+                <a href="https://github.com/Mohamed-Ali-Hammami" className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
                   <i className="fab fa-github"></i>
                 </a>
               </div>

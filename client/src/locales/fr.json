@@ -497,22 +497,64 @@
     "button": "Contactez-Nous"
   },
   "contact": {
-    "title": "Contactez-Nous",
-    "subtitle": "Vous avez une question ou souhaitez discuter d'un projet? Contactez-nous",
-    "workingHours": "Heures d'Ouverture",
-    "workingHoursText": "Lundi - Vendredi: 9h00 - 18h00\nSamedi: 10h00 - 14h00",
-    "followUs": "Suivez-Nous",
-    "inputPlaceholder": "Entrez votre message ici",
-    "companyName": "Nom de l'entreprise",
-    "serviceInterest": "Service d'intérêt",
-    "privacyAgreement": "J'accepte la politique de confidentialité"
+    "title": "Contactez-nous",
+    "subtitle": "Vous avez une question ou vous êtes prêt à démarrer votre projet ? Contactez-nous via le formulaire ci-dessous.",
+    "form": {
+      "fullName": "Nom Complet",
+      "namePlaceholder": "Votre nom",
+      "email": "Adresse Email",
+      "emailPlaceholder": "votre.email@exemple.com",
+      "company": "Nom de l'Entreprise",
+      "companyPlaceholder": "Votre entreprise",
+      "service": "Service Souhaité",
+      "serviceSelect": "Sélectionnez un service",
+      "services": {
+        "webDevelopment": "Développement Web",
+        "mobileApp": "Développement d'Applications Mobiles",
+        "customSoftware": "Développement de Logiciels sur Mesure",
+        "database": "Solutions de Base de Données",
+        "devops": "Services DevOps",
+        "digitalMarketing": "Marketing Digital",
+        "other": "Autre"
+      },
+      "message": "Votre Message",
+      "messagePlaceholder": "Parlez-nous de votre projet",
+      "privacy": "J'accepte la",
+      "privacyLink": "Politique de Confidentialité",
+      "submit": "Envoyer le Message",
+      "sending": "Envoi en cours..."
+    },
+    "info": {
+      "title": "Informations de Contact",
+      "location": {
+        "title": "Nous Travaillons à l'International",
+        "address": "Cognitix Solutions"
+      },
+      "email": {
+        "title": "Contactez-nous par Email",
+        "address": "cognitix_web_dev@proton.me"
+      },
+      "hours": {
+        "title": "Heures d'Ouverture",
+        "weekdays": "Lundi - Vendredi : 9h00 - 18h00",
+        "saturday": "Samedi : 10h00 - 14h00"
+      }
+    },
+    "social": {
+      "title": "Suivez-nous"
+    },
+    "messages": {
+      "success": "Merci de nous avoir contacté. Nous vous répondrons bientôt.",
+      "error": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer.",
+      "privacyError": "Veuillez accepter la Politique de Confidentialité"
+    }
   },
   "footer": {
     "company": "Entreprise",
     "services": "Services",
     "resources": "Ressources",
     "legal": "Légal",
-    "copyright": "© 2025 Cognitix. Tous droits réservés.",
+    "copyright": " 2025 Cognitix. Tous droits réservés.",
     "about": "À Propos",
     "careers": "Carrières",
     "contact": "Contact",

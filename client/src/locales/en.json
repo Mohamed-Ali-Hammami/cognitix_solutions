@@ -498,21 +498,63 @@
   },
   "contact": {
     "title": "Contact Us",
-    "subtitle": "Have a question or want to discuss a project? Reach out to us",
-    "workingHours": "Working Hours",
-    "workingHoursText": "Monday - Friday: 9:00 AM - 6:00 PM\nSaturday: 10:00 AM - 2:00 PM",
-    "followUs": "Follow Us",
-    "inputPlaceholder": "Enter your message here",
-    "companyName": "Company Name",
-    "serviceInterest": "Service of Interest",
-    "privacyAgreement": "I accept the privacy policy"
+    "subtitle": "Have a question or ready to start your project? Reach out to us using the form below.",
+    "form": {
+      "fullName": "Full Name",
+      "namePlaceholder": "Your name",
+      "email": "Email Address",
+      "emailPlaceholder": "your.email@example.com",
+      "company": "Company Name",
+      "companyPlaceholder": "Your company",
+      "service": "Service Interested In",
+      "serviceSelect": "Select a service",
+      "services": {
+        "webDevelopment": "Web Development",
+        "mobileApp": "Mobile App Development",
+        "customSoftware": "Custom Software Development",
+        "database": "Database Solutions",
+        "devops": "DevOps Services",
+        "digitalMarketing": "Digital Marketing",
+        "other": "Other"
+      },
+      "message": "Your Message",
+      "messagePlaceholder": "Tell us about your project",
+      "privacy": "I agree to the",
+      "privacyLink": "Privacy Policy",
+      "submit": "Send Message",
+      "sending": "Sending..."
+    },
+    "info": {
+      "title": "Contact Information",
+      "location": {
+        "title": "We Work Internationally",
+        "address": "Cognitix Solutions"
+      },
+      "email": {
+        "title": "Email Us",
+        "address": "cognitix_web_dev@proton.me"
+      },
+      "hours": {
+        "title": "Working Hours",
+        "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+        "saturday": "Saturday: 10:00 AM - 2:00 PM"
+      }
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "messages": {
+      "success": "Thank you for contacting us. We'll get back to you soon.",
+      "error": "There was an error sending your message. Please try again.",
+      "privacyError": "Please agree to the Privacy Policy"
+    }
   },
   "footer": {
     "company": "Company",
     "services": "Services",
     "resources": "Resources",
     "legal": "Legal",
-    "copyright": "© 2025 Cognitix. All rights reserved.",
+    "copyright": " 2025 Cognitix. All rights reserved.",
     "about": "About",
     "careers": "Careers",
     "contact": "Contact",
@@ -581,7 +623,7 @@
     "positions": {
       "salesManager": "Sales Manager",
       "marketingDirector": "Marketing Director",
-      "regionalManager": "Communications and Public Relations Officer",
+      "regionalManager": "Communications and Public Relations Officer",
       "businessDevelopment": "Business Development Manager",
       "clientRelations": "Client Relations Specialist"
     },
