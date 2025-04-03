@@ -86,7 +86,7 @@ export default function Header() {
               <div className="text-3xl font-bold bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">
               <div className="flex items-center gap-2">
                 <img src={logo} alt="Cognitix Logo" className="h-20 w-auto" />
-                <span className="text-3xl font-bold text-black">Cognitix</span>
+                <span className="text-3xl font-bold text-[#001222]">Cognitix</span>
               </div>
               </div>
             </Link>

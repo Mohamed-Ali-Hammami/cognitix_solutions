@@ -107,8 +107,8 @@ export default function Hero() {
                   className={styles.logo}
                 />
                 {t('hero.title')}{' '}
-                <span className="bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text">
-                  Cognitix
+                <span className="bg-gradient-to-r from-gray-300 to-blue-400 text-transparent bg-clip-text">
+                Cognitix
                 </span>
               </motion.h1>
 
