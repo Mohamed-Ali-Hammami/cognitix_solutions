@@ -1,6 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { FaReact, FaNodeJs, FaPython, FaDocker, FaAws, FaDatabase } from "react-icons/fa"; // Importing some icons
+import { DiMongodb, DiGit, DiPostgresql } from "react-icons/di"; // MongoDB and Git icons
+import { SiGraphql, SiNextdotjs, SiFirebase, SiKubernetes, SiGooglecloud } from "react-icons/si"; // GraphQL, Next.js, Firebase, Kubernetes, and Google Cloud
+import {  FaGoogle, FaFacebook } from "react-icons/fa"; // Adobe (for content creation) and Google & Facebook (for Ads)
+import { SiAdobe } from "react-icons/si";
 
 export default function Technologies() {
   const { t } = useTranslation();
@@ -13,6 +17,21 @@ export default function Technologies() {
     { name: "Docker", icon: <FaDocker size={40} /> },
     { name: "AWS", icon: <FaAws size={40} /> },
     { name: "Database", icon: <FaDatabase size={40} /> },
+    { name: "MongoDB", icon: <DiMongodb size={40} /> },
+    { name: "Git", icon: <DiGit size={40} /> },
+    { name: "PostgreSQL", icon: <DiPostgresql size={40} /> },
+    { name: "GraphQL", icon: <SiGraphql size={40} /> },
+    { name: "Next.js", icon: <SiNextdotjs size={40} /> },
+    { name: "Firebase", icon: <SiFirebase size={40} /> },
+    { name: "Kubernetes", icon: <SiKubernetes size={40} /> },
+    { name: "Google Cloud", icon: <SiGooglecloud size={40} /> },
+
+    // Digital Marketing & Content Creation
+    { name: "Adobe Suite", icon: <SiAdobe size={40} /> }, // Adobe Suite for content creation
+    { name: "Google Ads", icon: <FaGoogle size={40} /> }, // Google Ads for paid search
+    { name: "Facebook Ads", icon: <FaFacebook size={40} /> }, // Facebook Ads for social media marketing
+    { name: "SEO Tools", icon: <FaGoogle size={40} /> }, // SEO tools (icon can be customized)
+    { name: "Content Creation", icon: <SiAdobe size={40} /> }, // Content creation related to digital marketing
   ];
 
   return (
