@@ -12,6 +12,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Header from "./components/Header.tsx";
 import Footer from "./components/Footer.tsx";
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 function Router() {
   const { i18n } = useTranslation();
@@ -58,6 +59,7 @@ function App() {
         <Footer />
       </div>
       <Toaster />
+      <Analytics />
     </QueryClientProvider>
   );
 }
